@@ -52,9 +52,9 @@ include AbbrevBot
 bot = Cinch::Bot.new do
 
   configure do |c|
-   c.nick = "abbrbot"
+   c.nick = "AcroBot"
    c.realname = "Abbreviations expander"
-   c.user = "abbrbot" #user name when connecting
+   c.user = "AcroBot" #user name when connecting
    c.server = "irc.freenode.org"
    c.channels =["#eli-test"]
    c.prefix = /^\*/
