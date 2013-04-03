@@ -75,23 +75,25 @@ bot = Cinch::Bot.new do
       m.reply("#{m.user.nick}: To add a new abbreviation, type eg. *rhel=Red Hat Enterprise Linux (RHEL)")
     else
       m.reply("To view an abbreviation, type eg. *rhel")
-      m.reply(" To add a new abbreviation, type eg. *rhel=Red Hat Enterprise Linux (RHEL)")
+      m.reply("To add a new abbreviation, type eg. *rhel=Red Hat Enterprise Linux (RHEL)")
     end
   end
 
   on :message, /^\*(\w+)$/ do |m, abbrev|
     return if abbrev.strip == 'help'
+    nick_str = m.channel? ? "#{m.user.nick}:" : ''
     if !abbrev.nil? and reply=lookup_dictionary(abbrev)
-      reply_str = "%s: '%s' stands for '%s'" % [
-        m.user.nick,
+      reply_str = "%s '%s' stands for '%s'" % [
+        nick_str,
         Cinch::Formatting.format(:bold, abbrev.strip.upcase),
         Cinch::Formatting.format(:bold, reply)
       ]
-      m.reply(reply_str)
+      m.reply(reply_str.strip)
     else
-      m.reply("#{m.user.nick}: Sorry, no definition for #{abbrev.strip}")
+      m.reply("#{nick_str} Sorry, no definition for #{abbrev.strip}")
     end
   end
+
 end
 
 bot.start
