@@ -53,7 +53,7 @@ bot = Cinch::Bot.new do
 
   configure do |c|
    c.nick = "AcroBot"
-   c.realname = "Abbreviations expander"
+   c.realname = "IRC Acronym and Abbreviation Expander Bot"
    c.user = "AcroBot" #user name when connecting
    c.server = "irc.freenode.org"
    c.channels =["#eli-test"]
@@ -71,11 +71,11 @@ bot = Cinch::Bot.new do
 
   on :message, /^\*help/ do |m|
     if m.channel?
-      m.reply("#{m.user.nick}: To view an abbreviation, type eg. *rhel")
-      m.reply("#{m.user.nick}: To add a new abbreviation, type eg. *rhel=Red Hat Enterprise Linux (RHEL)")
-    else
-      m.reply("To view an abbreviation, type eg. *rhel")
-      m.reply("To add a new abbreviation, type eg. *rhel=Red Hat Enterprise Linux (RHEL)")
+      m.reply("#{m.user.nick}: To expand an acronym, type e.g. *rhel")
+      m.reply("#{m.user.nick}: To add a new acronym, type e.g. *RHEL=Red Hat Enterprise Linux")
+    else # TODO: tyto retezce se opakuji, co by nemely
+      m.reply("To expand an acronym, type e.g. *rhel")
+      m.reply("To add a new acronym, type e.g. *rhel=Red Hat Enterprise Linux")
     end
   end
 
@@ -83,7 +83,7 @@ bot = Cinch::Bot.new do
     return if abbrev.strip == 'help'
     nick_str = m.channel? ? "#{m.user.nick}:" : ''
     if !abbrev.nil? and reply=lookup_dictionary(abbrev)
-      reply_str = "%s '%s' stands for '%s'" % [
+      reply_str = "%s %s stands for %s" % [
         nick_str,
         Cinch::Formatting.format(:bold, abbrev.strip.upcase),
         Cinch::Formatting.format(:bold, reply)
