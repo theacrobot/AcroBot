@@ -29,19 +29,21 @@ module AbbrevBot
 
   # Open the YAML file with dictionary and look for the abbrev
   def lookup_dictionary(abbrev)
+  	results = []
     dictionary.each do |key, values|
       # next if key == 'new' # Skip items in the 'new' group
-      if value = values[abbrev.strip.downcase]
-        return value
+      matched_keys = values.keys.select { |k| k.casecmp(abbrev) == 0 }
+      matched_keys.each do |k|
+      	results << [k, values[k]]
       end
     end
-    false
+    results.empty? ? false : results 
   end
 
   def save_abbrev(name, description)
     dict = dictionary
     dict['new'] ||= {}
-    dict['new'][name.strip.downcase] = description.strip
+    dict['new'][name.strip] = description.strip
     File.open('abbrev.yaml', 'w') { |f| YAML.dump(dict, f) }
   end
 
@@ -57,19 +59,19 @@ bot = Cinch::Bot.new do
    c.user = "AcroBot" #user name when connecting
    c.server = "irc.freenode.org"
    c.channels =["#eli-test"]
-   c.prefix = /^\*/
+   c.prefix = /^:/
   end
 
-  on :message, /^\*(\w+)=(.+)/ do |m, abbrev, desc|
+  on :message, /^:([\w\-\_]+)=(.+)/ do |m, abbrev, desc|
     save_abbrev(abbrev, desc)
     if m.channel?
-      m.reply("#{m.user.nick}: Thanks! [#{abbrev.downcase}=#{desc}]")
+      m.reply("#{m.user.nick}: Thanks! [#{abbrev}=#{desc}]")
     else
-      m.reply("Thanks! [#{abbrev.downcase}=#{desc}]")
+      m.reply("Thanks! [#{abbrev}=#{desc}]")
     end
   end
 
-  on :message, /^\*help/ do |m|
+  on :message, /^:help/i do |m|
     if m.channel?
       m.reply("#{m.user.nick}: To expand an acronym, type e.g. *rhel")
       m.reply("#{m.user.nick}: To add a new acronym, type e.g. *RHEL=Red Hat Enterprise Linux")
@@ -78,20 +80,24 @@ bot = Cinch::Bot.new do
       m.reply("To add a new acronym, type e.g. *rhel=Red Hat Enterprise Linux")
     end
   end
-
-  on :message, /^\*(\w+)$/ do |m, abbrev|
-    return if abbrev.strip == 'help'
-    nick_str = m.channel? ? "#{m.user.nick}:" : ''
-    if !abbrev.nil? and reply=lookup_dictionary(abbrev)
-      reply_str = "%s %s stands for %s" % [
-        nick_str,
-        Cinch::Formatting.format(:bold, abbrev.strip.upcase),
-        Cinch::Formatting.format(:bold, reply)
-      ]
-      m.reply(reply_str.strip)
-    else
-      m.reply("#{nick_str} Sorry, no definition for #{abbrev.strip}")
-    end
+  
+  on :message, /^:([\w\-\_]+)$/ do |m, abbrev|
+  	abbrev = abbrev.strip
+    unless abbrev =~ /^help$/i
+      nick_str = m.channel? ? "#{m.user.nick}:" : ''
+      if replies = lookup_dictionary(abbrev)
+      	replies.each do |original_abbrev, value|
+      		reply_str = "%s %s stands for %s" % [
+          	nick_str,
+          	Cinch::Formatting.format(:bold, original_abbrev),
+          	Cinch::Formatting.format(:bold, value)
+          ]
+          m.reply(reply_str.strip)
+      	end
+      else
+        m.reply("#{nick_str} Sorry, no definition for #{abbrev}")
+      end
+  	end
   end
 
 end
