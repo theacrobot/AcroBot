@@ -42,11 +42,11 @@ module AbbrevBot
     results.empty? ? false : results 
   end
   
+  #Find abbrevs with a certain tag
   def find_values(tag)
   	results =[]
   	dictionary.each do |key, values|
     	next if values.nil?
-      # next if key == 'new' # Skip items in the 'new' group
       matched_keys = values.select { |k,v| v.to_s =~ /@#{tag}( |$)/i }.keys.each do |k|
         results << k
       end
@@ -78,38 +78,26 @@ bot = Cinch::Bot.new do
 
   on :message, /^:([\w\-\_]+)=(.+)/ do |m, abbrev, desc|
     save_abbrev(abbrev, desc)
-    if m.channel?
-      m.reply("#{m.user.nick}: Thanks! [#{abbrev}=#{desc}]")
-    else
-      m.reply("Thanks! [#{abbrev}=#{desc}]")
-    end
+    nick = m.channel? ? m.user.nick+": " : nil
+    m.reply("#{nick}Thanks! [#{abbrev.downcase}=#{desc}]")
   end
 
   on :message, /^:help/i do |m|
-    if m.channel?
-      m.reply("#{m.user.nick}: To expand an acronym, type e.g. :rhel")
-      m.reply("#{m.user.nick}: To add a new acronym, type e.g. :RHEL=Red Hat Enterprise Linux")
-      m.reply("#{m.user.nick}: To list abbrevs associated with a tag, type eg. :@kernel")
-      m.reply("#{m.user.nick}: To list all tags, type :@tags")
-    else
-      m.reply("To expand an acronym, type e.g. :rhel")
-      m.reply("To add a new acronym, type e.g. :rhel=Red Hat Enterprise Linux")
-      m.reply("To list abbrevs associated with a tag, type e.g. :@kernel")
-      m.reply("To list all tags, type :@tags")
-    end
+    nick = m.channel? ? m.user.nick+": " : nil
+      m.reply("#{nick}To expand an acronym, type e.g. :rhel")
+      m.reply("#{nick}To add a new acronym, type e.g. :RHEL=Red Hat Enterprise Linux")
+      m.reply("#{nick}To list abbrevs associated with a tag, type eg. :@kernel")
+      m.reply("#{nick}To list all tags, type :@tags")
   end
   
   on :message, /^:@([\w\-\_]+)$/ do |m, tag|
   	tag = tag.strip
   	match_abbrevs = find_values(tag)
+    nick = m.channel? ? m.user.nick+": " : nil
   	if match_abbrevs.empty?
-      m.reply("#{nick_str} Sorry, no such tag. To list all tags, type :@tags")
+      m.reply("#{nick}Sorry, no such tag. To list all tags, type :@tags")
     else
-      if m.channel?
-        m.reply("#{m.user.nick}: #{match_abbrevs.join(', ')}")
-      else
-        m.reply(match_abbrevs)
-      end
+        m.reply("#{nick}#{match_abbrevs.join(', ')}")
     end
   end
   
