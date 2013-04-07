@@ -78,22 +78,22 @@ bot = Cinch::Bot.new do
 
   on :message, /^:([\w\-\_]+)=(.+)/ do |m, abbrev, desc|
     save_abbrev(abbrev, desc)
-    nick = m.channel? ? m.user.nick+": " : nil
+    nick = m.channel? ? m.user.nick+": " : ""
     m.reply("#{nick}Thanks! [#{abbrev.downcase}=#{desc}]")
   end
 
   on :message, /^:help/i do |m|
-    nick = m.channel? ? m.user.nick+": " : nil
-      m.reply("#{nick}To expand an acronym, type e.g. :rhel")
-      m.reply("#{nick}To add a new acronym, type e.g. :RHEL=Red Hat Enterprise Linux")
-      m.reply("#{nick}To list abbrevs associated with a tag, type eg. :@kernel")
-      m.reply("#{nick}To list all tags, type :@tags")
+    nick = m.channel? ? m.user.nick+": " : ""
+    m.reply("#{nick}To expand an acronym, type e.g. :rhel")
+    m.reply("#{nick}To add a new acronym, type e.g. :RHEL=Red Hat Enterprise Linux")
+    m.reply("#{nick}To list abbrevs associated with a tag, type eg. :@kernel")
+    m.reply("#{nick}To list all tags, type :@tags")
   end
   
   on :message, /^:@([\w\-\_]+)$/ do |m, tag|
   	tag = tag.strip
   	match_abbrevs = find_values(tag)
-    nick = m.channel? ? m.user.nick+": " : nil
+    nick = m.channel? ? m.user.nick+": " : ""
   	if match_abbrevs.empty?
       m.reply("#{nick}Sorry, no such tag. To list all tags, type :@tags")
     else
@@ -104,7 +104,7 @@ bot = Cinch::Bot.new do
   on :message, /^:([\w\-\_]+)$/ do |m, abbrev|
   	abbrev = abbrev.strip
     unless abbrev =~ /^help$/i
-      nick_str = m.channel? ? "#{m.user.nick}:" : ''
+      nick_str = m.channel? ? "#{m.user.nick}:" : ""
       if replies = lookup_dictionary(abbrev)
       	replies.each do |original_abbrev, value|
       		reply_str = "%s %s stands for %s" % [
