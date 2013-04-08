@@ -77,9 +77,13 @@ bot = Cinch::Bot.new do
   end
 
   on :message, /^:([\w\-\_]+)=(.+)/ do |m, abbrev, desc|
-    save_abbrev(abbrev, desc)
-    nick = m.channel? ? m.user.nick+": " : ""
-    m.reply("#{nick}Thanks! [#{abbrev.downcase}=#{desc}]")
+  	nick = m.channel? ? m.user.nick+": " : ""
+  	if lookup_dictionary(abbrev).none? { |replies| replies[0] == abbrev }
+  		save_abbrev(abbrev, desc)
+    	m.reply("#{nick}Thanks! [#{abbrev}=#{desc}]")
+  	else
+  		m.reply("#{nick}Sorry, the abbreviation already exists [#{abbrev}]")
+  	end
   end
 
   on :message, /^:help/i do |m|
@@ -107,10 +111,12 @@ bot = Cinch::Bot.new do
       nick_str = m.channel? ? "#{m.user.nick}:" : ""
       if replies = lookup_dictionary(abbrev)
       	replies.each do |original_abbrev, value|
-      		reply_str = "%s %s stands for %s" % [
+      		value, *tags = value.split('@')
+      		reply_str = "%s %s stands for %s %s" % [
           	nick_str,
           	Cinch::Formatting.format(:bold, original_abbrev.to_s),
-          	Cinch::Formatting.format(:bold, value)
+          	Cinch::Formatting.format(:bold, value.strip),
+          	Cinch::Formatting.format(:italic, tags.map { |t| "@#{t.strip}" }.join(', '))
           ]
           m.reply(reply_str.strip)
       	end
