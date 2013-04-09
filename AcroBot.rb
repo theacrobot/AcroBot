@@ -73,10 +73,10 @@ bot = Cinch::Bot.new do
    c.user = "AcroBot" #user name when connecting
    c.server = "irc.freenode.org"
    c.channels =["#eli-test"]
-   c.prefix = /^:/
+   c.prefix = /^!/
   end
 
-  on :message, /^:([\w\-\_]+)=(.+)/ do |m, abbrev, desc|
+  on :message, /^!([\w\-\_]+)\s?=\s?(.+)/ do |m, abbrev, desc|
   	nick = m.channel? ? m.user.nick+": " : ""
   	if lookup_dictionary(abbrev).none? { |replies| replies[0] == abbrev }
   		save_abbrev(abbrev, desc)
@@ -86,26 +86,26 @@ bot = Cinch::Bot.new do
   	end
   end
 
-  on :message, /^:help/i do |m|
+  on :message, /^!help/i do |m|
     nick = m.channel? ? m.user.nick+": " : ""
-    m.reply("#{nick}To expand an acronym, type e.g. :rhel")
-    m.reply("#{nick}To add a new acronym, type e.g. :RHEL=Red Hat Enterprise Linux")
-    m.reply("#{nick}To list abbrevs associated with a tag, type eg. :@kernel")
-    m.reply("#{nick}To list all tags, type :@tags")
+    m.reply("#{nick}To expand an acronym, type e.g. !rhel")
+    m.reply("#{nick}To add a new acronym, type e.g. !RHEL=Red Hat Enterprise Linux")
+    m.reply("#{nick}To list abbrevs associated with a tag, type eg. !@kernel")
+    m.reply("#{nick}To list all tags, type !@tags")
   end
   
-  on :message, /^:@([\w\-\_]+)$/ do |m, tag|
+  on :message, /^!@([\w\-\_]+)$/ do |m, tag|
   	tag = tag.strip
   	match_abbrevs = find_values(tag)
     nick = m.channel? ? m.user.nick+": " : ""
   	if match_abbrevs.empty?
-      m.reply("#{nick}Sorry, no such tag. To list all tags, type :@tags")
+      m.reply("#{nick}Sorry, no such tag. To list all tags, type !@tags")
     else
         m.reply("#{nick}#{match_abbrevs.join(', ')}")
     end
   end
   
-  on :message, /^:([\w\-\_]+)$/ do |m, abbrev|
+  on :message, /^!([\w\-\_]+)$/ do |m, abbrev|
   	abbrev = abbrev.strip
     unless abbrev =~ /^help$/i
       nick_str = m.channel? ? "#{m.user.nick}:" : ""
@@ -116,7 +116,7 @@ bot = Cinch::Bot.new do
           	nick_str,
           	Cinch::Formatting.format(:bold, original_abbrev.to_s),
           	Cinch::Formatting.format(:bold, value.strip),
-          	Cinch::Formatting.format(:italic, tags.map { |t| "@#{t.strip}" }.join(', '))
+          	tags.map { |t| "@#{t.strip}" }.join(', ')
           ]
           m.reply(reply_str.strip)
       	end
