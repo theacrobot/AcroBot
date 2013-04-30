@@ -72,18 +72,15 @@ bot = Cinch::Bot.new do
    c.realname = "IRC Acronym and Abbreviation Expander Bot"
    c.user = "AcroBot" #user name when connecting
    c.server = "irc.freenode.org"
-   c.channels =["#eli-test"]
+   c.channels =["#testing_acrobot"]
    c.prefix = /^!/
   end
 
-  on :message, /^!([\w\-\_]+)\s?=\s?(.+)/ do |m, abbrev, desc|
+  on :message, /^!([\w\-\_]+)\=(.+)/ do |m, abbrev, desc|
   	nick = m.channel? ? m.user.nick+": " : ""
-  	if lookup_dictionary(abbrev).none? { |replies| replies[0] == abbrev }
-  		save_abbrev(abbrev, desc)
-    	m.reply("#{nick}Thanks! [#{abbrev}=#{desc}]")
-  	else
-  		m.reply("#{nick}Sorry, the abbreviation already exists [#{abbrev}]")
-  	end
+  	save_abbrev(abbrev, desc)
+   nick = m.channel? ? m.user.nick+": " : ""
+    m.reply("#{nick}Thanks! [#{abbrev}=#{desc}]") 
   end
 
   on :message, /^!help/i do |m|
