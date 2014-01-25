@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'cinch'
 require 'yaml'
+#comment goes here
 
 DEFAULT_DICTIONARY = {
   'new' => { 'tbd' => 'To be done.' }
