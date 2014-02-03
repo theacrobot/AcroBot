@@ -75,7 +75,7 @@ bot = Cinch::Bot.new do
 #   c.server = "irc.freenode.org"
 #   c.channels =["#testing_acrobot"]
    c.server = "irc.bne.redhat.com"
-   c.channels =["#wordnerds","#cloud-docs","#ecsbrno"]
+   c.channels =["#apac","#wordnerds","#cloud-docs","#ecsbrno"]
    c.prefix = /^!/
   end
 
