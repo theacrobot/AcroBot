@@ -499,3 +499,15 @@ new:
   MPEG: motion picture experts group @graphics
   NCP: Network Control Protocol @networking
   PAP: Password Authentication Protocol @security
+  MoD: Manager on Duty @GSS
+  DSA: Digital Signature Algorithm @security
+  NPS: Net Promoter Score @marketing http://en.wikipedia.org/wiki/Net_Promoter
+  NEVRA: Name, Epoch, Version, Release, Arch @packaging @kernel
+  NVERA: See NEVRA
+  ATM: Asynchronous Transfer Mode @networking  http://file.bne.redhat.com/~daobrien/StyleGuide/index.html#atm
+  gPXE: '(GPL)Pre-boot Execution Environment http://en.wikipedia.org/wiki/GPXE See
+    Also: iPXE'
+  iPXE: '(GPL)Pre-boot Execution Environment http://en.wikipedia.org/wiki/IPXE See
+    Also: gPXE'
+  SERP: Search engine result page http://en.wikipedia.org/wiki/Search_engine_results_page
+  KPI: Key performance indicator @metrics http://en.wikipedia.org/wiki/Performance_indicator
