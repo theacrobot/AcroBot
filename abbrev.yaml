@@ -161,6 +161,7 @@ verified:
   IOMMU: Input/Output Memory Management Unit
   IP: Internet Protocol
   IPA: Identity, Policy, Audit
+  IPAM: IP Address Management
   IPC: interprocess communication
   IPVS: IP Virtual Server
   IPsec: Internet Protocol Security
@@ -174,17 +175,21 @@ verified:
   ITL: Information Technology Laboratory
   IUCV: Inter User Communication Vehicle @PCIutils
   JBD: Journaling Block Device @kernel
+  JDBC: Java Database Connectivity
   JDK: Java Development Kit @do_not_expand
+  JON: JBoss Operations Network
   JRE: Java Runtime Environment
   JSON: Javascript Object Notation
   JVM: Java Virtual Machine
-  KCS: Keyboard Controller Style @IPMI @kernel
+  KB: Knowledge Base
+  KCS: Knowledge-centered Support @GSS
   KMP: Kernel Module Package @kernel
   KMS: Kernel Mode-Setting @kernel
   KSM: Kernel Shared Memory @kernel
   KVM: Kernel-based Virtual Machine @virt
   LAPACK: Linear Algebra PACKage
   LAPIC: Local APIC @kernel
+  LATAM: Latin America
   LDAP: Lightweight Directory Access Protocol
   LKA: Link Keep Alive @kernel
   LLDPDU: Link Layer Discovery Protocol Data Unit
@@ -201,7 +206,6 @@ verified:
   LVQ: Last Value Queue @MRG
   LVS: Linux Virtual Server
   MAC: Message Authentication Code @FIPS
-  MAD: Mutually Assured Destruction
   MCC: multi-core communication @kernel
   MCE: Machine Check Exception
   MCS: Multi-Category Security @selinux
@@ -218,12 +222,14 @@ verified:
   MSR: Model-Specific Register @kernel
   MTRR: Memory Type Range Registers @kernel
   MTU: Maximum Transfer/Transmission Unit @kernel
-  MW: Merriam and Webster
+  MVN: Maven @unknown_usage
+  MW: Merriam-Webster
   NAPI: New API  @kernel
   NAT: Network Address Translation
   NCP: National Checklist Program
   NDR: Network Data Representation @Samba
   NFS: Network File System @do_not_expand
+  NHO: New Hire Orientation
   NIAP: National Information Assurance Partnership
   NIC: Network Interface Controller/Card
   NIS: Network Information Service
@@ -236,8 +242,8 @@ verified:
   NUMA: Non-Uniform Memory Access @kernel
   NVD: National Vulnerability Database
   NVLAP: National Voluntary Laboratory Accreditation Program
-  NVM: Non Volatile Memory
-  NVMe: Non-Volatile Memory Express
+  NVM: Non-volatile Memory
+  NVME: Non-volatile Memory Express
   NVR: Name, Version, Release @RedHat
   OA: Onboard Administrator @HPI
   OAL: Outbound Address List @kernel
@@ -248,6 +254,7 @@ verified:
   OID: object identifier
   OKC: Opportunistic Key Caching @wifi
   OSC: Operating System Capabilities @ACPI
+  OSP: OpenStack Platform @cloud
   OSPP: Operating System Protection Profile
   OVAL: Open Vulnerability and Assessment Language
   OVMF: Open Virtual Machine Firmware
@@ -274,6 +281,7 @@ verified:
   PKI: Public Key Infrastructure
   PMD: Page Mid-Level Directory @kernel
   PMU: Power Management Unit
+  POC: Point of Contact
   POD: Plain Old Documentation @Perl
   POPF: Pop Flags @kernel
   POSIX: Portable Operation System Interface @do_not_expand
@@ -281,9 +289,11 @@ verified:
   PV: Physical Volume
   PXE: Pre-Boot Execution Environment
   QAS: Quest Authentication Services @kernel
+  QBR: Quarterly business review
   QEMU: Quick Emulator @virt
   QI: Questionnaire Interpreter
   QMF: QPID Modeling Framework @MRG
+  QoQ: Quarter over quarter
   RAID: Redundant Array Of Independent Discs
   RARP: Reverse Address Resolution Protocol
   RBAC: Role-Based Access Control @selinux
@@ -387,6 +397,7 @@ verified:
   VNC: Virtual Network Computing
   VPD: Vital Product Data @kernel
   VPN: vysoké požární nebezpečí
+  VPN: Virtual Private Network @networking
   VRRP: Virtual Router Redundancy Protocol
   WBEM: Web-Based Enterprise Management
   WCA: web clipping application
@@ -467,7 +478,7 @@ new:
   CFSE: CloudForms System Engine @cloud
   SSM: System Set Manager @cloud @Satellite
   NOC: Network Operations Center
-  OOO: OpenStack on OpenStack
+  OOO: OpenStack on OpenStack @cloud
   RPM: RPM Package Manager
   RHSM: Red Hat Subscription Management
   TSMWNS: Things Shadowman Would Never Say
@@ -499,3 +510,17 @@ new:
   MPEG: motion picture experts group @graphics
   NCP: Network Control Protocol @networking
   PAP: Password Authentication Protocol @security
+  CDW: Content Definition Workflow @documentation
+  COP: Community of Practice
+  CRB: Change Review Board @RH
+  COE: Centers of Excellence (Teams within the People team - e.g., Talent Acquisition)
+  EMEA: Europe, the Middle East, and Africa
+  FOSS: Free and Open Source Software
+  GCS: Global Consulting Services
+  GSA: Google Search Appliance
+  GSS: Global Support and Services
+  IaaS: Infrastructure-as-a-Service @cloud http://file.bne.redhat.com/~daobrien/StyleGuide/index.html#paas
+  OSAS: Open Source and Standards @RH https://mojo.redhat.com/groups/osas
+  RCM: Release and Change Management
+  RHCI: Red Hat Certified Instructor @training
+  RHCI: Red Hat Cloud Infrastructure @cloud
