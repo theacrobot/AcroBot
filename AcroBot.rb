@@ -75,15 +75,17 @@ bot = Cinch::Bot.new do
 #   c.server = "irc.freenode.org"
 #   c.channels =["#testing_acrobot"]
    c.server = "irc.bne.redhat.com"
-   c.channels =["#wordnerds","#cloud-docs","#ecsbrno"]
+   c.channels =["#apac","#wordnerds","#donuts","#cloud-docs","#ecsbrno","#docs"]
    c.prefix = /^!/
   end
 
   on :message, /^!([\w\-\_]+)\=(.+)/ do |m, abbrev, desc|
   	nick = m.channel? ? m.user.nick+": " : ""
   	save_abbrev(abbrev, desc)
-   nick = m.channel? ? m.user.nick+": " : ""
-    m.reply("#{nick}Thanks! [#{abbrev}=#{desc}]") 
+#   nick = m.channel? ? m.user.nick+": " : ""
+   nick = m.channel? ? m.user.nick+"":""
+    m.reply("#{nick} Thanks! [#{abbrev}=#{desc}]")
+    m.reply("#{nick}++") 
   end
 
   on :message, /^!help/i do |m|
