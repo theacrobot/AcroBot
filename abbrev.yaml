@@ -4,7 +4,6 @@ verified:
   82598HW: Intel 82598 10 Gigabit Ethernet Controller @kernel
   ABC: Appropriate Byte Counting
   ABI: Application Binary Interface
-  ABRT: Automatic Bug Reporting Tool @RH
   ACPI: Advanced Configuration and Power Interface
   ACS: Authenticated Configuration Scanner
   AER: Advanced Error Reporting @kernel
@@ -12,13 +11,11 @@ verified:
   AG: Allocation Group @kernel
   AHD: American Heritage Dictionary
   AIL: Active Item List
-  ALDP: Accelerated Leadership Development Program
   ALSA: Advanced Linux Sound Options
   ALUA: Asymmetric logical unit access @kernel
   AMQP: Advanced Message Queuing Protocol
   AMS: Active Memory Sharing @kernel
   AMTU: Abstract Machine Test Utility
-  ANSI: American National Standards Institute @standards
   AP: Access Point @wifi
   APC: Alternative PHP Cache
   APEI: ACPI Platform Error Interface @kernel
@@ -27,48 +24,32 @@ verified:
   ARF: Asset Reporting Format
   ARI: Alternative Routing-ID Interpretation @PCIutils @virt
   ARP: Address Resolution Protocol
-  ASIC: application-specific integrated circuit @networking @hardware
   ASPM: Active State Power Management @kernel @PCIe
-  ASYNC: Asynchronous Advisory @RH
-  atime: access time
   ATLAS: Automatically Tuned Linear Algebra Software
-  ATM: Asynchronous Transfer Mode @networking  http://file.bne.redhat.com/~daobrien/StyleGuide/index.html#atm
   ATR: Answer To Reset
   ATS: Address Translation Service @PCIutils @virt
-  auid: audit ID
   AVC: Access Vector Cache @selinux
   AWOL: Absent without leave @do_not_use
   BAR: Base Address Register @virt
-  bash: Bourne-Again SHell @do_not_expand
   BCE: Basic Constraint Extension @ldap
   BDS: Block Driver State @virt
   BF: Bottom Half
-  BI: Business Intelligence http://en.wikipedia.org/wiki/Business_intelligence
   BIND: Berkeley Internet Name Domain
   BLAS: Basic Linear Algebra Subprograms
   BLK: the Big Kernel Lock
   BMC: Baseboard Management Controller @kernel
   BSI: Best Security Industries
   BSOD: Blue Screen Of Death
-  BU: Business Unit
-  BU: Business Unit @RH
   BZ: Bugzilla
-  CAC: Common Access Card
   CA: Certification Authority @security
+  CAC: Common Access Card
   CAPP: Controlled Access Protection Profile
-  CAS: Core Analysis System https://optimus.gsslab.rdu2.redhat.com/manager
   CC: Creative Commons
   CCE: Common Configuration Enumeration
   CCSS: Common Configuration Scoring System
   CDB: Command Descriptor Block @SCSI @kernel
   CDN: Red Hat Content Delivery Network
-  CDS: Content Distribution Server @RHUI @cloud
   CEE: Converged Enhanced Ethernet
-  CFME: CloudForms Management Engine @cloud
-  CFSE: CloudForms System Engine @cloud
-  CGI: common gateway interface @networking
-  cgroups: control groups
-  CHAP: Challenge Handshake Authentication Protocol @security
   CIE: Common Information Entry @kernel
   CIFS: Common Internet File System
   CIL: Common Intermediate Language
@@ -79,28 +60,23 @@ verified:
   CMO: Cooperative Memory Overcommit @kernel
   CMPI: Common Manageability Programming Interface
   CMW: Compartmented Mode Workstation
-  COB: Close Of Business @RH
   COW: Copy On Write @kernel @virt
   CPB: Core Performance Boost @kernel
   CPE: Common Platform Enumeration
-  CPE: Common Platform Enumeration @RH
   CPU: Central Processing Unit @do_not_expand
   CRL: Certificate Revocation List
   CSB: Corporate Standard Build @RH
-  ctime: change time
   CTS: Clear to Send
   CUPS: Common Unix Printer System
   CVE: Common Vulnerabilities and Exposures
   CVFS: CentraVision File System @SNMP
   CVSS: Common Vulnerability Scoring System
-  cwnd: congestion window
   DAC: Discretionary Access Control @SELinux
   DASD: Direct Access Storage Device @kernel
   DCBX: Data Center Bridging Exchange @protocol
   DCSP: Differentiated Services Code Point
   DES: Data Encryption Standard
   DFS: Distributed File System
-  DHCP: dynamic host configuration protocol @networking
   DI: Definition Interpreter
   DLL: Dynamic Link Library
   DLM: Distributed Lock Manager
@@ -108,14 +84,10 @@ verified:
   DMAR: DMA Remapping
   DMTF: Distributed Management Task Force
   DNAT: Dynamic Network Address Translation
-  DNS: Domain Name System @networking
   DOI: Domain of Interpretation
-  DomU: unprivileged domain @virt @xen
-  DoS: denial of service
   DRDB: Distributed Replicated Block Device
   DRM: Direct Rendering Manager @kernel
   DRY: Don't Repeat Yourself @do_not_use
-  DSA: Digital Signature Algorithm @security
   DSO: Dynamic Shared Object @kernel
   DTL: Dispatch Trace Log @kernel
   DTR: Derived Test Requirement
@@ -124,44 +96,37 @@ verified:
   DUD: Driver Update Disk
   DUP: Driver Update Program
   DWARF: debugging data format @debugging @do_not_expand @kernel
+  DoS: denial of service
+  DomU: unprivileged domain @virt @xen
   E2E: End-to-End
   EAL: Evaluation Assurance Level (1-7)
-  EBS: E-Business Suite @Oracle @RH
   ECC: Elliptic Curve Cryptography
-  ECS: Engineering Content Services @RH
   EDID: Extended display identification data
   EEH: Enhanced Error Handling @kernel
   EEPROM: Electrically Erasable Programmable Read-Only Memory
   EFI: Extensible Firmware Interface
   EHCI: Enhanced Host Controller Interface
-  EHR: electronic health records
   EIO: Enhanced Input/Outpu @errorcode
-  EIP: Enterprise Infrastructure Planning @RH
   ELS: Extended Link Service
-  ENC: Environment Naming Context @JavaEE
   ENOSPC: No space left on device @errorcode
   EOF: End of File @do_not_expand
   EPEL: Extra Packages for Enterprise Linux @RH
   EPT: Extended Page Tables @kernel
-  ESB: enterprise service bus
   ETU: Elementary Time Unit
   FCAPS: Fault, Configuration, Accounting, Performance, Security
   FCoE: Fibre Channel over Ethernet @kernel
+  FD: File Descriptor
   FDCC: Federal Desktop Core Configuration
   FDE: Frame Description Entry @kernel
-  FD: File Descriptor
   FIP: FCoE Initialization Protocol @kernel
   FIPS: Federal Information Processing Standard @do_not_expand
   FIRST: Forum of Incident Response and Security Teams
-  fisma: Federal Information Security Management Act
   FISMA: Federal Information Security Management Act
   FLOGI: Fabric Login @kernel
   FLR: Function Level Reset @virt
-  Futex: fast user-space mutex @kernel @do_not_expand
-  GA: Global Availability @RH
   GAHP: Grid ASCII Helper Protocol @kernel
-  GCC: GNU Compiler Collection
   GC: Graphic context @xorg
+  GCC: GNU Compiler Collection
   GDB: GNU Debugger
   GDM: Gnome Display Manager
   GEM: Graphics Execution Manager @kernel
@@ -170,7 +135,6 @@ verified:
   GNU: GNU's Not Unix!
   GPL: General Public License @do_not_expand
   GPT: GUID Partition Table @kernel
-  gPXE: '(GPL)Pre-boot Execution Environment http://en.wikipedia.org/wiki/GPXE See
   GRO: Generic Receive Offload @kernel
   GRUB: Grand Unified Bootloader
   GSI: Global System Interrupt @kernel
@@ -181,15 +145,11 @@ verified:
   HBA: Host Bus Adapter
   HCI: Human-Computer Interface
   HID: Human Interface Device
-  HIPAA: Health Insurance Portability and Accountability Act
-  HIPPA: See HIPAA
   HPC: High Performance Computing
   HPSA: Hewlett Packard Smart Array
   HS: HiperSockets @always_expand @kernel
-  HSS: Hosted and Shared Services @RH @engops @https://mojo.redhat.com/docs/DOC-186354
   HVM: Hardware Virtual Machine
   IANA: Internet Assigned Numbers Authority
-  iBFT: iSCSI Boot Firmware Table
   ICMP: Internet Control Message Protocol
   IDE: Integrated Development Environment
   IETF: Internet Engineering Task Force
@@ -197,24 +157,18 @@ verified:
   IGMP: Internet Group Management Protocol @networking
   IMAP: Internet Message Access Protocol @do_not_expand
   IMSM: Intel Matrix Storage Manager
-  ioctl: Input/Output Control @kernel
   IOH: Intel X58 I/O hub @kernel
   IOMMU: Input/Output Memory Management Unit
+  IP: Internet Protocol @networking
   IPA: Identity, Policy, Audit
   IPAM: IP Address Management
   IPC: interprocess communication
-  IP: Internet Protocol
-  IPL: initial program load @SystemZ
-  ipr: IBM Power RAID
+  IPVS: IP Virtual Server
   IPsec: Internet Protocol Security
   IPv6: Internet Protocol Version 6 @do_not_expand
-  IPVS: IP Virtual Server
-  iPXE: '(GPL)Pre-boot Execution Environment http://en.wikipedia.org/wiki/IPXE See
   IR: Interagency Report
   IRQ: Interrupt ReQuest
   IRR: Interrupt Request Register @kernel
-  ISO: International Standards Organization @standards
-  ISP: Internet Service Provider
   ISP: Internet Service Provider
   ISR: Interrupt Service Routine
   ISV: Independent Software Vendor
@@ -224,17 +178,13 @@ verified:
   JDBC: Java Database Connectivity
   JDK: Java Development Kit @do_not_expand
   JON: JBoss Operations Network
+  JRE: Java Runtime Environment
   JSON: Javascript Object Notation
   JVM: Java Virtual Machine
   KB: Knowledge Base
   KCS: Knowledge-centered Support @GSS
-  JPEG: joint photographic experts group @graphics
-  JRE: Java Runtime Environment
-  kABI: kernel Application Binary Interface
   KMP: Kernel Module Package @kernel
   KMS: Kernel Mode-Setting @kernel
-  knfsd: kernel NFS daemon
-  KPI: Key performance indicator @metrics http://en.wikipedia.org/wiki/Performance_indicator
   KSM: Kernel Shared Memory @kernel
   KVM: Kernel-based Virtual Machine @virt
   LAPACK: Linear Algebra PACKage
@@ -245,7 +195,6 @@ verified:
   LLDPDU: Link Layer Discovery Protocol Data Unit
   LPAR: Logical Partitioning
   LPT: Line Print Terminal
-  lra: local register allocator
   LRO: Large Receive Offload @virt @kernel
   LSM: Linux Security Module
   LSPP: Labeled Security Protection Profile @selinux
@@ -256,42 +205,29 @@ verified:
   LVM: Logical Volume Management
   LVQ: Last Value Queue @MRG
   LVS: Linux Virtual Server
-  mac: Media Access Control
   MAC: Message Authentication Code @FIPS
   MCC: multi-core communication @kernel
   MCE: Machine Check Exception
   MCS: Multi-Category Security @selinux
   MD5: Message Digest algorithm @do_not_expand
   MDA: Model Driven Architecture
-  MDP: Managed Design Program
   MFN: Machine Frame Number @xen @kernel
   MGID: Multicast Global Identifier
   MIB: Management Information Base @SELinux @SNMP
   MII: Media Independent Interface @network @kernel
-  MIME: Multipurpose Internet Mail Extension @networking
   MLS: Multi-Level Security @selinux
-  MMU: Memory Management Unit @kernel @hardware @memory_management
-  MoD: Manager on Duty @GSS
-  MOF: Meta-Object Facility
-  MPEG: motion picture experts group @graphics
   MPT: Message Passing Technology @kernel
-  MRD: Market Requirements Document @RH
-  MRG: Messaging Real-time Grid @RH
   MSB: Most Significant Byte @kernel
   MSI: Message Signaled Interrupts @kernel
   MSR: Model-Specific Register @kernel
-  MTA: Multimedia Terminal Adapter @networking
-  mtime: modify time
   MTRR: Memory Type Range Registers @kernel
   MTU: Maximum Transfer/Transmission Unit @kernel
+  MVN: Maven @unknown_usage
   MW: Merriam-Webster
-  Mutex: Mutual exclusion @kernel @do_not_expand
   NAPI: New API  @kernel
   NAT: Network Address Translation
   NCP: National Checklist Program
-  NCP: Network Control Protocol @networking
   NDR: Network Data Representation @Samba
-  NEVRA: Name, Epoch, Version, Release, Arch @packaging @kernel
   NFS: Network File System @do_not_expand
   NHO: New Hire Orientation
   NIAP: National Information Assurance Partnership
@@ -300,53 +236,42 @@ verified:
   NISPOM: National Industrial Security Program Operating Manual
   NIST: National Institute of Standards and Technology
   NMI: Non-Maskable Interrupt
-  NOC: Network Operations Center
   NPIV: N_Port ID Virtualization @kernel
-  NPS: Net Promoter Score @marketing http://en.wikipedia.org/wiki/Net_Promoter
   NPV: N_port virtualization @kernel
   NSCD: name service cache daemon
   NUMA: Non-Uniform Memory Access @kernel
   NVD: National Vulnerability Database
-  NVERA: See NEVRA
   NVLAP: National Voluntary Laboratory Accreditation Program
   NVM: Non-volatile Memory
   NVME: Non-volatile Memory Express
   NVR: Name, Version, Release @RedHat
-  OAL: Outbound Address List @kernel
   OA: Onboard Administrator @HPI
+  OAL: Outbound Address List @kernel
   OCIL: Open Checklist Interactive Language
   OCSP: Online Certificate Status Protocol
   ODBC: Open Database Connectivity
   OFL: Ots File List
   OID: object identifier
   OKC: Opportunistic Key Caching @wifi
-  OMG: Object Management Group
-  OOO: OpenStack on OpenStack
-  OpenLMI: Open Linux Management Infrastructure
   OSC: Operating System Capabilities @ACPI
   OSP: OpenStack Platform @cloud
   OSPP: Operating System Protection Profile
   OVAL: Open Vulnerability and Assessment Language
   OVMF: Open Virtual Machine Firmware
-  ovs: Open vSwitch
   P2P: Peer-to-Peer
-  PaaS: Platform-as-a-Service
   PAE: Physical Address Extension
   PAM: Pluggable Authentication Module @security
   PAPI: Performance Application Programming Interface
-  PAP: Password Authentication Protocol @security
   PAPR: Power Architecture Platform Requirements
+  PC: personal computer@do_not_expand
   PCH: Platform Controller Hub @kernel
-  pci-dss: Payment Card Industry -- Data Security Standard
   PCI: Peripheral Component Interconnect
   PCM: Pulse Code Modification
-  PC: personal computer @do_not_expand
   PCP: Performance Co-Pilot
   PDA: personal digital assistant
   PDE: Page Directory Entry @kernel
-  per-AG: per-Allocation Group @kernel
-  PFN: Physical Frame Number @xen @kernel
   PF: Physical Function @virt
+  PFN: Physical Frame Number @xen @kernel
   PIB: Partner Inspection Build
   PID: Process Identifier @do_not_expand
   PIT: Programmable Interval Timer @kernel
@@ -356,16 +281,13 @@ verified:
   PKI: Public Key Infrastructure
   PMD: Page Mid-Level Directory @kernel
   PMU: Power Management Unit
-  pNFS: parallel NFS
-  POC: Proof of Concept
+  POC: Point of Contact
   POD: Plain Old Documentation @Perl
   POPF: Pop Flags @kernel
   POSIX: Portable Operation System Interface @do_not_expand
-  PP: Product Pages @RH
-  PRD: Product Requirements Document @RH
   PSU: Power Supply Unit
   PV: Physical Volume
-  PXE: Pre-Boot Execution Environment Also: gPXE, iPXE
+  PXE: Pre-Boot Execution Environment
   QAS: Quest Authentication Services @kernel
   QBR: Quarterly business review
   QEMU: Quick Emulator @virt
@@ -375,40 +297,26 @@ verified:
   RAID: Redundant Array Of Independent Discs
   RARP: Reverse Address Resolution Protocol
   RBAC: Role-Based Access Control @selinux
-  RC: Release Candidate @RH
   RCS: Revision Control System
   RDAC: Redundant Disk Array Controller
   RELRO: Relocation Read-Only
   REST: Representational State Transfer
   RFC: Request for Comment
-  RFE: Request For Enhancement @RH
   RG: Resource Group
-  RHCE: Red Hat Certified Engineer @RH
-  RHCSA: Red Hat Certified System Admin @RH
-  RHCS: Red Hat Certificate System @cloud @always_expand
   RHCS: Red Hat Cluster Suite @RH
-  RHEL-OSP: Red Hat Enterprise Linux OpenStack Platform @always_expand
   RHEL: Red Hat Enterprise Linux @always_expand
-  RHEL: Red Hat Enterprise Linux @RH
   RHEV-H: Red Hat Enterprise Virtualization Hypervisor @always_expand
   RHEV-M: Red Hat Enterprise Virtualization Manager @always_expand
   RHEV: Red Hat Enterprise Virtualization @always_expand
-  RHEV: Red Hat Enterprise Virtualization @RH
   RHN: Red Hat Network @always_expand
-  RHSCL: Red Hat Software Collections @always_expand
   RHSC: Red Hat Storage Console
-  RHSM: Red Hat Subscription Management
-  RHUI: Red Hat Update Infrastructure @cloud
-  RHU: Red Hat University @RH
-  RoCE: RDMA Over Converged Ethernet @kernel
+  RHSCL: Red Hat Software Collections @always_expand
   RPC: Remote Procedure Call
   RPM: Red Hat Package Manager @do_not_expand
-  RPM: RPM Package Manager
-  rsbac: Rule Set Base Access Control
   RSB: resource block
   RSS: Receive-Side Scaling @kernel
   RTS: Request to Send
-  rwsem: reader/writer semaphore @kernel
+  RoCE: RDMA Over Converged Ethernet @kernel
   SACK: Selective Acknowledgement
   SAM: Subscription Asset Manager
   SAN: Storage Area Network
@@ -422,44 +330,39 @@ verified:
   SDL: Simple DirectMedia Layer
   SEGV: Segmentation Violation @do_not_expand
   SELinux: Security-Enhanced Linux @do_not_expand @selinux
-  SERP: Search engine result page http://en.wikipedia.org/wiki/Search_engine_results_page
   SFCB: Small Footprint CIM Broker
   SFTP: Secure Shell File Transfer Protocol
   SID: Security Identifier @selinux
   SIMD: Single Instruction, Multiple Data
   SKB: Socket Buffer @kernel
   SKU: Stock-Keeping Unit
-  SLAAC: StateLess Address AutoConfiguration
-  SLA: Service Level Agreement
-  SLIDE: SELinux Integrated Development Environment @selinux
   SL: Security Level @selinux
+  SLA: Service Level Agreement
+  SLAAC: StateLess Address AutoConfiguration
+  SLIDE: SELinux Integrated Development Environment @selinux
   SMB: Server Message Block
-  SMIME: Secure/Multipurpose Internet Mail Extensions (S/MIME)
   SMI-S: Storage Management Initiative Specification
   SMI: System Management Interrupt @kernel
+  SMIME: Secure/Multipurpose Internet Mail Extensions (S/MIME)
   SMP: Symmetric Multi Processing @kernel
   SNAT: Source Network Address Translation
   SNMP: Simple Network Management Protocol
-  SOAP: Simple Object Access Protocol @do_not_expand
   SOA: Service-Oriented Architecture
+  SOAP: Simple Object Access Protocol @do_not_expand
   SPARC: Scalable Processor ARChitecture
   SPICE: Simple Protocol For Computing Environments
-  spool: simultaneous peripheral operations online @do_not_expand @always_lowercase
   SQL: Structured Query Language @do_not_expand
   SR-IOV: Single Root I/O Virtualization @virt
-  SRT: Security Response Team @RH
   SSE3: Streaming SIMD Extensions 3
   SSH: Secure Shell @do_not_expand
   SSL: Secure Sockets Layer
-  SSM: System Set Manager @cloud @Satellite
-  STIG: Security Technical Implementation Guide
   STI: SeT Interrupts @kernel
+  STIG: Security Technical Implementation Guide
   SUT: System Under Test
   SVVP: Server Virtualization Validation Program @win
   TBA: to be added @do_not_use
-  TCPMUX: TCP Port Service Multiplexer
   TCP: Transmission Control Protocol
-  TechNo: Technical Note @do_not_use
+  TCPMUX: TCP Port Service Multiplexer
   TE: Type Enforcement @selinux
   TLV: Type-Length-Value @Format
   TMSAD: Trust Model for Security Automation Data
@@ -468,17 +371,16 @@ verified:
   TTM: Translation Table Maps @kernel
   TUI: Text Paste/Terminal User Interface
   TUR: Test Unit Ready @kernel
+  TechNo: Technical Note @do_not_use
   UDP: User Datagram Protocol
-  UEFI: Unified Extensible Firmware Interface
   UE: Unbalanced Error
+  UEFI: Unified Extensible Firmware Interface
   UFO: UDP Fragmentation Offload @kernel
   UID: User Identifier @do_not_expand
-  UML: Unified Modeling Language
   URB: USB Request Block
   URI: Uniform Resource Identifier @do_not_expand
   URL: Uniform Resource Locator
   URN: Unified Resource Number
-  usbfs: USB file system
   USGCB: United States Government Configuration Baseline
   UTC: Coordinated Universal Time
   UUID: Universally Unique Identifier
@@ -489,13 +391,12 @@ verified:
   VHDX: Hyper-V virtual hard disk
   VIF: Virtual Interface
   VIM: Vi IMproved
+  VM: virtual machine
   VMA: Virtual Memory Area @kernel
   VMCB: Virtual Machine Control Block @kernel
-  VM: virtual machine
   VNC: Virtual Network Computing
   VPD: Vital Product Data @kernel
   VPN: vysoké požární nebezpečí
-  VPN: Virtual Private Network @networking
   VRRP: Virtual Router Redundancy Protocol
   WBEM: Web-Based Enterprise Management
   WCA: web clipping application
@@ -508,7 +409,53 @@ verified:
   XCCDF: Extensible Configuration Checklist Document Format
   XDMCP: X Display Manager Control Protocol
   XDR: Cross-Domain Request
+  atime: access time
+  auid: audit ID
+  bash: Bourne-Again SHell @do_not_expand
+  cgroups: control groups
+  ctime: change time
+  cwnd: congestion window
+  fisma: Federal Information Security Management Act
+  iBFT: iSCSI Boot Firmware Table
+  ioctl: Input/Output Control @kernel
+  ipr: IBM Power RAID
+  kABI: kernel Application Binary Interface
+  knfsd: kernel NFS daemon
+  lra: local register allocator
+  mac: Media Access Control
+  mtime: modify time
+  ovs: Open vSwitch
+  pNFS: parallel NFS
+  pci-dss: Payment Card Industry -- Data Security Standard
+  per-AG: per-Allocation Group @kernel
+  rsbac: Rule Set Base Access Control
+  rwsem: reader/writer semaphore @kernel
+  usbfs: USB file system
   xRandR: X Resize and Rotate Extension
+redhat:
+  HSS: Hosted and Shared Services @RH @engops https://mojo.redhat.com/docs/DOC-186354
+  EIP: Enterprise Infrastructure Planning @RH
+  PRD: Product Requirements Document @RH
+  MRD: Market Requirements Document @RH
+  RHEL: Red Hat Enterprise Linux @RH
+  RHEV: Red Hat Enterprise Virtualization @RH
+  ISP: Internet Service Provider
+  BU: Business Unit @RH
+  COB: Close Of Business @RH
+  RHU: Red Hat University @RH
+  RHCSA: Red Hat Certified System Admin @RH
+  RHCE: Red Hat Certified Engineer @RH
+  MRG: Messaging Real-time Grid @RH
+  ABRT: Automatic Bug Reporting Tool @RH
+  GA: Global Availability @RH
+  PP: Product Pages @RH
+  CPE: Common Platform Enumeration @RH
+  RFE: Request For Enhancement @RH
+  ECS: Engineering Content Services @RH
+  RC: Release Candidate @RH
+  EBS: E-Business Suite @Oracle @RH
+  SRT: Security Response Team @RH
+  ASYNC: Asynchronous Advisory @RH
 tags:
   always_expand: do not use the abbreviated form @tags
   cloud: cloud-related @tags
@@ -573,7 +520,23 @@ new:
   GSS: Global Support and Services
   IaaS: Infrastructure-as-a-Service @cloud http://file.bne.redhat.com/~daobrien/StyleGuide/index.html#paas
   OSAS: Open Source and Standards @RH https://mojo.redhat.com/groups/osas
+  VPN: Virtual Private Network @networking
+  ALDP: Accelerated Leadership Development Program @RH
+  APAC: Asia-Pacific region
+  ACK: Acknowledge, OK, yes
+  BI: Business Intelligence http://en.wikipedia.org/wiki/Business_intelligence
+  CAS: Core Analysis System https://optimus.gsslab.rdu2.redhat.com/manager
+  CLT: Corporate Leadership Team @RH
+  FY: Fiscal Year or Financial Year @finance
+  ILT: In-person learning training @unknown_usage
+  NA: North America
+  PaaS: Platform-as-a-Service @cloud http://file.bne.redhat.com/~daobrien/StyleGuide/index.html#paas
   RCM: Release and Change Management
-  RHCI: Red Hat Certified Instructor @training
   RHCI: Red Hat Cloud Infrastructure @cloud
-
+  RHDS: Red Hat Directory Server
+  RHDT: Red Hat Developer Toolset
+  RHEL-OSP: Red Hat Enterprise Linux OpenStack Platform @always_expand
+  RHOS: Red Hat OpenStack @always_expand
+  RHS: Red Hat Storage @always_expand
+  RHSS: Red Hat Storage Server @always_expand
+  RSU: Restricted Stock Unit @RH
