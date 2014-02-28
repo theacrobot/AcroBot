@@ -69,32 +69,28 @@ include AbbrevBot
 bot = Cinch::Bot.new do
 
   configure do |c|
-   c.nick = "AcroBot"
-   c.realname = "IRC Acronym and Abbreviation Expander Bot"
-   c.user = "AcroBot" #user name when connecting
-#   c.server = "irc.freenode.org"
-#   c.channels =["#testing_acrobot"]
-   c.server = "irc.bne.redhat.com"
-   c.channels =["#apac","#wordnerds","#donuts","#cloud-docs","#ecsbrno","#docs"]
+   c.nick = "Dacronym"
+   c.realname = "IRC Acronym and Abbreviation Expander Bot. !help for help"
+   c.user = "Dacronym" #user name when connecting
+   c.server = "irc.freenode.net"
+   c.channels =["#Dacronym","#openstack-doc"]
    c.prefix = /^!/
   end
 
   on :message, /^!([\w\-\_]+)\=(.+)/ do |m, abbrev, desc|
   	nick = m.channel? ? m.user.nick+": " : ""
   	save_abbrev(abbrev, desc)
-#   nick = m.channel? ? m.user.nick+": " : ""
    nick = m.channel? ? m.user.nick+"":""
     m.reply("#{nick} Thanks! [#{abbrev}=#{desc}]")
-    m.reply("#{nick}++") 
   end
 
   on :message, /^!help/i do |m|
     nick = m.channel? ? m.user.nick+": " : ""
-    m.reply("#{nick}To expand an acronym, type (e.g.), !rhel")
-    m.reply("#{nick}To add a new acronym, type (e.g.), !RHEL=Red Hat Enterprise Linux")
-    m.reply("#{nick}To associate a tag with an acronym, type (e.g.), !CFME=CloudForms Management Engine @cloud")
-    m.reply("#{nick}To list abbrevs associated with a tag, type eg. !@kernel")
-    m.reply("#{nick}To list all tags, type !@tags")
+    m.reply("To expand an acronym, type (e.g.), !ftp")
+    m.reply("To add a new acronym, type (e.g.), !FTP=File Transfer Protocol")
+    m.reply("To associate a tag with an acronym, type (e.g.), !IP=Internet Protocol @networking")
+    m.reply("To list abbrevs associated with a tag, type eg. !@kernel")
+    m.reply("To list all tags, type !@tags")
   end
   
   on :message, /^!@([\w\-\_]+)$/ do |m, tag|
