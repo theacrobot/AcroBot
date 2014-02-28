@@ -29,7 +29,6 @@ verified:
   ATR: Answer To Reset
   ATS: Address Translation Service @PCIutils @virt
   AVC: Access Vector Cache @selinux
-  AWOL: Absent without leave @do_not_use
   BAR: Base Address Register @virt
   BCE: Basic Constraint Extension @ldap
   BDS: Block Driver State @virt
@@ -48,7 +47,6 @@ verified:
   CCE: Common Configuration Enumeration
   CCSS: Common Configuration Scoring System
   CDB: Command Descriptor Block @SCSI @kernel
-  CDN: Red Hat Content Delivery Network
   CEE: Converged Enhanced Ethernet
   CIE: Common Information Entry @kernel
   CIFS: Common Internet File System
@@ -65,7 +63,6 @@ verified:
   CPE: Common Platform Enumeration
   CPU: Central Processing Unit @do_not_expand
   CRL: Certificate Revocation List
-  CSB: Corporate Standard Build @RH
   CTS: Clear to Send
   CUPS: Common Unix Printer System
   CVE: Common Vulnerabilities and Exposures
@@ -87,11 +84,9 @@ verified:
   DOI: Domain of Interpretation
   DRDB: Distributed Replicated Block Device
   DRM: Direct Rendering Manager @kernel
-  DRY: Don't Repeat Yourself @do_not_use
   DSO: Dynamic Shared Object @kernel
   DTL: Dispatch Trace Log @kernel
   DTR: Derived Test Requirement
-  DTS: Red Hat Developer Toolset @always_expand
   DTX: Distributed Transaction @MRG
   DUD: Driver Update Disk
   DUP: Driver Update Program
@@ -110,7 +105,6 @@ verified:
   ELS: Extended Link Service
   ENOSPC: No space left on device @errorcode
   EOF: End of File @do_not_expand
-  EPEL: Extra Packages for Enterprise Linux @RH
   EPT: Extended Page Tables @kernel
   ETU: Elementary Time Unit
   FCAPS: Fault, Configuration, Accounting, Performance, Security
@@ -244,7 +238,8 @@ verified:
   NVLAP: National Voluntary Laboratory Accreditation Program
   NVM: Non-volatile Memory
   NVME: Non-volatile Memory Express
-  NVR: Name, Version, Release @RedHat
+  NVR: Name, Version, Release
+  NEVAR: Name, Epoch, Version, Arch, Release
   OA: Onboard Administrator @HPI
   OAL: Outbound Address List @kernel
   OCIL: Open Checklist Interactive Language
@@ -303,14 +298,6 @@ verified:
   REST: Representational State Transfer
   RFC: Request for Comment
   RG: Resource Group
-  RHCS: Red Hat Cluster Suite @RH
-  RHEL: Red Hat Enterprise Linux @always_expand
-  RHEV-H: Red Hat Enterprise Virtualization Hypervisor @always_expand
-  RHEV-M: Red Hat Enterprise Virtualization Manager @always_expand
-  RHEV: Red Hat Enterprise Virtualization @always_expand
-  RHN: Red Hat Network @always_expand
-  RHSC: Red Hat Storage Console
-  RHSCL: Red Hat Software Collections @always_expand
   RPC: Remote Procedure Call
   RPM: Red Hat Package Manager @do_not_expand
   RSB: resource block
@@ -360,7 +347,6 @@ verified:
   STIG: Security Technical Implementation Guide
   SUT: System Under Test
   SVVP: Server Virtualization Validation Program @win
-  TBA: to be added @do_not_use
   TCP: Transmission Control Protocol
   TCPMUX: TCP Port Service Multiplexer
   TE: Type Enforcement @selinux
@@ -371,7 +357,6 @@ verified:
   TTM: Translation Table Maps @kernel
   TUI: Text Paste/Terminal User Interface
   TUR: Test Unit Ready @kernel
-  TechNo: Technical Note @do_not_use
   UDP: User Datagram Protocol
   UE: Unbalanced Error
   UEFI: Unified Extensible Firmware Interface
@@ -396,12 +381,11 @@ verified:
   VMCB: Virtual Machine Control Block @kernel
   VNC: Virtual Network Computing
   VPD: Vital Product Data @kernel
-  VPN: vysoké požární nebezpečí
   VRRP: Virtual Router Redundancy Protocol
   WBEM: Web-Based Enterprise Management
   WCA: web clipping application
   WFN: Well-Formed Name
-  WIP: Work in Progress @do_not_use
+  WIP: Work in Progress
   WPA: Wi-Fi Protected Access @wifi
   WSGI: Web Server Gateway Interface
   WWID: World Wide Identifier
@@ -433,29 +417,7 @@ verified:
   usbfs: USB file system
   xRandR: X Resize and Rotate Extension
 redhat:
-  HSS: Hosted and Shared Services @RH @engops https://mojo.redhat.com/docs/DOC-186354
-  EIP: Enterprise Infrastructure Planning @RH
-  PRD: Product Requirements Document @RH
-  MRD: Market Requirements Document @RH
-  RHEL: Red Hat Enterprise Linux @RH
-  RHEV: Red Hat Enterprise Virtualization @RH
   ISP: Internet Service Provider
-  BU: Business Unit @RH
-  COB: Close Of Business @RH
-  RHU: Red Hat University @RH
-  RHCSA: Red Hat Certified System Admin @RH
-  RHCE: Red Hat Certified Engineer @RH
-  MRG: Messaging Real-time Grid @RH
-  ABRT: Automatic Bug Reporting Tool @RH
-  GA: Global Availability @RH
-  PP: Product Pages @RH
-  CPE: Common Platform Enumeration @RH
-  RFE: Request For Enhancement @RH
-  ECS: Engineering Content Services @RH
-  RC: Release Candidate @RH
-  EBS: E-Business Suite @Oracle @RH
-  SRT: Security Response Team @RH
-  ASYNC: Asynchronous Advisory @RH
 tags:
   always_expand: do not use the abbreviated form @tags
   cloud: cloud-related @tags
@@ -465,39 +427,24 @@ tags:
   kernel: the core of Linux operating systems @tags
   marketing: marketing-related @tags
   networking: network-related @tags
-  OpenShift: specific to OpenShift @tags
   platform: platform-related @tags
-  Satellite: specific to Red Hat Satellite @tags
   virt: virtualization-related @tags
   win: Microsoft Windows @tags
   wifi: wifi-related @tags
 eggs:
-  AcroBot: Your No1 IRC bot to expand various acronyms and abbreviations :)
+  Dacronym: Your local IRC bot to expand acronyms and abbreviations :)
 new:
-  CFSE: CloudForms System Engine @cloud
-  SSM: System Set Manager @cloud @Satellite
   NOC: Network Operations Center
   OOO: OpenStack on OpenStack @cloud
-  RPM: RPM Package Manager
-  RHSM: Red Hat Subscription Management
-  TSMWNS: Things Shadowman Would Never Say
   ESB: enterprise service bus
-  MDP: Managed Design Program
   MOF: Meta-Object Facility
   OMG: Object Management Group
   UML: Unified Modeling Language
   OpenLMI: Open Linux Management Infrastructure
-  RHUI: Red Hat Update Infrastructure @cloud
-  CFME: CloudForms Management Engine @cloud
   POC: Proof of Concept
-  CDS: Content Distribution Server @RHUI @cloud
   ENC: Environment Naming Context @JavaEE
-  RHCS: Red Hat Certificate System @cloud @always_expand
   MTA: Multimedia Terminal Adapter @networking
   ASIC: application-specific integrated circuit @networking @hardware
-  HIPAA: Health Insurance Portability and Accountability Act
-  HIPPA: Incorrect spelling of HIPAA
-  EHR: electronic health records
   ANSI: American National Standards Institute @standards
   CGI: common gateway interface @networking
   CHAP: Challenge Handshake Authentication Protocol @security
@@ -511,32 +458,13 @@ new:
   PAP: Password Authentication Protocol @security
   CDW: Content Definition Workflow @documentation
   COP: Community of Practice
-  CRB: Change Review Board @RH
-  COE: Centers of Excellence (Teams within the People team - e.g., Talent Acquisition)
   EMEA: Europe, the Middle East, and Africa
   FOSS: Free and Open Source Software
   GCS: Global Consulting Services
   GSA: Google Search Appliance
-  GSS: Global Support and Services
-  IaaS: Infrastructure-as-a-Service @cloud http://file.bne.redhat.com/~daobrien/StyleGuide/index.html#paas
-  OSAS: Open Source and Standards @RH https://mojo.redhat.com/groups/osas
   VPN: Virtual Private Network @networking
-  ALDP: Accelerated Leadership Development Program @RH
   APAC: Asia-Pacific region
   ACK: Acknowledge, OK, yes
-  BI: Business Intelligence http://en.wikipedia.org/wiki/Business_intelligence
-  CAS: Core Analysis System https://optimus.gsslab.rdu2.redhat.com/manager
-  CLT: Corporate Leadership Team @RH
-  FY: Fiscal Year or Financial Year @finance
-  ILT: In-person learning training @unknown_usage
   NA: North America
-  PaaS: Platform-as-a-Service @cloud http://file.bne.redhat.com/~daobrien/StyleGuide/index.html#paas
+  PaaS: Platform-as-a-Service @cloud
   RCM: Release and Change Management
-  RHCI: Red Hat Cloud Infrastructure @cloud
-  RHDS: Red Hat Directory Server
-  RHDT: Red Hat Developer Toolset
-  RHEL-OSP: Red Hat Enterprise Linux OpenStack Platform @always_expand
-  RHOS: Red Hat OpenStack @always_expand
-  RHS: Red Hat Storage @always_expand
-  RHSS: Red Hat Storage Server @always_expand
-  RSU: Restricted Stock Unit @RH
