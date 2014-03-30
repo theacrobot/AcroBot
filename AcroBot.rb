@@ -16,7 +16,7 @@ module AbbrevBot
     dictionary
   end
 
-  # Try to load the YAML file. If it does not exists initialize the
+  # Try to load the YAML file. If it does not exist initialize the
   # file and populate it with DEFAULT_DICTIONARY.
   # If the file exists but is scrumbled (false), do the same thing.
   #
@@ -73,7 +73,7 @@ bot = Cinch::Bot.new do
    c.realname = "IRC Acronym and Abbreviation Expander Bot. !help for help"
    c.user = "Dacronym" #user name when connecting
    c.server = "irc.freenode.net"
-   c.channels =["#Dacronym","#openstack-doc"]
+   c.channels =["#Dacronym","#openstack-doc","#zanata"]
    c.prefix = /^!/
   end
 

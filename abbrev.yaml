@@ -468,3 +468,9 @@ new:
   NA: North America
   PaaS: Platform-as-a-Service @cloud
   RCM: Release and Change Management
+  YAML: 'YAML Ain''t Markup Language See: http://www.yaml.org/'
+  SOEMP: Standard Operating Environment Management Platform
+  Gb: Gigabit (1024 megabits) @networking
+  GB: Gigabyte (1024 megabytes) @networking
+  GFS: Global File System (LINUX file system)
+  IPTV: Internet-Protocol-based Television
