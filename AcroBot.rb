@@ -73,7 +73,7 @@ bot = Cinch::Bot.new do
    c.realname = "IRC Acronym and Abbreviation Expander Bot. !help for help"
    c.user = "Dacronym" #user name when connecting
    c.server = "irc.freenode.net"
-   c.channels =["#Dacronym","katello","#zanata"]
+   c.channels =["#Dacronym","#katello","#openshift","#zanata"]
    c.prefix = /^!/
   end
 
