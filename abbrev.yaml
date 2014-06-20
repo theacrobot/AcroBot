@@ -476,3 +476,7 @@ new:
   IPTV: Internet-Protocol-based Television
   NPS: Net Promoter Score @customer http://en.wikipedia.org/wiki/Net_Promoter
   CSAT: Customer satisfaction @customer http://en.wikipedia.org/wiki/Customer_satisfaction
+  JeOS: Just Enough Operating System (a minimal installation that contains only the
+    essentials needed to boot a system)
+  HANA: High-Performance Analytic Appliance, an in-memory, column-oriented, relational
+    database management system developed and marketed by SAP AG. http://en.wikipedia.org/wiki/SAP_HANA
