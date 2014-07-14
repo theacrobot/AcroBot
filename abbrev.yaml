@@ -480,3 +480,5 @@ new:
     essentials needed to boot a system)
   HANA: High-Performance Analytic Appliance, an in-memory, column-oriented, relational
     database management system developed and marketed by SAP AG. http://en.wikipedia.org/wiki/SAP_HANA
+  DR: Disaster Recovery
+  HA: High Availability
