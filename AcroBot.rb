@@ -9,9 +9,10 @@ DEFAULT_DICTIONARY = {
 
 module AbbrevBot
 
-  @@home_dir = File.expand_path '~'
+  @@home_dir = File.expand_path '~/.config'
   @@install_dir = File.expand_path File.dirname(__FILE__)
   @@abbrevs_file = "#{@@install_dir}/abbrev.yaml"
+  @@cfg_file = 'acrobot.yaml'
 
   def initialize_dictionary
     File.open(@@abbrevs_file, 'w') { |f|
@@ -68,8 +69,8 @@ module AbbrevBot
 
   def load_settings
     require 'yaml'
-    return YAML::load_file("#{@@home_dir}/acrobot_cfg.yml") if File.exists? "#{@@home_dir}/acrobot_cfg.yml"
-    return YAML::load_file("#{@@install_dir}/acrobot_cfg.yml")
+    return YAML::load_file("#{@@home_dir}/#{@@cfg_file}") if File.exists? "#{@@home_dir}/#{@@cfg_file}"
+    return YAML::load_file("#{@@install_dir}/#{@@cfg_file}")
   end
 
 end
