@@ -9,8 +9,13 @@ DEFAULT_DICTIONARY = {
 
 module AbbrevBot
 
+  @@home_dir = File.expand_path '~/.config'
+  @@install_dir = File.expand_path File.dirname(__FILE__)
+  @@abbrevs_file = "#{@@install_dir}/abbrev.yaml"
+  @@cfg_file = 'acrobot.yaml'
+
   def initialize_dictionary
-    File.open('abbrev.yaml', 'w') { |f|
+    File.open(@@abbrevs_file, 'w') { |f|
       YAML.dump(DEFAULT_DICTIONARY, f)
     }
     dictionary
@@ -22,7 +27,7 @@ module AbbrevBot
   #
   def dictionary
     begin
-      YAML.load_file('abbrev.yaml') || initialize_dictionary
+      YAML.load_file(@@abbrevs_file) || initialize_dictionary
     rescue Errno::ENOENT
       initialize_dictionary
     end
@@ -30,24 +35,24 @@ module AbbrevBot
 
   # Open the YAML file with dictionary and look for the abbrev
   def lookup_dictionary(abbrev)
-  	results = []
+    results = []
     dictionary.each do |key, values|
-    	next if values.nil?
+      next if values.nil?
       # next if key == 'new' # Skip items in the 'new' group
       matched_keys = values.keys.select { |k| k.to_s.casecmp(abbrev) == 0 }
       # => ['tbd', 'rhel'] ...
       matched_keys.each do |k|
-      	results << [k, values[k]]
+        results << [k, values[k]]
       end
     end
-    results.empty? ? false : results 
+    results.empty? ? false : results
   end
-  
+
   #Find abbrevs with a certain tag
   def find_values(tag)
-  	results =[]
-  	dictionary.each do |key, values|
-    	next if values.nil?
+    results =[]
+    dictionary.each do |key, values|
+      next if values.nil?
       matched_keys = values.select { |k,v| v.to_s =~ /@#{tag}( |$)/i }.keys.each do |k|
         results << k
       end
@@ -59,27 +64,35 @@ module AbbrevBot
     dict = dictionary
     dict['new'] ||= {}
     dict['new'][name.strip] = description.strip
-    File.open('abbrev.yaml', 'w') { |f| YAML.dump(dict, f) }
+    File.open(@@abbrevs_file, 'w') { |f| YAML.dump(dict, f) }
   end
-  
+
+  def load_settings
+    require 'yaml'
+    return YAML::load_file("#{@@home_dir}/#{@@cfg_file}") if File.exists? "#{@@home_dir}/#{@@cfg_file}"
+    return YAML::load_file("#{@@install_dir}/#{@@cfg_file}")
+  end
+
 end
 
 include AbbrevBot
 
 bot = Cinch::Bot.new do
 
+  settings = load_settings
+
   configure do |c|
-   c.nick = "Dacronym"
-   c.realname = "IRC Acronym and Abbreviation Expander Bot. !help for help"
-   c.user = "Dacronym" #user name when connecting
-   c.server = "irc.freenode.net"
-   c.channels =["#Dacronym","#katello","#openshift","#satellite6","#zanata"]
-   c.prefix = /^!/
+   c.nick = settings['nick']         # "Dacronym"
+   c.realname = settings['realname'] # "IRC Acronym and Abbreviation Expander Bot. !help for help"
+   c.user = settings['user']         # "Dacronym" #user name when connecting
+   c.server = settings['server']     #"irc.freenode.net"
+   c.channels = settings['channels'] # ["#Dacronym","#katello","#openshift","#satellite6","#zanata"]
+   c.prefix = settings['prefix']     # /^!/
   end
 
   on :message, /^!([\w\-\_]+)\=(.+)/ do |m, abbrev, desc|
-  	nick = m.channel? ? m.user.nick+": " : ""
-  	save_abbrev(abbrev, desc)
+    nick = m.channel? ? m.user.nick+": " : ""
+    save_abbrev(abbrev, desc)
    nick = m.channel? ? m.user.nick+"":""
     m.reply("#{nick} Thanks! [#{abbrev}=#{desc}]")
   end
@@ -92,37 +105,37 @@ bot = Cinch::Bot.new do
     m.reply("To list abbrevs associated with a tag, type eg. !@kernel")
     m.reply("To list all tags, type !@tags")
   end
-  
+
   on :message, /^!@([\w\-\_]+)$/ do |m, tag|
-  	tag = tag.strip
-  	match_abbrevs = find_values(tag)
+    tag = tag.strip
+    match_abbrevs = find_values(tag)
     nick = m.channel? ? m.user.nick+": " : ""
-  	if match_abbrevs.empty?
+    if match_abbrevs.empty?
       m.reply("#{nick}Sorry, no such tag. To list all tags, type !@tags")
     else
         m.reply("#{nick}#{match_abbrevs.join(', ')}")
     end
   end
-  
+
   on :message, /^!([\w\-\_]+)$/ do |m, abbrev|
-  	abbrev = abbrev.strip
+    abbrev = abbrev.strip
     unless abbrev =~ /^help$/i
       nick_str = m.channel? ? "#{m.user.nick}:" : ""
       if replies = lookup_dictionary(abbrev)
-      	replies.each do |original_abbrev, value|
-      		value, *tags = value.split('@')
-      		reply_str = "%s %s stands for %s %s" % [
-          	nick_str,
-          	Cinch::Formatting.format(:bold, original_abbrev.to_s),
-          	Cinch::Formatting.format(:bold, value.strip),
-          	tags.map { |t| "@#{t.strip}" }.join(', ')
+        replies.each do |original_abbrev, value|
+          value, *tags = value.split('@')
+          reply_str = "%s %s stands for %s %s" % [
+            nick_str,
+            Cinch::Formatting.format(:bold, original_abbrev.to_s),
+            Cinch::Formatting.format(:bold, value.strip),
+            tags.map { |t| "@#{t.strip}" }.join(', ')
           ]
           m.reply(reply_str.strip)
-      	end
+        end
       else
         m.reply("#{nick_str} Sorry, no definition for #{abbrev}")
       end
-  	end
+    end
   end
 
 end
