@@ -1,7 +1,9 @@
 require 'rubygems'
 require 'cinch'
 require 'yaml'
+
 #comment goes here
+
 
 DEFAULT_DICTIONARY = {
   'new' => { 'tbd' => 'To be done.' }
@@ -87,6 +89,7 @@ bot = Cinch::Bot.new do
    c.user = settings['user']         # "Dacronym" #user name when connecting
    c.server = settings['server']     #"irc.freenode.net"
    c.channels = settings['channels'] # ["#Dacronym","#katello","#openshift","#satellite6","#zanata","#theforeman"]
+#   c.channels = ["#Dacronym"]
    c.prefix = settings['prefix']     # /^!/
   end
 

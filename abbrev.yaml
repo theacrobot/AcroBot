@@ -482,3 +482,4 @@ new:
     database management system developed and marketed by SAP AG. http://en.wikipedia.org/wiki/SAP_HANA
   DR: Disaster Recovery
   HA: High Availability
+  IPMI: Intelligent Platform Management Interface @kernel
