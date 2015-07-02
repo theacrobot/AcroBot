@@ -2,10 +2,12 @@ AcroBot
 =======
 AcroBot is an IRC bot that expands a provided acronym or abbreviation, if available. It supports context tags (@tag_name) to distinguish between various usages, and to differentiate between like acronyms.
 
+This is the upstream source of the original bot, conceived and written by someone@redhat.com whom I shall look up later, and upon which all future variations have been based.
+
 Configuration
 =============
 
-Acrobot looks for the file named `acrobot_cfg.yml` first in $HOME, then where AcroBot.rb was installed
+Acrobot looks for the file named `acrobot.yaml` first in $HOME, then where AcroBot.rb was installed
 
 The configuration values available are:
 
@@ -19,8 +21,9 @@ The configuration values available are:
 Abbreviations File
 ==================
 
-AcroBot uses a flat YAML file to store the abbreviations it has learned about.
+AcroBot currently uses a flat YAML file to store the abbreviations it has learned about.
 That file resides at `#{install_dir}/abbrev.yml`.
+This is about to change so that different categories of abbreviations are saved to different dictionary files.
 
 AcroBot must have **RW** access to that file when running.
 
