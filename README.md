@@ -21,9 +21,9 @@ The configuration values available are:
 Abbreviations File
 ==================
 
-AcroBot currently uses a flat YAML file to store the abbreviations it has learned about.
-That file resides at `#{install_dir}/abbrev.yml`.
-This is about to change so that different categories of abbreviations are saved to different dictionary files.
+AcroBot uses several flat YAML files to store the abbreviations it has learned about.
+These files live in `#{install_dir}/`.
+Abbreviations are initially saved to `draft.yaml` with an `@unchecked` tag. They are later reviewed and either verified, updated, or discarded. Different dictionary files are used to store different categories of abbreviations. I'm unclear on the history of this particular move.
 
-AcroBot must have **RW** access to that file when running.
+AcroBot must have **RW** access to `draft.yaml` and **R** access to all other dictionary files when running.
 
