@@ -1,0 +1,1305 @@
+---
+verified:
+  82576: Intel 82576 Gigabit Ethernet Controller
+  ABC: Appropriate Byte Counting
+  ABI: Application Binary Interface
+  ACPI: Advanced Configuration and Power Interface
+  ACS: Authenticated Configuration Scanner
+  AHD: American Heritage Dictionary
+  AIL: Active Item List
+  ALSA: Advanced Linux Sound Architecture
+  AMQP: Advanced Message Queuing Protocol
+  AMTU: Abstract Machine Test Utility
+  APC: Alternative PHP Cache
+  API: Application Programming Interface @do_not_expand
+  ARF: Asset Reporting Format
+  ARP: Address Resolution Protocol
+  ATLAS: Automatically Tuned Linear Algebra Software
+  ATR: Answer To Reset
+  BCE: Basic Constraint Extension @ldap
+  BIND: Berkeley Internet Name Domain
+  BLAS: Basic Linear Algebra Subprograms
+  BKL: Big Kernel Lock
+  BSI: Best Security Industries
+  BSOD: Blue Screen Of Death
+  CA: Certification Authority
+  CAC: Common Access Card
+  CAPP: Controlled Access Protection Profile
+  CC: Creative Commons
+  CCE: Common Configuration Enumeration
+  CCSS: Common Configuration Scoring System
+  CIFS: Common Internet File System
+  CIL: Common Intermediate Language
+  CIM: Common Information Model
+  CIMOM: CIM Object Manager
+  CIPSO: Common Internet Protocol Security Option
+  CLI: Command-Line Interface
+  CMPI: Common Manageability Programming Interface
+  CMW: Compartmented Mode Workstation
+  CPU: Central Processing Unit @do_not_expand
+  CRL: Certificate Revocation List
+  CTS: Clear to Send
+  CVE: Common Vulnerabilities and Exposures
+  CVFS: CentraVision File System @SNMP
+  CVSS: Common Vulnerability Scoring System
+  DCBX: Data Center Bridging Exchange @protocol
+  DCSP: Differentiated Services Code Point
+  DES: Data Encryption Standard
+  DFS: Distributed File System
+  DI: Definition Interpreter
+  DLL: Dynamic Link Library
+  DLM: Distributed Lock Manager
+  DMA: Direct Memory Access
+  DMAR: DMA Remapping
+  DMTF: Distributed Management Task Force
+  DNAT: Dynamic Network Address Translation
+  DOI: Domain of Interpretation
+  DRDB: Distributed Replicated Block Device
+  DTR: Derived Test Requirement
+  DTX: Distributed Transaction @MRG
+  DUD: Driver Update Disk
+  DUP: Driver Update Program
+  DoS: denial of service
+  E2E: End-to-End
+  EAL: Evaluation Assurance Level (1-7)
+  ECC: Elliptic Curve Cryptography @auth
+  EDID: Extended display identification data
+  EEPROM: Electrically Erasable Programmable Read-Only Memory
+  EFI: Extensible Firmware Interface
+  EHCI: Enhanced Host Controller Interface
+  EIO: Enhanced Input/Output
+  ELS: Extended Link Service
+  ENOSPC: No space left on device @errorcode
+  EOF: End of File @do_not_expand
+  ETU: Elementary Time Unit
+  FCAPS: Fault, Configuration, Accounting, Performance, Security
+  FD: File Descriptor
+  FDCC: Federal Desktop Core Configuration
+  FIPS: Federal Information Processing Standard @do_not_expand
+  FIRST: Forum of Incident Response and Security Teams
+  FISMA: Federal Information Security Management Act
+  GC: Graphic context @xorg
+  GCC: GNU Compiler Collection
+  GDB: GNU Debugger
+  GDM: Gnome Display Manager
+  GID: Group Identifier @do_not_expand
+  GNU: GNU's Not Unix!
+  GPL: General Public License @do_not_expand
+  GRUB: Grand Unified Bootloader
+  GSO: Generic Segmentation Offload
+  GSSAPI: Generic Security Services API
+  GTK: GIMP Toolkit. Use GTK+ @do_not_expand
+  GUI: Graphical User Interface @do_not_expand
+  HBA: Host Bus Adapter
+  HCI: Human-Computer Interface
+  HID: Human Interface Device
+  HPC: High Performance Computing
+  HPSA: Hewlett Packard Smart Array
+  HVM: Hardware Virtual Machine
+  IANA: Internet Assigned Numbers Authority
+  ICMP: Internet Control Message Protocol
+  IDE: Integrated Development Environment
+  IETF: Internet Engineering Task Force
+  IMAP: Internet Message Access Protocol @do_not_expand
+  IMSM: Intel Matrix Storage Manager
+  IOMMU: Input/Output Memory Management Unit
+  IP: Internet Protocol
+  IPA: Identity, Policy, Audit
+  IPVS: IP Virtual Server
+  IPsec: Internet Protocol Security
+  IPv6: Internet Protocol Version 6 @do_not_expand @networking
+  IR: Interagency Report
+  IRQ: Interrupt Request
+  ISP: Internet Service Provider
+  ISR: Interrupt Service Routine
+  ISV: Independent Software Vendor
+  ITL: Information Technology Laboratory
+  JDK: Java Development Kit @do_not_expand
+  JRE: Java Runtime Environment
+  JSON: Javascript Object Notation
+  LAPACK: Linear Algebra Package
+  LDAP: Lightweight Directory Access Protocol
+  LLDPDU: Link Layer Discovery Protocol Data Unit
+  LPAR: Logical Partitioning
+  LPT: Line Print Terminal
+  LSM: Linux Security Module
+  LUKS: Linux Unified Key Setup
+  LVDS: Low-voltage Differential Signaling
+  LVM: Logical Volume Manager
+  LVQ: Last Value Queue @MRG
+  LVS: Linux Virtual Server
+  MAC: Message Authentication Code @FIPS
+  MCE: Machine Check Exception
+  MD5: Message Digest algorithm @do_not_expand
+  MDA: Model Driven Architecture
+  MGID: Multicast Global Identifier
+  MW: Merriam and Webster
+  NCP: National Checklist Program
+  NDR: Network Data Representation @samba
+  NFS: Network File System @do_not_expand
+  NIAP: National Information Assurance Partnership
+  NISPOM: National Industrial Security Program Operating Manual
+  NIST: National Institute of Standards and Technology @do_not_expand
+  NMI: Nonmaskable Interrupt
+  NSCD: Name service cache daemon
+  NVD: National Vulnerability Database
+  NVLAP: National Voluntary Laboratory Accreditation Program
+  NVM: Nonvolatile Memory
+  NVMe: Nonvolatile Memory Express
+  OA: Onboard Administrator @HPI
+  OCIL: Open Checklist Interactive Language
+  OCSP: Online Certificate Status Protocol
+  ODBC: Open Database Connectivity
+  OFL: Ots File List
+  OID: object identifier
+  OSC: Operating System Capabilities @ACPI
+  OSPP: Operating System Protection Profile
+  OVAL: Open Vulnerability and Assessment Language
+  OVMF: Open Virtual Machine Firmware
+  P2P: Peer-to-Peer
+  PAE: Physical Address Extension
+  PAM: Pluggable Authentication Module @auth
+  PAPI: Performance Application Programming Interface
+  PAPR: Power Architecture Platform Requirements
+  PC: personal computer @do_not_expand
+  PCM: Pulse Code Modulation
+  PCP: Performance Co-Pilot
+  PDA: personal digital assistant
+  PIB: Partner Inspection Build
+  PID: Process Identifier @do_not_expand
+  PITR: Point-In-Time Recovery
+  PIV: Personal Identity Verification
+  PKI: Public Key Infrastructure
+  PMU: Power Management Unit
+  POD: Plain Old Documentation @Perl
+  POSIX: Portable Operation System Interface @do_not_expand
+  PSU: Power Supply Unit
+  PV: Physical Volume
+  PXE: Pre-Boot Execution Environment
+  QI: Questionnaire Interpreter
+  QMF: QPID Modeling Framework @MRG
+  RAID: Redundant Array Of Independent Discs
+  RARP: Reverse Address Resolution Protocol
+  RCS: Revision Control System
+  RDAC: Redundant Disk Array Controller
+  RELRO: Relocation Read-Only
+  REST: Representational State Transfer
+  RFC: Request for Comment @do_not_expand
+  RG: Resource Group
+  RPC: Remote Procedure Call
+  RSB: Resource block
+  RPM: RPM Package Manager @do_not_expand
+  RTS: Request to Send
+  SACK: Selective Acknowledgement
+  SAM: Subscription Asset Manager
+  SCAP: Security Content Automation Protocol
+  SCAPVal: SCAP Validation tool
+  SCM: Storage Class Memory
+  SCSI: Small Computer System Interface
+  SCTP: Stream Control Transmission Protocol
+  SCU: SCSI Controller Unit
+  SDL: Simple DirectMedia Layer
+  SEGV: Segmentation Violation @do_not_expand
+  SFCB: Small Footprint CIM Broker
+  SFTP: Secure File Transfer Protocol
+  SIMD: Single Instruction, Multiple Data
+  SLA: Service Level Agreement
+  SLAAC: StateLess Address AutoConfiguration
+  SMB: Server Message Block
+  SMI-S: Storage Management Initiative Specification
+  SMIME: Secure/Multipurpose Internet Mail Extensions (S/MIME)
+  SNAT: Source Network Address Translation
+  SNMP: Simple Network Management Protocol
+  SOA: Service-Oriented Architecture
+  SOAP: Simple Object Access Protocol
+  SPARC: Scalable Processor Architecture
+  SQL: Structured Query Language @do_not_expand
+  SSE3: Streaming SIMD Extensions 3
+  SSH: Secure Shell @do_not_expand
+  SSL: Secure Sockets Layer
+  SUT: System Under Test
+  SVVP: Server Virtualization Validation Program @win
+  TCP: Transmission Control Protocol
+  TCPMUX: TCP Port Service Multiplexer
+  TLV: Type-Length-Value
+  TMSAD: Trust Model for Security Automation Data
+  TPH: Transaction Processing Hints @pciutils
+  TUI: Text Paste/Terminal User Interface
+  UDP: User Datagram Protocol
+  UE: Unbalanced Error
+  UID: User Identifier @do_not_expand
+  URB: USB Request Block
+  URI: Uniform Resource Identifier @do_not_expand
+  URL: Uniform Resource Locator @do_not_expand
+  URN: Uniform Resource Number
+  USGCB: United States Government Configuration Baseline
+  UTC: Coordinated Universal Time
+  UUID: Universally Unique Identifier
+  VAR: Value-added reseller
+  VDSM: Virtual Desktop Server Management @do_not_expand
+  VHDX: Hyper-V virtual hard disk
+  VIF: Virtual Interface
+  VIM: Vi Improved
+  VM: Virtual machine
+  VNC: Virtual Network Computing
+  VRRP: Virtual Router Redundancy Protocol
+  WBEM: Web-based Enterprise Management
+  WCA: web clipping application
+  WFN: Well-formed Name
+  WSGI: Web Server Gateway Interface
+  WWID: World Wide Identifier
+  WWN: World Wide Name
+  XCCDF: Extensible Configuration Checklist Document Format
+  XDMCP: X Display Manager Control Protocol
+  XDR: Cross-domain Request
+  atime: access time
+  auid: audit ID
+  bash: Bourne-Again Shell @do_not_expand
+  cgroups: control groups
+  ctime: change time
+  cwnd: congestion window
+  fisma: Federal Information Security Management Act
+  iBFT: iSCSI Boot Firmware Table
+  ipr: IBM Power RAID
+  kABI: kernel Application Binary Interface
+  knfsd: kernel NFS daemon
+  lra: local register allocator
+  mac: Media Access Control
+  mtime: modify time
+  ovs: Open vSwitch
+  pNFS: parallel NFS
+  pci-dss: Payment Card Industry -- Data Security Standard
+  rsbac: Rule Set Based Access Control
+  usbfs: USB file system
+  xRandR: X Resize and Rotate Extension
+cryptography:
+  AES: Advanced Encryption Standard @crypt
+  PEM: Privacy Enhanced Mail @auth @crypt
+  ICA: IBM Crypto Accelerator @crypt
+virt:
+  ARI: Alternative Routing-ID Interpretation @PCIutils @virt
+  ATS: Address Translation Service @PCIutils @virt
+  BAR: Base Address Register @virt
+  BDS: Block Driver State @virt
+  DomU: unprivileged domain @virt @xen
+  FLR: Function Level Reset @virt
+  KVM: Kernel-based Virtual Machine @virt @do_not_expand
+  PF: Physical Function @virt
+  QEMU: Quick Emulator @virt
+  SR-IOV: Single Root I/O Virtualization @virt
+networking:
+  FQDN: fully qualified domain name @networking
+  NIC: Network Interface Controller/Card @networking
+  SAN: Storage Area Network @networking
+  IGMP: Internet Group Management Protocol @networking
+  CEE: Converged Enhanced Ethernet @networking
+  MTA: Multimedia Terminal Adapter @networking
+  ASIC: application-specific integrated circuit @networking
+  CGI: common gateway interface @networking
+  DHCP: dynamic host configuration protocol @networking
+  DNS: Domain Name System @networking @do_not_expand
+  MIME: Multipurpose Internet Mail Extension @networking
+  NCP: Network Control Protocol @networking
+  NAT: Network Address Translation @networking
+  NIS: Network Information Service @networking @do_not_expand
+  VPN: Virtual Private Network @networking
+  TSO: TCP Segmentation Offload @networking
+  ECN: Explicit Congestion Notification @networking
+  ECT: ECN-Capable Transport @networking
+  GRE: Generic Routing Encapsulation @networking
+  BPF: Berkeley Packet Filter @networking
+  QoS: quality of service @networking
+  CNAME: Canonical Name @networking @always_cap
+  PPPoE: Point-to-point Protocol over Ethernet @networking
+  VNIC: virtual network interface card @networking
+  PADT: PPPoE Active Discovery Terminate @networking
+  DSL: Digital Subscriber Line @networking
+wifi:
+  AP: Access Point @wifi
+  OKC: Opportunistic Key Caching @wifi
+  PKC: Proactive Key Caching @wifi
+  WPA: Wi-Fi Protected Access @wifi
+libreoffice:
+  UNO: Universal Network Object @libreoffice
+selinux:
+  AVC: Access Vector Cache @selinux
+  LSPP: Labeled Security Protection Profile @selinux
+  MCS: Multi-Category Security @selinux
+  MLS: Multi-Level Security @selinux
+  RBAC: Role-Based Access Control @selinux
+  SELinux: Security-Enhanced Linux @do_not_expand @selinux
+  SID: Security Identifier @selinux
+  SL: Security Level @selinux
+  SLIDE: SELinux Integrated Development Environment @selinux
+  DAC: Discretionary Access Control @selinux
+  MIB: Management Information Base @selinux @SNMP
+  TE: Type Enforcement @selinux
+kernel:
+  LKML: Linux Kernel Mailing List @kernel
+  82598HW: Intel 82598 10 Gigabit Ethernet Controller @kernel
+  AER: Advanced Error Reporting @kernel
+  AG: Allocation Group @kernel
+  ALUA: Asymmetric logical unit access @kernel
+  AMS: Active Memory Sharing @kernel
+  APEI: ACPI Platform Error Interface @kernel
+  APIC: Advanced Programmable Interrupt Controller @kernel
+  ASPM: Active State Power Management @kernel @PCIe
+  BMC: Baseboard Management Controller @kernel
+  CDB: Command Descriptor Block @SCSI @kernel
+  CIE: Common Information Entry @kernel
+  CMO: Cooperative Memory Overcommit @kernel
+  CPB: Core Performance Boost @kernel
+  DASD: Direct Access Storage Device @kernel
+  DRM: Direct Rendering Manager @kernel
+  DSO: Dynamic Shared Object @kernel
+  DTL: Dispatch Trace Log @kernel
+  DWARF: debugging data format @debugging @do_not_expand @kernel
+  EEH: Enhanced Error Handling @kernel
+  EPT: Extended Page Tables @kernel
+  FCoE: Fibre Channel over Ethernet @kernel
+  FDE: Frame Description Entry @kernel
+  FIP: FCoE Initialization Protocol @kernel
+  FLOGI: Fabric Login @kernel
+  GAHP: Grid ASCII Helper Protocol @kernel
+  GEM: Graphics Execution Manager @kernel
+  GFN: Guest Frame Number @xen @kernel
+  GPT: GUID Partition Table @kernel
+  GRO: Generic Receive Offload @kernel
+  GSI: Global System Interrupt @kernel
+  HS: HiperSockets @always_expand @kernel
+  IF: Interrupt Flag  @kernel
+  IOH: Intel X58 I/O hub @kernel
+  IRR: Interrupt Request Register @kernel
+  JBD: Journaling Block Device @kernel
+  KCS: Keyboard Controller Style @kernel
+  KMP: Kernel Module Package @kernel
+  KMS: Kernel Mode-Setting @kernel
+  KSM: Kernel Shared Memory @kernel
+  LAPIC: Local APIC @kernel
+  LKA: Link Keep Alive @kernel
+  LUN: Logical Unit Number @kernel
+  MCC: multi-core communication @kernel
+  MFN: Machine Frame Number @xen @kernel
+  MII: Media Independent Interface @network @kernel
+  MPT: Message Passing Technology @kernel
+  MSB: Most Significant Byte @kernel
+  MSI: Message Signaled Interrupts @kernel
+  MSR: Model-Specific Register @kernel
+  MTRR: Memory Type Range Registers @kernel
+  MTU: Maximum Transmission Unit
+  NAPI: New API  @kernel
+  NPIV: N_Port ID Virtualization @kernel
+  NPV: N_port virtualization @kernel
+  NUMA: Non-Uniform Memory Access @kernel
+  OAL: Outbound Address List @kernel
+  PCH: Platform Controller Hub @kernel
+  PDE: Page Directory Entry @kernel
+  PFN: Physical Frame Number @xen @kernel
+  PIT: Programmable Interval Timer @kernel
+  PMD: Page Mid-Level Directory @kernel
+  POPF: Pop Flags @kernel
+  QAS: Quest Authentication Services @kernel
+  RSS: Receive-Side Scaling @kernel
+  RoCE: RDMA Over Converged Ethernet @kernel
+  SAS: Serial Attached SCSI @kernel
+  SKB: Socket Buffer @kernel
+  SMI: System Management Interrupt @kernel
+  SMP: Symmetric Multi Processing @kernel
+  STI: SeT Interrupts @kernel
+  TSC: Time Stamp Counter @kernel
+  TTM: Translation Table Maps @kernel
+  TUR: Test Unit Ready @kernel
+  UFO: UDP Fragmentation Offload @kernel
+  VDSO: Virtual Dynamic Shared Object @kernel
+  VMA: Virtual Memory Area @kernel
+  VMCB: Virtual Machine Control Block @kernel
+  VPD: Vital Product Data @kernel
+  ioctl: Input/Output Control @kernel
+  per-AG: per-Allocation Group @kernel
+  rwsem: reader/writer semaphore @kernel
+  COW: Copy On Write @kernel @virt
+  LRO: Large Receive Offload @virt @kernel
+  VF: Virtual Function @kernel @virt
+  vCPU: virtual CPU @virt @kernel
+  IPI: inter-processor interrupt @kernel
+  CFS: Completely Fair Scheduler @kernel
+cloud:
+  CFSE: CloudForms System Engine @cloud
+  CDS: Content Distribution Server @cloud
+  IaaS: Infrastructure-as-a-Service @cloud http://file.bne.redhat.com/~daobrien/StyleGuide/index.html#paas
+  PaaS: Platform-as-a-Service @cloud http://file.bne.redhat.com/~daobrien/StyleGuide/index.html#paas
+  RBA: Role-based Administration @cloud
+  LBaaS: Load-Balancer-as-a-Service @cloud @rhos
+  DBaaS: Database-as-a-Service @cloud http://www.scaledb.com/DBaaS-Database-as-a-Service.php
+  AMI: Amazon Machine Image @cloud
+  AWS: Amazon Web Services @cloud
+  EBS: Elastic Block Store (Amazon) @cloud
+  EC2: Elastic Compute Cloud (Amazon) @cloud
+docs:
+  CDW: Content Definition Workflow @docs
+standards:
+  ANSI: American National Standards Institute @standards
+  ISO: International Standards Organization @standards
+pciutils:
+  LTR: Latency Tolerance Reporting @PCIutils
+  IUCV: Inter User Communication Vehicle @PCIutils
+java:
+  J2EE: Java 2 Enterprise Edition @java
+  JAAS: Java Authentication and Authorization Service @java
+  JAR: Java ARchive @java
+  JAX-RS: Java API for RESTful Web ServicesWeb Services @java
+  JAX-WS: Java API for XML-based Web ServicesWeb Services @java
+  JAXB: Java Architecture for XML Binding @java
+  JBI: Java Business Integration @java
+  JCA: J2EE Connector Architecture @java
+  JCR: Content Repository for Java Technology API @java
+  JDBC: Java Database Connectivity @java
+  JMS: Java Message Service @java
+  JMX: Java Management Extensions @java
+  JNDI: Java Naming and Directory Interface @java
+  JPA: Java Persistence API @java
+  JSONP: JSON with PaddingWeb Services
+  JSR: Java Specification Request @java
+  JSSE: Java Secure Socket Extension @java
+  JTA: Java Transaction API @java
+  JUL: java.util.logging@java
+  JVM: Java Virtual Machine @java
+  JVMTI: Java Virtual Machine Tools Interface@java
+  EJB: Enterprise Java Beans @java
+  JSF: JavaServer Faces @java
+  JSP: JavaServer Pages @java
+  POJO: Plain Java Object @java
+mmgmt:
+  TLB: Translation Lookaside Buffer @mmgmt @kernel
+  ASCE: Address Space Control Element @mmgmt
+  OOM: Out of Memory @mmgmt
+sfdc:
+  NA4: Salesforce for Sales @sfdc
+  NA7: Salesforce for Support @sfdc
+  NEP: Negotiated Entitlement Processes @sfdc
+  SFDC: Salesforce Dot Com (Salesforce.com) @sfdc
+eggs:
+  AcroBot: Your No1 IRC bot to expand various acronyms and abbreviations :)
+consulting:
+  ABAC: Attribute-based Access Control
+  ANZ: Australia and New Zealand
+  B2B: Business-to-Business
+  BDD: Behavior-Driven Development
+  BOM: Bill of Materials @maven
+  BPEL: Business Process Execution Language
+  BPMN: Business Process Model and Notation
+  CBR: Content-Based Routing
+  CDI: Contexts and Dependency Injection
+  CEC: Common Engineering Criteria
+  CEP: Complex Event Processing
+  CLVM: Clustered Logical Volume Management
+  CMDB: Configuration Management Database
+  CMS: Content Management System
+  CN: Common Name
+  COTS: Commercial Off-The-Shelf
+  CTO: Chief Technology Officer
+  CXF: Apache CXF (Celtix and XFire)
+  CY: Calendar Year
+  DB: Database
+  DC: Domain Component
+  DDL: Data Definition Language
+  DN: Distinguished Name
+  DSL: Domain Specific Language
+  DTO: Data Transfer Object
+  EA: Early Access
+  EAI: Enterprise Application Integration
+  EAR: Enterprise Application Archive
+  EDA: Event-Driven Architecture
+  EDI: Electronic Data Interchange
+  EE: Enterprise Edition
+  EIP: Enterprise Integration Pattern
+  EOL: End of Life
+  EPR: Endpoint Reference
+  ETL: Extract-Transform-Load
+  EULA: End User License Agreement
+  FCP: Fibre Channel Protocol
+  FQN: Fully Qualified Name
+  FSI: Financial Services Industry
+  GAV: Group, Artifact, and Version @maven
+  GBAC: Group-based Access Control
+  GFS2: Global File System 2
+  HA: High Availability
+  HDD: Hard Disk Drive
+  HPC: High Performance Computing
+  HTML: Hypertext Markup Language
+  HTTP: Hypertext Transfer Protocol
+  HTTPS: Hypertext Transfer Protocol Secure
+  I/O: Input/Output
+  ID: Identifier
+  IPAM: Internet Protocol Address Management
+  IT: Information Technology
+  ITIL: Information Technology Infrastructure Library
+  KCS: Knowledge Centered Support
+  KT: Knowledge Transfer
+  LB: Load Balancer
+  LDIF: LDAP Data Interchange Format
+  LOB: Line Of Business
+  MAC: Media Access Control
+  MBean: Managed Bean
+  MDM: Master Data Management, Mobile Device Management
+  MINA: Multipurpose Infrastructure for Network Applications
+  MQTT: Message Queue Telemetry Transport
+  MR: Maintenance Review
+  MVCC: Multiversion Concurrency Control
+  MVEL: MVFLEX Expression Language
+  NAS: Network-Attached Storage
+  NIO: New I/O
+  NTE: Not To Exceed
+  NTP: Network Time Protocol
+  OASIS: Organization for the Advancement of Structured Information Standards
+  ODE: Orchestration Director Engine
+  ODM: Operational Decision Management
+  OEM: Oracle Enterprise Manager @oracle
+  OOTB: Out Of The Box
+  OPA: Oracle Policy Automation @oracle
+  OU: Organizational Unit
+  OVA: Open Virtual Appliance
+  OVF: Open Virtualization Format
+  PM: Project Manager
+  POM: Project Object Model @maven
+  RMI: Remote Method Invocation
+  S-RAMP: SOA Repository Artifact Model and Protocol
+  SaaS: Software as a Service
+  SAML: Security Assertion Markup Language
+  SASL: Simple Authentication and Security Layer
+  SCA: Service Component Architecture
+  SCDL: Service Component Definition Language
+  SCM: Software Configuration Management
+  SEDA: Staged Event-Driven Architecture
+  SIT: System Integration Testing
+  SMB: Small or Medium Business
+  SME: Subject Matter Expert
+  SOQ: Statement of Qualifications
+  SOW: Statement of Work
+  SP: Service Pack
+  SPI: Service Provider Interface
+  SSO: Single Sign-On
+  STOMP: Streaming Text Oriented Messaging Protocol
+  STS: Security Token Service
+  TDD: Test Driven Development
+  UAT: User Acceptance Testing
+  UDDI: Universal Description Discovery and Integration
+  UEL: Unified Expression Language
+  VDI: Virtual Desktop Infrastructure
+  VIPA: Virtual Internet Protocol Address Wikpedia
+  WADL: Web Application Description Language
+  WAR: Web Application Archive
+  WCM: Web Content Management
+  WS: Web Services
+  WS-*: Web Services standards
+  WS-RM: Web Services Reliable Messaging
+  WSDL: Web Services Description Language
+  WSRP: Web Services for Remote Portlets
+  WSSE: WS-Security
+  XA: Extended Architecture
+  XACML: Extensible Access Control Markup Language
+  XFS: X File System Blog
+  XMPP: Extensible Messaging and Presence Protocol
+  XSLT: Extensible Stylesheet Language Transformations
+  YUM: Yellowdog Updater
+  NOC: Network Operations Center
+  ESB: Enterprise Service Bus
+  MDP: Managed Design Program
+  MOF: Meta-Object Facility
+  OMG: Object Management Group
+  UML: Unified Modeling Language
+  OpenLMI: Open Linux Management Infrastructure
+  POC: Proof of Concept
+  ENC: External node classifier @Satellite
+  HIPAA: Health Insurance Portability and Accountability Act
+  HIPPA: Incorrect spelling of HIPAA
+  EHR: electronic health records
+  CHAP: Challenge Handshake Authentication Protocol @security
+  JPEG: joint photographic experts group @graphics
+  MPEG: motion picture experts group @graphics
+  PAP: Password Authentication Protocol @security
+  COP: Community of Practice
+  COE: Centers of Excellence (Teams within the People team - e.g., Talent Acquisition)
+  EMEA: Europe, the Middle East, and Africa
+  FOSS: Free and Open Source Software
+  GCS: Global Consulting Services
+  GSA: Google Search Appliance
+  APAC: Asia-Pacific region
+  ACK: Acknowledge, OK, yes
+  BI: Business Intelligence http://en.wikipedia.org/wiki/Business_intelligence
+  CAS: Core Analysis System https://optimus.gsslab.rdu2.redhat.com/manager
+  FY: Fiscal Year or Financial Year
+  ILT: In-person learning training
+  NA: North America region
+  RCM: Release Configuration Management
+  SOE: Standard Operating Environment
+  SOEMP: Standard Operating Environment Management Platform
+  LSB: Linux Standard Base
+  LOM: LAN on Motherboard
+  JBDS: JBoss Developer Studio
+  JHAT: Java Heap Analysis Tool
+  BPM: Business Process Management
+  IRC: Internet Relay Chat
+  CCMS: Component Content Management System
+  FSW: Fuse Service Works
+  WFK: Web Framework Kit
+  GWT: Google Web Toolkit
+  KIE: Knowledge Integration Environment aka Knowledge Is Everything
+  ER: Engineering Release
+  CR: Candidate Release
+  SCE: Strategic Customer Engagement
+  CSV: comma-separated values
+  CCW: channel command word bus @System z
+  S-RAMP: SOA Repository Artifact Model and Protocol
+  RTGov: Run Time Governance
+  EIS: Enterprise Information Services
+  APR: annual percentage rate
+  BAM: Business Activity Monitoring
+  KPI: key performance indicators
+  EWS: Enterprise Web Server (renamed to WS)
+  SGML: Standardized Generalized Markup Language
+  XML: EXtensible Markup Language @do_not_expand
+  IPC: inter-process communication
+  EPP: Enterprise Portal Platform
+  EWP: Enterprise Web Platform
+  TLS: Transport Layer Security
+  TPB: Technology Park Brno
+  GET: Growth and Expansion Team
+  BAT: Block Allocation Table
+  CCFR: Technical Note template Cause Consequence Fix Result
+  JDF: Job Definition Format
+  CII: Core Infrastructure Initiative
+  CSRF: Cross-site request forgery
+  CORS: Cross-origin resource sharing
+  XHR: XMLHttpRequest
+  DIMM: dual in-line memory module
+  IdM: Identity Management @auth
+  VCS: Version Control System
+  EDS: Easy Digital Signage
+  AJP: Apache JServ Protocol
+  PCI: Peripheral Component Interconnect @do_not_expand
+  PReP: PowerPC Reference Platform
+  GDTY: Good Day To You @always_expand
+  TSE: Technical Support Engineer (now - Frontline)
+  SBT: Service Breach Time
+  LSS: Language Support Specialist
+  AD: Active Directory
+  MiTM: Man in the Middle @security
+  PTP: Precision Time Protocol
+  ACL: Approved Components List (Base OS Engineering) @RH
+  OSGi: Open Service Gateway initiative
+  STONITH: Shoot The Offending Node In The Head
+  OBOE: off-by-one error
+  VLAN: Virtual Local Area Network @do_not_expand
+  WLAN: Wireless LAN
+  LAN: Local Area Network
+  IQN: iSCSI Qualified Name @do_not_expand
+  WAN: Wide Area Network
+  PAN: Personal Area Network
+  PDC: Product Definition Center
+  KDC: Key Distribution Center
+  PKINIT: Public Key Cryptography for Initial Authentication in Kerberos
+  VLV: Virtual List View
+  DIT: Directory Information Tree
+  GPU: Graphics Processing Unit @do_not_expand
+  FTP: File Transfer Protocol
+  WINE: Wine Is Not an Emulator
+  Gambas: Gambas Almost Means Basic
+  YAML: YAML Ain't Markup Language
+  RDMA: Remote Direct Memory Access
+  NSS: Network Security Services
+  UMTS: Universal Mobile Telecommunications System
+  PNAELV: Prominent North American Enterprise Linux Vendor (http://www.pnaelv.net/)
+  OPENUC: Open Unified Communications
+  SLP: Service Location Protocol
+  GPFS: General Parallel File System (IBM)
+  RAC: Real Application Clusters @oracle
+  PLC: Product Life-cycle
+  RTT: Release Test Team
+  SDLC: Software (system) Development Life-cycle
+  DEE: Dedicated Enterprise Engineer
+  GPE: Global Partner Enablement
+  TSANet: Technical Support Alliance Network, "multivendor support alliance in the
+    high technology industry"
+  BDE: Board of directors
+  UXD: User Experience and Design
+  AEU: Australia, Europe, United States of America region
+  LATAM: Latin America region
+  CRM: Customer Relationship Management
+  ERP: Enterprise Resource Planning
+  EVP: Executive Vice President
+  FTE: Full-Time Employee
+  HFT: High-Frequency Trading
+  MQ: message queue; commonly refers to WebSphere MQ by IBM
+  U2L: Unix to Linux (migration)
+  NMS: Network Management Software
+  SPOC: Single point of contact
+  HIDS: Host-based intrusion detection system
+  HR: Human resources
+  SPOF: Single point of failure
+  SSI: Single System Image
+  ARMH: Advanced Risc Machine Holdings (corporation producing ARM arch)
+  AVS: Advanced (Mission Critical) Update Support
+  CVS: Concurrent Version Control System (OpenSource configuration management tool)
+  HTB: High Touch Beta (program); a targeted program that enables customers to have
+    access to an early version of our release with the goal of finding and fixing
+    problems early in the release cycle
+  ISO: a CD image
+  KBASE: Knowledge Base
+  PNT: Product and Technologies
+  RPL: Release Priority List
+  RT: Real time
+  TCMS: Test Case Management System
+  YAWL: Yet Another Workflow Language
+  FESCo: Fedora Engineering Steering Committee
+  GES: Global Engineering Services (i.e. Professional Services)
+  HPM: H/W Product Management
+  PSC: People Strategy Consultant
+  ARB: Architecture Review Board
+  PAB: Project Advisory Board
+  PTY: Unlimited Proprietary company (see PTYLTD)
+  PTYLTD: Proprietary Limited company
+  VC: Venture capital
+  EUCE: End User Computing Experience
+  ALM: Application Lifecycle Management
+  ATSE: Associate Technical Support Engineer
+  ATP: Authorized Training Partners
+  CCM: Customer Case Management
+  CQI: Case Quality Index
+  CSat: Customer Satisfaction
+  ERD: Engineering Response Document
+  FIB: Forwarding Information Base
+  NPS: Net Promoter Score
+  PTSE: Principal Technical Support Engineer
+  QE: Quality Engineering
+  RCA: Root cause analysis
+  SMA: Subject Matter Area
+  STSE: Senior Technical Support Engineer
+  TCC: Time To Close
+  TPS: Test Package Sanity
+  ACGR: Account Growth
+  AFR: Automatic File Replication
+  AMC: Advanced Mission Critical
+  AMS: Application Maintenance & Support
+  ASM: Automatic Storage Management
+  BLL: Business Logic Layer
+  CAB: Customer Advisory Board
+  CCB: Change Control Board
+  CL: Channel Load
+  CRE: Commercially Reasonable Effort
+  CSI: Customer Support Identifier @oracle
+  CSRV: Cost to Serve
+  CSS: Customer Support Specialist
+  CX: Customer Experience
+  DAG: Database Availability Group
+  DAL: Data Access Layer
+  EM: Escalation Manager
+  ESO: Engineering Services Organization
+  ESR: Extended Support Release
+  FSM: Frontline Support Manager
+  GOP: Graphics Output Protocol
+  KM: Knowledge Management
+  NUFA: Non Uniform File Access
+  OFED: OpenFabrics Enterprise Distribution
+  OSR: Outside Sales Rep (becomes inside based on contract cost)
+  OTP: One-Time Password
+  RPN: Reverse Polish Notation
+  RRT: Rapid Response Team
+  SDN: Software Defined Networking
+  SET: Support Experience Team
+  UWF: Unified Workflow
+  VAT: Virtual Account Team
+  VTT: Virtual Training Team
+  aarch64: The 64-bit ARMv8 cpu architecture. See http://fedoraproject.org/wiki/Architectures/ARM/AArch64
+  AP: Accounts Payable
+  arm64: See 'aarch64', 'arm64' is the name debian uses for the same arch.
+  BCM: Business Continuity Management
+  C360: Customer 360 (e.g., C360 SFDC Integration)
+  CAFM: Computer Aided Facilities Management - see also IWMS
+  CAPEX: Capital Expenditure
+  CAR: Capital Appropriations Request
+  CC: Cost Center
+  CYP: Claim Your Packages (QE tool)
+  ENG: Engineering
+  EOQ: End of Quarter
+  EOY: End of Year
+  FAC: Facilities
+  FAS: Fedora Account System
+  FIN: Finance and Accounting
+  FM: Facility Management
+  IAM: Identity and Access Management
+  IWMS: Integrated Workplace Management System - a database managing our real estate
+    and facility portfolio, see also CAFM
+  LGL: Legal
+  MKT: Marketing and Strategy
+  OM: Office Manager
+  OP: EX Operating Expenses
+  OPS: Operations
+  OSDC: Open Source dot com
+  POE: Post Occupancy Evaluation
+  QBR: Quarterly Business Review
+  QSG: Quick Start Guide
+  RACI: Responsible, Accountable, Consulted, Informed
+  REDS: Real Estate Development & Sustainability
+  RI: Reference Information
+  RITM: Requested item (see https://redhat.service-now.com/kb_view.do?sysparm_article=KB0002683)
+  RPO: Recovery Point Objective
+  RTO: Recovery Time Objective
+  SBS: Social Business Software - (Jive was formerly known as "Jive SBS")
+  SCL: Software Collection
+  SCVMM: System Center Virtual Machine Manager
+  SHA: Secure Hash Algorithm @crypt
+  SKU: Stock Keeping Unit - unique id for a product or service
+  SLED: State Local & Education - refers to a set of accounts in the North American
+    Public Sector team
+  Snow: Service Now
+  SOP: Standard Operating Procedures
+  SoW: Statement of Work
+  STR: Stuttgart office (airport code)
+  SVC: Training and Consultation Services
+  TLA: Three Letter Acronym
+  TRAC: Technical Reference Architecture Change
+  VMW: VM Ware
+  WBT: Web-based training
+  SCM: source code management
+  RIA: Rich Internet Application
+  LHS: left-hand side
+  RHS: right-hand side
+  A-MQ: Active MQ @messaging
+  HBAC: Host-Based Access Control @auth
+  GPO: Group Policy Object @auth @win
+  SEO: Search Engine Optimization
+  VFS: virtual file system
+  GCE: Google Compute Engine
+  DOM: Document Object Model
+  SSSD: System Security Services Daemon
+  DNSSEC: DNS Security Extensions @networking
+  HSM: hardware security module
+  AQS: advanced query syntax
+  DSA: digital signature algorithm
+  NTLM: NT LAN Manager @auth
+  TGT: Ticket-Granting Ticket @auth
+  ACI: Application Centric Infrastructure
+  SUNRPC: Sun Remote Procedure Call
+  GSS: Generic Security Services @auth
+  SVG: scalable vector graphics
+  SBR: Skill-Based Routing
+  BLOB: Binary Large Object
+  ERB: Embedded Ruby @ruby
+  SBSA: Server Base System Architecture @arm
+  SBBR: Server Base Boot Requirements @arm
+  RSS: Really Simple Syndication or Rich Site Summary
+  PPC64LE: Red Hat Enterprise Linux for POWER, little endian
+  UEFI: Unified Extensible Firmware Interface @do_not_expand
+  UDS: Unix Domain Socket @httpd
+  DRM: Digital Rights Management
+  DCE: Distributed Computing Environment
+  UI: User Interface
+  PIE: Position Independent Executable @rpm
+  HMAC: Hash-based Message Authentication Code @auth
+  GPG: GNU Privacy Guard @auth
+  IFS: Internal Field Separator
+  PKCS: Public-key Cryptography Standard @do_not_expand @crypt
+  PPC: PowerPC platform
+  CCA: Common Cryptographic Architecture @crypt
+  STP: Spanning Tree Protocol @networking
+  ARP: Address Resolution Protocol @networking
+  CIDR: Classless Inter-domain Routing @networking
+  SMTP: Simple Mail Transfer Protocol
+  HOTP: HMAC-Based One-Time Password @auth
+  TOTP: Time-Based One-Time Password @auth
+  IPMI: Intelligent Platform Management Interface
+  OCF: Open Clustering Framework
+  MDD: Metrics-driven development
+  EDAC: Error Detection and Correction
+  HERM: Hardware Error Reporting Mechanism
+  GNOME: GNU Network Object Model Environment @do_not_expand
+  XIM: X Input Method
+  IBus: Intelligent Input Bus
+  IPP: Internet Printing Protocol
+  PPD: PostScript Printer Description
+  AIO: Asynchronous I/O @kernel
+  THP: Transparent Huge Pages @kernel
+  SJIS: Shift JIS
+  JIS: Japanese Industrial Standards
+  RDP: Remote Desktop Protocol
+  GIO: GNOME I/O
+  IPMI: Intelligent Platform Management Interface @kernel
+  JIT: Just In Time
+  ARM: Advanced RISC Machines @hardware
+  JLS: Java Language Specification @java
+  JNI: Java Native Interface @java
+  USB: Universal Serial Bus @do not expand
+  PHY: physical layer of the OSI model
+  UTP: Unshielded Twisted Pair @networking
+  TLD: Top-level Domain
+  SPICE: Simple Protocol for Independent Computing Environments 
+  RISC: Reduced instruction set computing @cpu
+  CISC: Complex instruction set computing @cpu
+  FBA: Fixed Block Architecture @hardware http://en.wikipedia.org/wiki/Fixed-block_architecture
+  IdM: Identity Management @auth @RH
+redhat:
+  RHCCE: Red Hat Customer Convergence Event @RH
+  RHSM: Red Hat Subscription Management @RH
+  RHEL-OSP: Red Hat Enterprise Linux OpenStack Platform @always_expand @RH
+  RHOS: Red Hat OpenStack (upstream - RDO) @always_expand @RH
+  RHSS: Red Hat Storage Server @always_expand @RH
+  DTS: Red Hat Developer Toolset @always_expand @RH
+  RHEV-H: Red Hat Enterprise Virtualization Hypervisor @always_expand @RH
+  RHEV-M: Red Hat Enterprise Virtualization Manager @always_expand @RH
+  RHSC: Red Hat Storage Console @RH
+  RHSCL: Red Hat Software Collections @always_expand @RH
+  WARHW: We are Red Hat Week @RH
+  RHDTS: Red Hat Developer Toolset @RH
+  RHEA: Red Hat Enhancement Advisory @RH
+  RHLMS: Red Hat Learning Management System @RH
+  RHNQA: Red Hat Network Quality Assurance @RH
+  RHSA: Red Hat Security Advisory @RH
+  SABA: Saba is a Learning Management System (LMS) used by Red Hat University and
+    Global Learning Services @RH
+  RHBA: Red Hat Bug Advisory @RH
+  RHANANA: Red Hat Assigned Names And Numbers Authority @RH
+  RHAL: Red Hat Access Labs @RH
+  VOS: Value of Subscription @RH
+  RHAC: Red Hat Atomic Controller (not official) @RH
+  RHCP: Red Hat Customer Portal @RH
+  RHW: Red Hat Week @RH
+  NHO: New Hire Orientation @RH
+  LnL: Lunch and Learn @RH
+  SLP: Subscription Life Cycle Plan @RH
+  SPM: Support Product Management @RH
+  PM: Product Management @RH
+  GBD: Global Business Development @RH
+  GCM: Global Change Management @RH
+  NDA: Non-Disclosure Agreement. A legal contract between Red Hat and a customer or
+    partner @RH
+  RHEM: Red Hat Enterprise Management @RH
+  RHTS: Red Hat Test Suite @RH
+  APP: Associate Productivity Program @RH
+  ACS: Advanced Communication Services @RH
+  ESM: Enterprise Service Monitoring
+  PST: Product Security Team @RH
+  SOC: Systems Operations Center @RH
+  RHCT: Red Hat Certified Technician @RH
+  RHCA: Red Hat Certified Architect @RH
+  RHCSS: Red Hat Certified Security Specialist @RH
+  RHCX: Red Hat Certified Examiner @RH
+  EUS: Extended Update Support @RH
+  MPO: Man page overrides @RH
+  M-P-O: see MPO @RH
+  RHL: Red Hat Linux (renamed to RHEL) @RH @do_not_use
+  RHEL-RS: Red Hat Enterprise Linux Resilient Storage @RH @always_expand
+  RHLP: Red Hat Linux Project (renamed to RHL and then RHEL) @RH @do_not_use
+  RHOSP: Red Hat OpenStack Platform @RH @always_expand
+  RCUE: Red Hat Common User Experience @RH
+  LP: Layered Product @RH
+  LPC: Layered Product Common @RH
+  RSU: Restricted Stock Unit @RH
+  CLT: Corporate Leadership Team @RH
+  OSAS: Open Source and Standards @RH
+  ALDP: Accelerated Leadership Development Program @RH
+  CRB: Change Review Board @RH
+  CEE: Customer Experience and Engagement @RH
+  HSS: Hosted and Shared Service @RH
+  CSB: Corporate Standard Build @RH
+  EPEL: Extra Packages for Enterprise Linux @RH
+  NVR: Name, Version, Release @RH
+  RHCS: Red Hat Cluster Services @RH
+  EIP: Enterprise Infrastructure Planning @RH
+  PRD: Product Requirements Document @RH
+  MRD: Market Requirements Document @RH
+  RHEL: Red Hat Enterprise Linux @RH @always_expand
+  RHEV: Red Hat Enterprise Virtualization (upstream - oVirt) @RH @always_expand
+  BU: Business Unit @RH
+  COB: Close Of Business (end-of-day deadline) @RH
+  RHU: Red Hat University @RH
+  RHCSA: Red Hat Certified System Administrator @RH
+  RHCE: Red Hat Certified Engineer @RH
+  MRG: Messaging Real-time Grid @RH
+  ABRT: Automatic Bug Reporting Tool @RH
+  GA: Global Availability @RH
+  PP: Product Pages @RH
+  CPE: Common Platform Enumeration @RH
+  RFE: Request For Enhancement @RH
+  ECS: Engineering Content Services (renamed to CCS) @RH @do_not_use
+  CCS: Customer Content Services (previously Engineering Content Services (ECS)) @RH
+  RC: Release Candidate @RH
+  EBS: E-Business Suite, also known as Compass @oracle @RH
+  SRT: Security Response Team @RH
+  ASYNC: Asynchronous
+  AS: Application Server @RH
+  BLiP: Business Logic integration Platform  @RH
+  BPMS: Business Process Management Suite @RH
+  BRMS: Business Rules Management System @RH
+  BxMS: BPMS and/or BRMS @RH
+  BZ: Bugzilla
+  C&U: Capacity and Utilization @RH
+  CCP: Certified Cloud Provider, deprecated, see CCSP @RH @do_not_use
+  CCSP: Certified Cloud and Service Provider, previously CCP @RH
+  CDN: Content Delivery Network @RH
+  CP: Cumulative Patch @RH
+  DMR: Dynamic Model Representation @RH
+  DRL: Drools Rule Language @RH
+  DTGov: Design Time Governance @jboss @RH
+  DV: Data Virtualization @RH
+  EAP: Enterprise Application Platform @RH
+  EDS: Enterprise Data Services replaced by Red Hat JBoss Data Virtualization 6 @RH
+  ELS: Extended Life Cycle Support @RH
+  EVM: Enterprise Virtualization Manager @RH
+  EWS: Enterprise Web Server @RH
+  FDE: Forward Deployed Engineer @RH
+  FSW: Fuse Service Works Red Hat JBoss Fuse Service Works @RH
+  GLC: Global Learning Council @RH
+  GLS: Global Learning Services (renamed to Red Hat Training) @do_not_use @RH
+  GPS: Global Professional Services @RH
+  GSS: Global Support Services @RH
+  GSSO: Global Solutions and Strategy Office, replaced by Services Solution Management
+    in FY15 @RH
+  GWS: Global Workplace Solutions @RH
+  JBDS: JBoss Developer Studio @RH
+  JBoss: (Enterprise) JavaBeans Open Source Software @RH
+  jBPM: Java Business Process Management @RH
+  JDF: JBoss Developer Framework @RH
+  JDG: JBoss Data Grid @RH
+  JDR: JBoss Diagnostic Reporter @RH
+  JON: JBoss Operations Network @RH
+  jPDL: jBPM Process Definition Language @RH
+  JUDCon: JBoss Users and Developers Conference @RH
+  jUDDI: Java Universal Description Discovery and Integration @RH
+  MIQ: ManageIQ Press Release@RH
+  MRG-M: Messaging / Realtime / Grid - Messaging @RH
+  MSC: Modular Service Container @RH
+  OPEN: Online Partner Enablement Network @RH
+  OSE: OpenShift Enterprise OpenShift Enterprise by Red Hat | OpenShift by Red Hat
+    @RH @always_expand
+  PHREAK: Prototype Hybrid Reasoning Engine for Advanced Knowledge Blog @RH
+  PMO: Project Management Office Services PMO is responsible for defining and managing
+    Services PMO methodology. @RH
+  PQRM: Project Quality and Risk Management This Services department is responsible
+    for Services PMO, knowledge management, project quality and risk management. @RH
+  RDO: Red Hat's distribution of OpenStack @RH @do_not_expand
+  RHC: Red Hat Consulting @RH
+  RHCC: Red Hat Consulting Collaboration A program that leverages peoples' bench time
+    to address Services business gaps. @RH
+  RHDS: Red Hat Directory Server @RH @always_expand
+  RHEBS: Red Hat E-Business Suite @RH
+  RHEVM: Red Hat Enterprise Virtualization Manager @RH @always_expand
+  RHJP: Red Hat JBoss Portal @RH
+  RHN: Red Hat Network @RH @always_expand
+  RHNS: Red Hat Network Satellite @RH
+  RHS: Red Hat Storage (upstream - Gluster) @RH @always_expand
+  RHT: Red Hat Technology, Red Hat Tower, Red Hat Training @RH
+  RHUI: Red Hat Update Infrastructure @RH @always_expand
+  ROLE: Ret Hat Online Learning Environment @RH
+  RSM: Regional Services Manager @RH
+  RTGov: Run Time Governance (was BAM) - JBoss Community@RH
+  SA: Solutions Architect @RH
+  SAQ: Solutions Architect Questions @RH
+  SAR: Service Archive @RH
+  SDM: Services Delivery Manager @RH
+  SEAP: Subscription Education and Awareness Program @RH
+  ET: Errata Tool @RH
+  SKC: Services Knowledge Center @RH
+  SOA-P: Service Oriented Architecture Platform SOA-P 5 replaced by FSW 6i @RH
+  SRM: Support Relationship Manager @RH
+  SSM: Services Solution Management @RH
+  SY: SwitchYard @RH
+  TAM: Technical Account Manager @RH
+  TP: Technical Preview @RH
+  TSM: Territory Services Manager @RH
+  UF: UberFire @RH
+  VDB: Virtual Database @RH
+  VMDB: Virtual Management Database @RH
+  WFK: Web Framework Kit @RH
+openshift:
+  RHC: OpenShift client tools @do_not_use
+gss:
+  GPO: GSS Program Office @gss @RH
+  SD: Support Delivery @gss @RH
+  SEG: Support Engineering Group @gss @RH
+  SQI: Solution Quality Index @gss  @RH
+  FTS: follow the sun (24x7 support) @gss @RH
+  MoD: Manager on Duty @gss @RH
+  AUS: Advanced Mission Critical Update Support @gss @RH
+  SBR: Specialty-based Routing @gss @RH
+  ICE: Internal Customer Escalation @RH @gss
+  CCE: Consulting Customer Escalation @gss @RH
+  GIS: GSS Infrastructure Service @gss @RH
+  GS4: Global Support Services Secure Support @gss @RH
+hss:
+  BA: Business Analyst
+  BCP: Business Continuity Planning (or Plan) @hss @RH
+  DR: Disaster Recovery
+  FLS: Front-line Support @hss @RH
+  HTD: Teams and Development @hss @RH
+  IED: Infrastructure Engineering and Development @hss @RH
+  PA: Project Administration @hss @RH
+  RAP: Reports and Publication @hss @RH
+  SED: Software Engineering and Development @hss @RH
+  HERKUS: Tool for documentation scoping @RH @docs
+  RHCI: Red Hat Cloud Infrastructure @cloud @RH @always_expand
+  RHCS: Red Hat Certificate System @cloud @always_expand @RH
+  ELP: Extended Life Cycle Phase @RH
+  CFME: CloudForms Management Engine @cloud @RH
+  ENVRA: Epoch, Name, Version, Release, Architecture @RH
+  ICC: Internal Communications Committee @RH
+  TN: Technical Notes @RH
+  RN: Release Notes @RH
+  RHELSA: Red Hat Enterprise Linux Server for ARM @RH @always_expand
+  SSM: System Set Manager @cloud @Satellite @RH
+  DLPAR: Dynamic Logical Partitioning
+  DCB: Data Center Bridging @networking
+  cTAM: Customer Technical Account Manager @RH
+  pTAM: Partner Technical Account Manager @RH
+  WWAN: Wireless Wide Area Network @networking
+  ECDSA: Elliptic Curve Digital Signature Algorithm @crypt
+  CI: Continuous Integration
+  US: User Story
+  PR: Pull Request
+  FAT: File Allocation Table
+  JCF: Java Collections Framework @java
+  JWS: JBoss Web Server @jboss
+  IOT: Internet of Things @networking
+  IKE: Internet Key Exchange @networking
+  VN2VN: Virtual Node to Virtual Node @networking
+  HAL: Hardware Abstraction Layer
+  LACP: Link Aggregation Control Protocol @networking
+  VXLAN: Virtual Extensible LAN @networking
+  XFS: eXtended File System @do_not_expand
+  iSCSI: Internet Small Computer System Interface @networking
+  RCU: Read-copy-update
+  TFTP: Trivial File Transfer Protocol @networking
+  CVRF: Common Vulnerability Reporting Framework
+  DS: Directory Server
+  POR: Plan of Record @RH
+  EAP: Extensible Authentication Protocol @auth
+  NTFS: New Technology File System
+  RCIP: Red Hat Cloud Innovation Practice @RH
+  Xvfb: X Virtual Frame Buffer
+  QMP: QEMU Machine Protocol
+  cpp: C Preprocessor
+  SPC: Super-Privileged Container @containers
+  CDK: Container Development Kit @containers
+  ZFS: ZFS file system
+  toil: time off in lieu @do_not_use
+  PPP: Point-to-Point Protocol @networking
+  QSR: Quality of Service Satisfaction Rate @networking
+  DKIM: DomainKeys Identified Mail @networking
+  DMARC: Domain-based Message Authentication, Reporting & Conformance @networking
+  MFC: Microsoft Foundation Classes @unchecked
+  PPPD: Point-to-Point Protocol daemon @networking
+  SRTP: Secure Real-time Transport Protocol @networking
+  F2F: face to face @do_not_use
+  PIN: Personal Identification Number
+  IPv4: Internet Protocol Version 4 @do_not_expand @networking
+  PLT: Procedure Linkage Table
+  DST: Daylight saving time
+  DMI: Desktop Management Interface
+  TKS: Token Key Service @auth
+  TPS: Token Processing System @auth
+  DRM: Data Recovery Manager @auth
+  RA: Registration Authority @auth
+  SOA: Start of Authority @auth
+  Tcl: Tool Command Language
+  TTL: time to live @networking @do_not_expand
+  XUL: XML User Interface Language
+  PCRE: Perl Compatible Regular Expressions
+  JSTL: JavaServer Pages Standard Tag Library @java
+  bpp: bits per pixel
+  JBIG: Joint Bi-level Image Experts Group
+  OKR: Objective and Key Result @RH
+  MD: Multiple Devices @kernel
+  OCR: Optical Character Recognition
+  ACE: Access Control Entry @auth
+  SNI: Server Name Indication @networking
+  OSP: OpenStack Platform @unchecked
+  PTR: Pointer Record @auth
+  HWE: Hardware Enablement @kernel
+  DPM: Documentation Program Manager @RH
+  ECC: Error-correcting Code
+  PDC: Primary Domain Controller @samba
+  BDC: Backup Domain Controller @samba
+  MAC: Mandatory Access Control @selinux
+  KVNO: Key Version Number @auth
+  ILT: Initiative Leadership Team @RH
+freshest:
+  CIB: Cluster Information Base @cluster
+  WebDAV: Web Distributed Authoring and Versioning @networking
+  ATA: Advanced Technology Attachment @hardware
+  HAHA: Highly Acclaimed High Availability @unchecked
+  SDR: Sensor Data Record
+  AHAH: Asynchronous HTML and HTTP @networking
+  CUPS: Common Unix Printing System @do_not_expand
+  HTM: Hardware Transactional Memory @unchecked
+  CSV: Comma-separated Values
+  RDT: requires_doc_text @RH
+  ACL: Access Control Lists @cluster
+  REPL: Read–eval–print loop
+  vsftpd: Very Secure FTP Daemon
+  CDL: Commmon Disk Layout
+  LDL: Linux Disk Layout
+  CBC: Cipher Block Chaining @security 
+  DISA: Defense Information Systems Agency @security @unchecked
+  RSS: Resident Set Size @hardware
+  RO: Read Only
+  WO: Write Only
+  RRP: Redundant Ring Protocol
+  GDU: gnome-disk-utility
+  PEAP: Partner Early Access Program @RH
+  CSS: Cascading Style Sheets
+  DSE: DSA Service Entry
+  DSA: Directory Server Agent
+  MLD: Multicast Listener Discovery @networking
+  LMS: Learning Management System @RH
+  RFP: Request For Proposal @RH
+  SRPM: Source RPM
+  UDPU: UDP Unicast @networking
+  RHAI: Red Hat Access Insights @Satellite
+  SR-IOV: Single Root I/O Virtualization @virt
+  PNG: Portable Network Graphics
+  GIF: Graphics Interchange Format
+  DSSSL: Document Style Semantics and Specification Language @unchecked
+  RTF: Rich Text Format
+  STIG: Security Technical Implementation Guide @security
+  FPU: floating-point unit
+  APSD: Automatic Power Save Delivery @wireless
+  VIP: Virtual IP @networking
+  CFP: Call For Papers
+  CIO: Chief Information Officer
+  DCCP: Datagram Congestion Control Protocol @networking
+  euid: effective user ID
+  fsuid: file system user ID
+  NSS: Name Service Switch @networking
+  DLV: DNSSEC Look-aside Validation @networking
+  ISC: Internet Systems Consortium
+  FS: File System
+  GCM: Galois/Counter Mode @crypt
+  DTLS: Datagram Transport Layer Security @networking
+  VG: Volume Group
+  PV: Physical Volume
+  IPL: Initial Program Load
+  GSCX: Get Started Customer Experience @RH
+  DRBG: Deterministic Random Bit Generator @crypt
+  JFIF: JPEG File Interchange Format
+  IPoIB: IP over InfiniBand @networking
+  CKL: Compromised Key List @security
+  JPDA: Java Platform Debugger Architecture @java
+  JDI: Java Debug Interface @java 
+  JVMDI: Java Virtual Machine Debug Interface @java
+  TripleO: OpenStack on OpenStack @cloud
+  JVMPI: Java Virtual Machine Profiler Interface @java
+  PAV: Parallel Access Volumes
+  FTBFS: Fails To Build From Source
+  CPAN: Comprehensive Perl Archive Network
+  LZW: Lempel–Ziv–Welch 
+  LZMA: Lempel–Ziv–Markov chain algorithm
+  OOO: Out Of Office
+  PTO: Paid Time Off
+  NRPE: Nagios Remote Plugin Executor
+  RHGS: Red Hat Gluster Storage @RH
+  AVX2: Advanced Vector Extensions 2
+  AVX: Advanced Vector Extensions
+  LZCNT: Leading Zeros Count
+  DMCA: Digital Millennium Copyright Act
+  XBZRLE: Xor Based Zero Run Length Encoding
+  NOP: No Operation

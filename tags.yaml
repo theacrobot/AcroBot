@@ -1,0 +1,40 @@
+tags:
+  always_expand: do not use the abbreviated form in product docs @tags
+  do_not_expand: always use the abbreviated form in product docs @tags
+  do_not_use: do not use the acronym in product docs @tags
+  always_cap: always capitalize @tags
+  unchecked: acronym is in the moderation queue @tags
+  RH: internal acronym specific to Red Hat @tags
+  auth: related to authentication @tags
+  cloud: related to cloud @tags
+  crypt: related to cryptography @tags
+  docs: related to documentation @tags
+  fips: related to FIPS mode @tags
+  gss: related to Global Support Services @tags
+  hss: related to Hosted&Shared Services (RH) @hss
+  java: related to Java @tags
+  jboss: related to JBoss @tags
+  kernel: related to Linux kernel @tags
+  libreoffice: related to Libre Office suite @tags
+  mmgmt: related to memory management @tags
+  mrg: related to RH Enterprise MRG @tags
+  networking: related to networking @tags
+  openshift: related to OpenShift @tags
+  oracle: related to the Oracle business suite @tags
+  pcie: related to PCI Express @tags
+  pciutils: related to PCI Utils @tags
+  sfdc: related to Salesforce @tags
+  selinux: related to Security-Enhanced Linux @tags
+  standards: related to various industry standards @tags
+  virt: related to virtualization @tags
+  wifi: related to Wi-Fi @tags
+  win: related to Microsoft Windows @tags
+  xen: related to Xen virtualization platform @tags
+  maven: related to Apache Maven @tags
+  Satellite: related to Red Hat Satellite @tags
+  ruby: related to Ruby programming language @tags
+  arm: related to ARM instruction set architecture @tags
+  containers: related to Linux containers, Docker, Atomic @tags
+  security: 
+  cpu:
+  hardware:

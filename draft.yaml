@@ -1,0 +1,21 @@
+---
+new:
+  GVFS: GNOME desktop file system @unchecked
+  QXL: QuarkXpress Element Library @unchecked
+  GPG: GNU Privacy Guard @unchecked
+  TAI: International Atomic Time (from the French name Temps atomique international)
+    @unchecked
+  MaaS: Metal-as-a-Service @unchecked
+  x86_64: AMD64 and Intel 64 systems @unchecked
+  ppc64: 64-bit IBM Power Systems servers @unchecked
+  s390x: IBM System z @unchecked
+  LMB: Logical Memory Block @unchecked
+  TCM: Target Core Mod @kernel @unchecked
+  LIO: Linux-IO @kernel @unchecked
+  i686: Intel P6 @unchecked
+  POODLE: Padding Oracle On Downgraded Legacy Encryption @unchecked
+  DDR4: double data rate fourth generation synchronous dynamic random-access memory
+    @hardware @unchecked
+  IDL: ID List @389 Directory Server @unchecked
+  DHT: distributed hash table @unchecked
+  RPZ: Response Policy Zone @unchecked
