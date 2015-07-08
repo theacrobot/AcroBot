@@ -2,7 +2,7 @@ AcroBot
 =======
 AcroBot is an IRC bot that expands a provided acronym or abbreviation, if available. It supports context tags (@tag_name) to distinguish between various usages, and to differentiate between like acronyms.
 
-This is the upstream source of the original bot, conceived and written by someone@redhat.com whom I shall look up later, and upon which all future variations have been based.
+This is the upstream source of the original bot, conceived and written by mfojtik@redhat.com and upon which all variations have been based.
 
 Configuration
 =============
