@@ -1,6 +1,6 @@
-nick: 'Dacronym'
+nick: 'acrobot'
 realname: IRC Acronym and Abbreviation Expander Bot. !help for help
-user: Dacronym
+user: acrobot
 server: irc.freenode.net
 channels: ['#Dacronym','#katello','#openshift','#satellite6','#zanata']
 prefix: /^!/
