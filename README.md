@@ -23,7 +23,7 @@ Abbreviations File
 
 AcroBot uses several flat YAML files to store the abbreviations it has learned about.
 These files live in `#{install_dir}/`.
-Abbreviations are initially saved to `draft.yaml` with an `@unchecked` tag. They are later reviewed and either verified, updated, or discarded.
+Abbreviations are initially saved to `draft.yaml`. They are later reviewed and either verified, updated, or discarded.
 
 AcroBot must have **RW** access to `draft.yaml` and **R** access to all other dictionary files when running.
 
