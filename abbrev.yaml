@@ -1460,6 +1460,44 @@ new:
   ISA: Instruction Set Architecture @cpu
   GPRS: General Packet Radio Service @communications https://en.wikipedia.org/wiki/General_Packet_Radio_Service
   GTM: Go-To-Market @marketing
+  PyPI: Python Package Index @python https://pypi.python.org/pypi
+  PIP: Pip Install Package @python https://en.wikipedia.org/wiki/Pip_(package_manager)
+  PPA: Personal Package Archive @Ubuntu https://en.wikipedia.org/wiki/Personal_Package_Archive
+  VR: virtual reality
+  AR: augmented reality
+  MAR: mobile augmented reality
+  ARML: augmented reality markup language
+  ARAF: augmented reality application format
+  ARLEM: Augmented Reality Learning Experiences Model
+  LAMP: Linux, Apache, MySQL, PHP/Python/Perl
+  IB: InfiniBand @networking @standards See https://en.wikipedia.org/wiki/InfiniBand
+  OSD: Object Storage Device @Ceph
+  LTS: Long Term Stable @product-releases
+  TED: Technology, Entertainment, Design @community
+  OTP: Open Translation Project @community @translation
+  TTM: Time to Market
+  RADOSGW: Reliable Autonomic Distributed Object Store Gateway @ceph
+  MEP: Message Exchange Pattern
+  IoC: Inversion of Control @programming
+  TCK: Technology Compatibility Kit @java
+  JCP: Java Community Process @java
+  JASPIC: Java Authentication Service Provider Interface for Containers @java @auth
+    @containers
+  ORM: Object Relational Mapping
+  MDB: Message Driven Beans @java
+  DRS: Distributed Resource Scheduler @VMware
+  GKE: Google Container Engine @containers
+  TTY: teletype @do_not_expand (Any type of text terminal) See https://en.wikipedia.org/wiki/TTY
+  BDI: Backing Device Interface @kernel
+  MTBF: Mean Time Between Failures
+  NVRAM: Non-Volatile Random Access Memory
+  OMAP: Object Map @ceph
+  JOTM: Java Open Transaction Manager @java
+  2PC: Two-phase commit
+  OCP: OpenShift Container Platform @openshift
+  PHP: 'PHP: Hypertext Preprocessor @do_not_expand'
+  GbE: Gigabit Ethernet @networking
+  AKI: Authority Key Identifier @auth
 slang:
   MTG: Meeting @do_not_use
   AFAIK: As Far As I Know @do_not_use
