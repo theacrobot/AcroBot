@@ -263,7 +263,6 @@ verified:
   kABI: kernel Application Binary Interface
   knfsd: kernel NFS daemon
   lra: local register allocator
-  mac: Media Access Control
   mtime: modify time
   ovs: Open vSwitch
   pNFS: parallel NFS
@@ -334,7 +333,6 @@ selinux:
   MIB: Management Information Base @selinux @SNMP
   TE: Type Enforcement @selinux
 kernel:
-  LKML: Linux Kernel Mailing List @kernel
   82598HW: Intel 82598 10 Gigabit Ethernet Controller @kernel
   AER: Advanced Error Reporting @kernel
   AG: Allocation Group @kernel
@@ -446,8 +444,8 @@ java:
   J2EE: Java 2 Enterprise Edition @java
   JAAS: Java Authentication and Authorization Service @java
   JAR: Java ARchive @java
-  JAX-RS: Java API for RESTful Web ServicesWeb Services @java
-  JAX-WS: Java API for XML-based Web ServicesWeb Services @java
+  JAX-RS: Java API for RESTful Web Services @java
+  JAX-WS: Java API for XML-based Web Services @java
   JAXB: Java Architecture for XML Binding @java
   JBI: Java Business Integration @java
   JCA: J2EE Connector Architecture @java
@@ -990,9 +988,7 @@ redhat:
   OSAS: Open Source and Standards @RH
   ALDP: Accelerated Leadership Development Program @RH
   CRB: Change Review Board @RH
-  CEE: Customer Experience and Engagement @RH
   HSS: Hosted and Shared Service @RH
-  CSB: Corporate Standard Build @RH
   EPEL: Extra Packages for Enterprise Linux @RH
   NVR: Name, Version, Release @RH
   RHCS: Red Hat Cluster Services @RH
@@ -1009,13 +1005,10 @@ redhat:
   MRG: Messaging Real-time Grid @RH
   ABRT: Automatic Bug Reporting Tool @RH
   GA: Global Availability @RH
-  PP: Product Pages @RH
   CPE: Common Platform Enumeration @RH
   RFE: Request For Enhancement @RH
-  ECS: Engineering Content Services (renamed to CCS) @RH @do_not_use
   CCS: Customer Content Services (previously Engineering Content Services (ECS)) @RH
   RC: Release Candidate @RH
-  EBS: E-Business Suite, also known as Compass @oracle @RH
   SRT: Security Response Team @RH
   ASYNC: Asynchronous
   AS: Application Server @RH
@@ -1038,7 +1031,7 @@ redhat:
   ELS: Extended Life Cycle Support @RH
   EVM: Enterprise Virtualization Manager @RH
   FDE: Forward Deployed Engineer @RH
-  FSW: Fuse Service Works Red Hat JBoss Fuse Service Works @RH
+  FSW: Fuse Service Works (Red Hat JBoss Fuse Service Works) @RH
   GLC: Global Learning Council @RH
   GLS: Global Learning Services (renamed to Red Hat Training) @do_not_use @RH
   GPS: Global Professional Services @RH
@@ -1047,7 +1040,7 @@ redhat:
     in FY15 @RH
   GWS: Global Workplace Solutions @RH
   JBDS: JBoss Developer Studio @RH
-  JBoss: "(Enterprise) JavaBeans Open Source Software @RH"
+  JBoss: (Enterprise) JavaBeans Open Source Software @RH
   jBPM: Java Business Process Management @RH
   JDF: JBoss Developer Framework @RH
   JDG: JBoss Data Grid @RH
@@ -1062,14 +1055,11 @@ redhat:
   OPEN: Online Partner Enablement Network @RH
   OSE: OpenShift Enterprise
   PHREAK: Prototype Hybrid Reasoning Engine for Advanced Knowledge Blog @RH
-  PMO: Project Management Office Services PMO is responsible for defining and managing
-    Services PMO methodology. @RH
-  PQRM: Project Quality and Risk Management This Services department is responsible
-    for Services PMO, knowledge management, project quality and risk management. @RH
+  PMO: Project Management Office
+  PQRM: Project Quality and Risk Management
   RDO: Red Hat's distribution of OpenStack @RH @do_not_expand
   RHC: Red Hat Consulting @RH
-  RHCC: Red Hat Consulting Collaboration A program that leverages peoples' bench time
-    to address Services business gaps. @RH
+  RHCC: Red Hat Consulting Collaboration
   RHDS: Red Hat Directory Server @RH @always_expand
   RHEBS: Red Hat E-Business Suite @RH
   RHEVM: Red Hat Enterprise Virtualization Manager @RH @always_expand
@@ -1125,7 +1115,6 @@ hss:
   PA: Project Administration @hss @RH
   RAP: Reports and Publication @hss @RH
   SED: Software Engineering and Development @hss @RH
-  HERKUS: Tool for documentation scoping @RH @docs
   RHCI: Red Hat Cloud Infrastructure @cloud @RH @always_expand
   RHCS: Red Hat Certificate System @cloud @always_expand @RH
   ELP: Extended Life Cycle Phase @RH
@@ -1153,7 +1142,7 @@ hss:
   HAL: Hardware Abstraction Layer
   LACP: Link Aggregation Control Protocol @networking
   VXLAN: Virtual Extensible LAN @networking
-  XFS: eXtended File System @do_not_expand
+  XFS: Extended File System @do_not_expand
   RCU: Read-copy-update
   TFTP: Trivial File Transfer Protocol @networking
   CVRF: Common Vulnerability Reporting Framework
@@ -1165,7 +1154,7 @@ hss:
   Xvfb: X Virtual Frame Buffer
   QMP: QEMU Machine Protocol
   cpp: C Preprocessor
-  SPC: Super-Privileged Container @containers
+  SPC: Super-privileged Container @containers
   CDK: Container Development Kit @containers
   ZFS: ZFS file system
   toil: time off in lieu @do_not_use
@@ -1498,6 +1487,13 @@ new:
   PHP: 'PHP: Hypertext Preprocessor @do_not_expand'
   GbE: Gigabit Ethernet @networking
   AKI: Authority Key Identifier @auth
+  MBO: Management By Objectives @mgmt
+  TWB: Translators Without Borders @translation
+  SCORM: Shareable Content Object Reference Model @standards
+  RSPAN: Remote Switched Port Analyzer
+  STT: Stateless Transport Tunneling @networking
+  DLQ: Dead Letter Queue @messaging
+  VMS: Virtual Memory System
 slang:
   MTG: Meeting @do_not_use
   AFAIK: As Far As I Know @do_not_use
