@@ -1570,7 +1570,7 @@ tags:
   errata: related to errata @tags
   fips: related to FIPS mode @tags
   gss: related to Global Support Services @tags
-  hss: related to Hosted&Shared Services (RH) @hss
+  hss: related to Hosted&Shared Services (RH) @tags
   java: related to Java @tags
   jboss: related to JBoss @tags
   kernel: related to Linux kernel @tags
@@ -1598,7 +1598,7 @@ tags:
   ceph: related to the ceph storage platform @tags
   gnome: related to the gnome desktop environment @tags
   openmpi: related to the openmpi project @tags
-  security: 
-  cpu: 
-  hardware: 
-  translation: 
+  security: related to security @tags
+  cpu: specifically related to CPUs @tags
+  hardware: related to hardware @tags
+  translation: related to translation @tags
