@@ -132,7 +132,6 @@ verified:
   MD5: Message Digest algorithm @do_not_expand
   MDA: Model Driven Architecture
   MGID: Multicast Global Identifier
-  MW: Merriam and Webster
   NCP: National Checklist Program
   NDR: Network Data Representation @samba
   NFS: Network File System @do_not_expand
@@ -150,7 +149,7 @@ verified:
   OCSP: Online Certificate Status Protocol @auth
   ODBC: Open Database Connectivity
   OFL: Ots File List
-  OID: object identifier
+  OID: Object Identifier
   OSC: Operating System Capabilities @ACPI
   OSPP: Operating System Protection Profile
   OVAL: Open Vulnerability and Assessment Language
@@ -160,10 +159,10 @@ verified:
   PAM: Pluggable Authentication Module @auth
   PAPI: Performance Application Programming Interface
   PAPR: Power Architecture Platform Requirements
-  PC: personal computer @do_not_expand
+  PC: Personal computer @do_not_expand
   PCM: Pulse Code Modulation
   PCP: Performance Co-Pilot
-  PDA: personal digital assistant
+  PDA: Personal digital assistant
   PIB: Partner Inspection Build
   PID: Process Identifier @do_not_expand
   PITR: Point-In-Time Recovery
@@ -218,19 +217,19 @@ verified:
   SSL: Secure Sockets Layer
   SUT: System Under Test
   SVVP: Server Virtualization Validation Program @win
-  TCP: Transmission Control Protocol
+  TCP: Transmission Control Protocol @networking @do_not_expand
   TCPMUX: TCP Port Service Multiplexer
   TLV: Type-Length-Value
   TMSAD: Trust Model for Security Automation Data
   TPH: Transaction Processing Hints @pciutils
   TUI: Text Paste/Terminal User Interface
-  UDP: User Datagram Protocol
+  UDP: User Datagram Protocol @networking @do_not_expand
   UE: Unbalanced Error
   UID: User Identifier @do_not_expand
   URB: USB Request Block
   URI: Uniform Resource Identifier @do_not_expand
   URL: Uniform Resource Locator @do_not_expand
-  URN: Uniform Resource Number
+  URN: Uniform Resource Name @no-expand
   USGCB: United States Government Configuration Baseline
   UTC: Coordinated Universal Time
   UUID: Universally Unique Identifier
@@ -241,9 +240,10 @@ verified:
   VIM: Vi Improved
   VM: Virtual machine
   VNC: Virtual Network Computing
+  VNC: Virtual Network Connection @networking
   VRRP: Virtual Router Redundancy Protocol
   WBEM: Web-based Enterprise Management
-  WCA: web clipping application
+  WCA: Web clipping application
   WFN: Well-formed Name
   WSGI: Web Server Gateway Interface
   WWID: World Wide Identifier
@@ -251,23 +251,23 @@ verified:
   XCCDF: Extensible Configuration Checklist Document Format
   XDMCP: X Display Manager Control Protocol
   XDR: Cross-domain Request
-  atime: access time
-  auid: audit ID
+  atime: Access time
+  auid: Audit ID
   bash: Bourne-Again Shell @do_not_expand
-  cgroups: control groups
-  ctime: change time
-  cwnd: congestion window
-  fisma: Federal Information Security Management Act
+  cgroups: Control groups
+  ctime: Change time
+  cwnd: Ccongestion window
+  FISMA: Federal Information Security Management Act
   iBFT: iSCSI Boot Firmware Table
   ipr: IBM Power RAID
   kABI: kernel Application Binary Interface
   knfsd: kernel NFS daemon
-  lra: local register allocator
-  mtime: modify time
+  lra: Local register allocator
+  mtime: Modify time
   ovs: Open vSwitch
   pNFS: parallel NFS
   pci-dss: Payment Card Industry -- Data Security Standard
-  rsbac: Rule Set Based Access Control
+  RSBAC: Rule-set Based Access Control
   usbfs: USB file system
   xRandR: X Resize and Rotate Extension
 cryptography:
@@ -286,15 +286,15 @@ virt:
   QEMU: Quick Emulator @virt
   SR-IOV: Single Root I/O Virtualization @virt
 networking:
-  FQDN: fully qualified domain name @networking
+  FQDN: Fully qualified domain name @networking
   NIC: Network Interface Controller/Card @networking
   SAN: Storage Area Network @networking
   IGMP: Internet Group Management Protocol @networking
   CEE: Converged Enhanced Ethernet @networking
   MTA: Multimedia Terminal Adapter @networking
-  ASIC: application-specific integrated circuit @networking
+  ASIC: Application-specific integrated circuit @networking
   CGI: Common Gateway Interface @networking
-  DHCP: dynamic host configuration protocol @networking
+  DHCP: Dynamic host configuration protocol @networking @no-expand
   DNS: Domain Name System @networking @do_not_expand
   MIME: Multipurpose Internet Mail Extension @networking
   NCP: Network Control Protocol @networking
@@ -307,7 +307,7 @@ networking:
   GRE: Generic Routing Encapsulation @networking
   BPF: Berkeley Packet Filter @networking
   QoS: Quality of Service @networking
-  CNAME: Canonical Name @networking @always_cap
+  CNAME: Canonical Name @networking @always-cap
   PPPoE: Point-to-point Protocol over Ethernet @networking
   VNIC: virtual network interface card @networking
   PADT: PPPoE Active Discovery Terminate @networking
@@ -471,8 +471,6 @@ mmgmt:
   ASCE: Address Space Control Element @mmgmt
   OOM: Out of Memory @mmgmt
 sfdc:
-  NA4: Salesforce for Sales @sfdc
-  NA7: Salesforce for Support @sfdc
   NEP: Negotiated Entitlement Processes @sfdc
   SFDC: Salesforce Dot Com (Salesforce.com) @sfdc
 eggs:
@@ -976,9 +974,9 @@ redhat:
   EUS: Extended Update Support @RH
   MPO: Man page overrides @RH
   M-P-O: see MPO @RH
-  RHL: Red Hat Linux (renamed to RHEL) @RH @do_not_use
+  RHL: Red Hat Linux (renamed to RHEL) @RH @do-not-use
   RHEL-RS: Red Hat Enterprise Linux Resilient Storage @RH @always_expand
-  RHLP: Red Hat Linux Project (renamed to RHL and then RHEL) @RH @do_not_use
+  RHLP: Red Hat Linux Project (renamed to RHL and then RHEL) @RH @do-not-use
   RHOSP: Red Hat OpenStack Platform @RH @always_expand
   RCUE: Red Hat Common User Experience @RH
   LP: Layered Product @RH
@@ -1007,7 +1005,6 @@ redhat:
   GA: Global Availability @RH
   CPE: Common Platform Enumeration @RH
   RFE: Request For Enhancement @RH
-  CCS: Customer Content Services (previously Engineering Content Services (ECS)) @RH
   RC: Release Candidate @RH
   SRT: Security Response Team @RH
   ASYNC: Asynchronous
@@ -1018,7 +1015,7 @@ redhat:
   BxMS: BPMS and/or BRMS @RH
   BZ: Bugzilla
   C&U: Capacity and Utilization @RH
-  CCP: Certified Cloud Provider, deprecated, see CCSP @RH @do_not_use
+  CCP: Certified Cloud Provider, deprecated, see CCSP @RH @do-not-use
   CCSP: Certified Cloud and Service Provider, previously CCP @RH
   CDN: Content Delivery Network @RH
   CP: Cumulative Patch @RH
@@ -1033,14 +1030,14 @@ redhat:
   FDE: Forward Deployed Engineer @RH
   FSW: Fuse Service Works (Red Hat JBoss Fuse Service Works) @RH
   GLC: Global Learning Council @RH
-  GLS: Global Learning Services (renamed to Red Hat Training) @do_not_use @RH
+  GLS: Global Learning Services (renamed to Red Hat Training) @do-not-use @RH
   GPS: Global Professional Services @RH
   GSS: Global Support Services @RH
   GSSO: Global Solutions and Strategy Office, replaced by Services Solution Management
     in FY15 @RH
   GWS: Global Workplace Solutions @RH
   JBDS: JBoss Developer Studio @RH
-  JBoss: (Enterprise) JavaBeans Open Source Software @RH
+  JBoss: "(Enterprise) JavaBeans Open Source Software @RH"
   jBPM: Java Business Process Management @RH
   JDF: JBoss Developer Framework @RH
   JDG: JBoss Data Grid @RH
@@ -1091,7 +1088,7 @@ redhat:
   VMDB: Virtual Management Database @RH
   WFK: Web Framework Kit @RH
 openshift:
-  RHC: OpenShift client tools @do_not_use
+  RHC: OpenShift client tools @do-not-use
 gss:
   GPO: GSS Program Office @gss @RH
   SD: Support Delivery @gss @RH
@@ -1157,7 +1154,7 @@ hss:
   SPC: Super-privileged Container @containers
   CDK: Container Development Kit @containers
   ZFS: ZFS file system
-  toil: time off in lieu @do_not_use
+  toil: time off in lieu @do-not-use
   PPP: Point-to-Point Protocol @networking
   QSR: Quality of Service Satisfaction Rate @networking
   DKIM: DomainKeys Identified Mail @networking
@@ -1165,7 +1162,7 @@ hss:
   MFC: Microsoft Foundation Classes
   PPPD: Point-to-Point Protocol daemon @networking
   SRTP: Secure Real-time Transport Protocol @networking
-  F2F: face to face @do_not_use
+  F2F: face to face @do-not-use
   PIN: Personal Identification Number
   IPv4: Internet Protocol Version 4 @do_not_expand @networking
   PLT: Procedure Linkage Table
@@ -1393,8 +1390,8 @@ freshest:
   RHCS: Red Hat Ceph Storage @ceph @always_expand
   IDP: Individual Development Plan @RH
 new:
-  x86_64: AMD64 and Intel 64 systems @do_not_use
-  ppc64: 64-bit IBM Power Systems servers @do_not_use
+  x86_64: AMD64 and Intel 64 systems @do-not-use
+  ppc64: 64-bit IBM Power Systems servers @do-not-use
   s390x: IBM System z @unchecked
   i686: Intel P6 @unchecked
   IDL: ID List @389 Directory Server @unchecked
@@ -1417,7 +1414,7 @@ new:
   FUSE: File System in User Space
   NACK: Negative Acknowledge, no
   ESP: EFI system partition @grub2
-  AKA: Also Known As @do_not_use
+  AKA: Also Known As @do-not-use
   KCU: Kubernetes Compute Unit @containers https://en.wikipedia.org/wiki/Kubernetes
   S2I: Source-to-Image @openshift
   GCS: Google Cloud Storage @storage
@@ -1494,54 +1491,77 @@ new:
   STT: Stateless Transport Tunneling @networking
   DLQ: Dead Letter Queue @messaging
   VMS: Virtual Memory System
+  sVirt: Secure Virtualization Using SELinux @selinux @virt
+  VSAN: Virtual Storage Area Network @storage
+  RFT: revisable form text @documentation
+  TIFF: Tagged Image File Format @graphics
+  PCIe: Peripheral Component Interconnect Express
+  OpEx: Operating Expense
+  CAT: computer-aided translation @translation
+  EU: European Union
+  RDF: Resource Description Framework
+  RBMT: Rule-based machine translation @translation
+  SL: Source Language @translation
+  TBX: TermBase Exchange Standard @standards
+  TMX: Translation Memory Exchange @translation
+  TL: Target Language @translation
+  OWL: Web Ontology Language
+  WWW: World Wide Web
+  DITA: Darwin Information Typing Architecture @standards
+  XHTML: Extensible Hypertext Markup Language
+  GMX-V: Global Information Management Metrics Exchange-Volume @standards
+  ITS: Internationalization Tag Set @standards
+  NLP: Natural Language Processing @translation
+  SRX: Segmentation Rules Exchange @standards
 slang:
-  MTG: Meeting @do_not_use
-  AFAIK: As Far As I Know @do_not_use
-  AFAICT: As Far As I Can Tell @do_not_use
-  AFK: Away From Keyboard @do_not_use
-  BRB: Be Right Back @do_not_use
-  ETA: Estimated time of arrival @do_not_use
-  FUD: Fear, Uncertainty and Doubt @do_not_use
-  IMHO: In My Humble Opinion @do_not_use
-  TGIF: Thank God It's Friday @do_not_use
-  ROTFL: Rolling On The Floor Laughing @do_not_use
-  SSIA: Subject Says It All @do_not_use
-  WFH: Work From Home @do_not_use
-  WIP: Work in Progress @do_not_use
-  TechNo: Technical Note @do_not_use
-  TBA: to be added @do_not_use
-  DRY: Don't Repeat Yourself @do_not_use
-  AWOL: Absent without leave @do_not_use
-  AIUI: As I Understand It @do_not_use
-  WRT: With Reference To @do_not_use
-  MAD: Mutually Assured Destruction @do_not_use
-  OT: off topic @do_not_use
-  YMMV: your mileage may vary @do_not_use
-  GIGO: Garbage in, garbage out @do_not_use
-  SSOT: Single Source of Truth @do_not_use
-  FUBAR: fouled-up beyond all repair @do_not_use
-  HTH: Hope that helps @do_not_use
-  IHAC: I have a customer/client @do_not_use
-  AAVMF: Arm Architecture Virtual Machine Firmware @do_not_use
-  LTIC: Last Time I Checked @do_not_use
-  LaF: Look and Feel @do_not_use
-  PTAL: please take a look @do_not_use
-  LGTM: looks good to me @do_not_use
-  NB: nota bene @do_not_use
-  TBH: To Be Honest @do_not_use
-  AOB: Any Other Business @do_not_use
-  DTRT: Do The Right Thing @do_not_use
-  CTA: Call to Action @do_not_use
-  BSOD: Blue Screen of Death @do_not_use
-  i18n: internationalization or internationalization-related @do_not_use
-  l10n: localization or localization-related @do_not_use
-  g11n: globalization, the combination of i18n and l10n @do_not_use
-  TPTB: the powers that be @do_not_use
-  PEBCAK: Problem Exists Between Chair And Keyboard @do_not_use
+  MTG: Meeting @do-not-use
+  AFAIK: As Far As I Know @do-not-use
+  AFAICT: As Far As I Can Tell @do-not-use
+  AFK: Away From Keyboard @do-not-use
+  BRB: Be Right Back @do-not-use
+  ETA: Estimated time of arrival @do-not-use
+  FUD: Fear, Uncertainty and Doubt @do-not-use
+  IMHO: In My Humble Opinion @do-not-use
+  TGIF: Thank God It's Friday @do-not-use
+  ROTFL: Rolling On The Floor Laughing @do-not-use
+  SSIA: Subject Says It All @do-not-use
+  WFH: Work From Home @do-not-use
+  WIP: Work in Progress @do-not-use
+  TechNo: Technical Note @do-not-use
+  TBA: to be added @do-not-use
+  DRY: Don't Repeat Yourself @do-not-use
+  AWOL: Absent without leave @do-not-use
+  AIUI: As I Understand It @do-not-use
+  WRT: With Reference To @do-not-use
+  MAD: Mutually Assured Destruction @do-not-use
+  OT: off topic @do-not-use
+  YMMV: your mileage may vary @do-not-use
+  GIGO: Garbage in, garbage out @do-not-use
+  SSOT: Single Source of Truth @do-not-use
+  FUBAR: fouled-up beyond all repair @do-not-use
+  HTH: Hope that helps @do-not-use
+  IHAC: I have a customer/client @do-not-use
+  AAVMF: Arm Architecture Virtual Machine Firmware @do-not-use
+  LTIC: Last Time I Checked @do-not-use
+  LaF: Look and Feel @do-not-use
+  PTAL: please take a look @do-not-use
+  LGTM: looks good to me @do-not-use
+  NB: nota bene @do-not-use
+  TBH: To Be Honest @do-not-use
+  AOB: Any Other Business @do-not-use
+  DTRT: Do The Right Thing @do-not-use
+  CTA: Call to Action @do-not-use
+  BSOD: Blue Screen of Death @do-not-use
+  i18n: internationalization or internationalization-related @do-not-use
+  l10n: localization or localization-related @do-not-use
+  g11n: globalization, the combination of i18n and l10n @do-not-use
+  TPTB: the powers that be @do-not-use
+  PEBCAK: Problem Exists Between Chair And Keyboard @do-not-use
 tags:
-  do_not_use: do not use the acronym in product docs @tags
-  always_cap: always capitalize @tags
-  unchecked: acronym is in the moderation queue @tags
+  no-expand: do not expand this abbreviation @tags
+  always-expand: always expand this abbreviation @tags
+  do-not-use: do not use the acronym in product docs @tags
+  always-cap: always capitalize @tags
   RH: internal acronym specific to Red Hat @tags
   auth: related to authentication @tags
   cloud: related to cloud @tags
@@ -1581,3 +1601,4 @@ tags:
   security: 
   cpu: 
   hardware: 
+  translation: 
