@@ -13,7 +13,8 @@ module AbbrevBot
 
   @@home_dir = File.expand_path '~/.config'
   @@install_dir = File.expand_path File.dirname(__FILE__)
-  @@abbrevs_file = "#{@@install_dir}/abbrev.yaml"
+  @@data_dir = File.expand_path File.dirname(__FILE__), 'data'
+  @@abbrevs_file = "#{@@data_dir}/abbrev.yaml"
   @@cfg_file = 'acrobot.yaml'
 
   def initialize_dictionary
