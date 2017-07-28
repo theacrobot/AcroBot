@@ -90,6 +90,8 @@ bot = Cinch::Bot.new do
    c.channels = settings['channels'] # ["#katello","#openshift","#satellite6","#zanata","#theforeman","#ansible"]
 #   c.channels = ["#acrobot"]
    c.prefix = settings['prefix']     # /^!/
+   c.sasl.username = settings['sasl_username'] unless settings['sasl_username'].nil?
+   c.sasl.password = ENV['SASL_PASSWORD'] unless ENV['SASL_PASSWORD'].nil?
   end
 
   on :message, /^!([\w\-\_]+)\=(.+)/ do |m, abbrev, desc|
