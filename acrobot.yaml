@@ -1,4 +1,5 @@
 nick: 'acrobot'
+sasl_username: 'acrobot'
 realname: IRC Acronym and Abbreviation Expander Bot. !help for help
 user: acrobot
 server: irc.freenode.net
