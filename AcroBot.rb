@@ -13,7 +13,8 @@ module AbbrevBot
 
   @@home_dir = File.expand_path '~/.config'
   @@install_dir = File.expand_path File.dirname(__FILE__)
-  @@abbrevs_file = "#{@@install_dir}/abbrev.yaml"
+  @@data_dir = File.expand_path File.dirname(__FILE__), 'data'
+  @@abbrevs_file = "#{@@data_dir}/abbrev.yaml"
   @@cfg_file = 'acrobot.yaml'
 
   def initialize_dictionary
@@ -90,6 +91,8 @@ bot = Cinch::Bot.new do
    c.channels = settings['channels'] # ["#katello","#openshift","#satellite6","#zanata","#theforeman","#ansible"]
 #   c.channels = ["#acrobot"]
    c.prefix = settings['prefix']     # /^!/
+   c.sasl.username = settings['sasl_username'] unless settings['sasl_username'].nil?
+   c.sasl.password = ENV['SASL_PASSWORD'] unless ENV['SASL_PASSWORD'].nil?
   end
 
   on :message, /^!([\w\-\_]+)\=(.+)/ do |m, abbrev, desc|
