@@ -1509,6 +1509,11 @@ new:
   SRX: Segmentation Rules Exchange @standards
   DAS: Direct Attached Storage @storage
   XSL: Extensible Stylesheet Language
+  WinRM: Windows Remote Management
+  HOT: Heat Orchestration Template @openstack
+  CNCF: Cloud Native Computing Foundation
+  OCI: Open Container Initiative @containers @standards
+  ISBN: International Standard Book Number @organizations http://www.isbn.org/
 slang:
   MTG: Meeting @do-not-use
   AFAIK: As Far As I Know @do-not-use
