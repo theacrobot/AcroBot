@@ -1398,7 +1398,7 @@ new:
   SIEM: Security Information and Event Management @security
   IDS: Intrusion Detection System @security
   MTA: mail transfer agent
-  MOM: Message-Oriented Middleware
+  MOM: Message-Oriented Middleware @messaging
   DMS: Data Movement Service @Gluster
   DSU: Destination Storage Unit @Gluster
   SSU: Source Storage Unit @Gluster
@@ -1509,11 +1509,106 @@ new:
   SRX: Segmentation Rules Exchange @standards
   DAS: Direct Attached Storage @storage
   XSL: Extensible Stylesheet Language
-  WinRM: Windows Remote Management
-  HOT: Heat Orchestration Template @openstack
-  CNCF: Cloud Native Computing Foundation
+  UPG: User Private Group
+  UPS: Uninterruptible Power Supply
+  PVC: Persistent Volume Claim @OpenShift
+  PV: Persistent Volume @OpenShift @storage
+  OBP: Operational Best Practices
+  CSRF: Cross-site Request Forgery @security
+  DAST: Dynamic Application Security Testing @security
+  BTRFS: B-tree file system @filesystems See https://en.wikipedia.org/wiki/Btrfs
+  MRAD: Methods, Results, Analysis, Discussion @content-organization
+  FQQN: Fully Qualified Queue Name @messaging See http://activemq.apache.org/
+  CNS: Container-native Storage @containers @openshift @storage
+  UNDP: United Nations Development Programme
+  ASEAN: Association of Southeast Asian Nations
+  APTIF: Asia-Pacific Translation & Interpretation Forum @translation
+  LLC: Logical Link Control @networking
+  MPLS: Multiprotocol Label Switching @networking
+  GUA: Global Unicast Address @networking
+  LUA: Local Unicast Address @networking
+  LLUA: Link-local Unicast Address @networking
+  RA: Router Advertisement @networking
+  PDU: power distribution unit @hardware
+  SDU: Service Data Unit @networking
+  OSI: Open Systems Interconnection @communications See https://en.wikipedia.org/wiki/OSI_model
+  SMS: Short Message Service @communication
+  RHA: Red Hat Academy @RH
+  STEM: Science, Technology, Engineering, and Mathematics
+  ICT: Information and Communication Technology
+  CGN: Carrier Grade Network Address Translation @networking
+  POX: Plain Old XML
+  RMM: Richardson Maturity Model @API @REST
+  EFK: Elasticsearch, Fluentd, and Kibana
+  RHCC: Red Hat Container Catalog @containers @RH
+  NPM: Node Package Manager @javascript
+  CMS: Cryptographic Message Syntx @crypt
+  NFV: Network Functions Virtualization @communications @networking @virtualization
+  SATA: Serial Advanced Technology Attachment @hardware
+  CRS: Container-Ready Storage @openshift
+  VNID: VXLAN ID @networking
+  VNF: Virtual Network Function @networking
+  RWO: ReadWriteOnce
+  SWR: Standing Wave Ratio @radio See https://en.wikipedia.org/wiki/Standing_wave_ratio
+  AM: Amplitude Modulation @radio
+  FM: Frequency Modulation @radio
+  LSB: Lower Sideband @radio
+  USB: Upper Sideband @radio
+  CW: Carrier Wave @radio
+  EPA: Enhanced Platform Awareness
+  ASD: Acute Stress Disorder @medicine
+  ADHD: Attention Deficit Hyperactivity Disorder @medicine
+  ETSI: European Telecommunications Standards Institute @standards @communications
+  PoP: Point of Presence
+  MSM: Modern Standard Mandarin @languages
+  REST: Representational State Transfer @no-expand
+  RWD: Responsive Web Design
+  CALS: Continuous Acquisition and Life-cycle Support @standards @protocols
+  IGES: Initial Graphics Exchange Specification @graphics @standards @formats
+  STEP: Standard for the Exchange of Product model data @standards
+  JWT: JSON Web Token
+  EPP: Extensible Provisioning Protocol @protocols
+  JKS: Java Keystore @Java
+  NMT: Neural Machine Translation @translation
+  ACE: Automatic Content Enrichment @translation
+  COR: Copy-On-Read @kernel
+  GDPR: General Data Protection Regulation
+  DRBD: Distributed Replicated Block Device @ceph
+  UML: User-mode Linux @virtualization @kernel
+  EAP: English for Academic Purposes @languages
+  RHOAR: Red Hat OpenShift Application Runtimes @openshift
+  IPoAC: Internet Protocol over Avian Carriers @networking
+  TQM: Training Quality Manager @training
+  TTT: Train the Trainer @training
   OCI: Open Container Initiative @containers @standards
-  ISBN: International Standard Book Number @organizations http://www.isbn.org/
+  CRI-O: Container Runtime Interface for OCI @containers
+  OOPS: Out-of-Process Space @kernel
+  EMS: Expanded Memory Specification @mmgmt
+  UMB: Upper Memory Block @mmgmt
+  HMA: High Memory Area @mmgmt
+  LIM-EMS: Lotus-Intel-Microsoft Expanded Memory Specification @standards
+  EEMS: Enhanced Expanded Memory Specification @standards
+  ACVP: Automated Crypto Validation Protocol @protocols
+  NBDE: Network Bound Disk Encryption @security @cryptography
+  OVN: Open Virtual Networking @networking
+  SWID: Software Identification
+  AIDE: Advanced Intrusion Detection Environment @security
+  OAB: OpenShift Ansible Broker @openshift @ansible
+  SUID: Set User ID
+  HLD: High-level Design
+  USGBC: United States Government Configuration Baseline
+  CIMC: Cisco Integrated Management Controller @computing
+  DRAC: Dell Remote Access Controller
+  IMM: Integrated Management Module
+  SQS: Simple Queue Service @messaging
+  SNS: Simple Notification Service @messaging
+  iDRAC: Integrated Dell Remote Access Controller @hardware
+  iLOM: Integrated Lights-out Manager @hardware
+  XSSO: X/Open Single Sign-on @authentication
+  LKM: loadable kernel module @kernel
+  OOT: OpenStack Orchestration Template @OpenStack
+  DNS: Domain Name Service @networking @no-expand
+  HCI: '"Hyper-converged infrastructure" @virtualization https://en.wikipedia.org/wiki/Hyper-converged_infrastructure'
 slang:
   MTG: Meeting @do-not-use
   AFAIK: As Far As I Know @do-not-use
