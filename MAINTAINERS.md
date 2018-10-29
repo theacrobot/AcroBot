@@ -18,7 +18,7 @@ oc project acrobot
 ## Sync the pod data with the git repo
 
 Use `rsync` to sync the latest updates between the repo and the data directory in the pod. Make sure you get the current pod name and swap it for the example shown here.
-The first parameter is the source directory (in this example, it would be . - the current directory). The second parameter is the destination (in the example, the directory `/opt/acrobot/data` in the pod named `acrobot-4-v4cpn`).
+The first parameter is the source directory (in this example, it would be . - the current directory). The second parameter is the destination (in the example, the directory `/opt/acrobot/data` in the pod named `<podname>`).
 
 This command copies the contents of the current working directory into `/opt/acrobot/data` in the container (a persistent volume).
 
@@ -40,6 +40,8 @@ sudo docker build -t docker-registry.engineering.redhat.com/acrobot/acrobot:late
 ```
 
 ## Tag and push the new image
+Use `sudo docker images` to get the image ID.
+
 ```
 sudo docker tag 8bd157fff7a0 docker-registry.engineering.redhat.com/daobrien/acrobot:latest
 sudo docker push docker-registry.engineering.redhat.com/acrobot/acrobot
