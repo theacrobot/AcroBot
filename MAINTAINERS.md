@@ -15,10 +15,12 @@ sudo oc login --server=https://internal-registry.host.prod.eng.rdu2.redhat.com:8
 oc project acrobot
 ```
 
-Use rsync to sync the latest updates between the repo and the data directory in the pod. Make sure you get the current pod name and swap it for the example shown here.
-The first parameter is the source directory (in this example, it would be . - the current directory). The second parameter is the destination (in the example, the directory /opt/acrobot/data in the pod named acrobot-4-v4cpn).
+## Sync the pod data with the git repo
 
-This command copies the contents of the current working directory into /opt/acrobot/data in the container (a persistent volume).
+Use `rsync` to sync the latest updates between the repo and the data directory in the pod. Make sure you get the current pod name and swap it for the example shown here.
+The first parameter is the source directory (in this example, it would be . - the current directory). The second parameter is the destination (in the example, the directory `/opt/acrobot/data` in the pod named `acrobot-4-v4cpn`).
+
+This command copies the contents of the current working directory into `/opt/acrobot/data` in the container (a persistent volume).
 
 You can get the pod names via `oc get pods` or just browsing the web ui.
 
