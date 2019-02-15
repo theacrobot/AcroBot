@@ -1609,6 +1609,35 @@ new:
   OOT: OpenStack Orchestration Template @OpenStack
   DNS: Domain Name Service @networking @no-expand
   HCI: '"Hyper-converged infrastructure" @virtualization https://en.wikipedia.org/wiki/Hyper-converged_infrastructure'
+  GNMT: Google Neural Machine Translation @translation
+  KAITER: Knowledge-Assisted Interactive Translation Editing and Revision @translation
+  SOAR: Security Orchestration, Automation and Response @security
+  NBI: Northbound Interface @networking
+  NVGRE: Network Virtualization using Generic Routing Encapsulation @networking
+  GENEVE: Generic Network Virtualization Encapsulation @networking @virtualization
+    @standards
+  WCCP: Web Cache Communication Protocol @protocols
+  VNI: Virtual Network Interface @networking
+  ROSE: Red Hat Open Source for Education @education
+  SRE: Site Reliability Engineering
+  VCO: Virtual Central Office
+  IOS: Internetwork Operating System (See https://en.wikipedia.org/wiki/Cisco_IOS)
+  EOS: Extensible Operating System
+  FSAL: File System Abstraction Layer
+  ZFS: Zettabyte File System
+  EFS: Amazon Elastic File System @filesystems
+  RHV: Red Hat Virtualization @RH @virtualization
+  GPTE: Global Partner and Technical Enablement @RH
+  Dom0: Domain 0 (privileged domain) @xen
+  JAWS: Job Access With Speech @accessibility
+  SINPO: Signal, Interference, Noise, Propagation, and Overall @communications https://en.wikipedia.org/wiki/SINPO_code
+  RST: Readability, Strength, Tone @communications https://en.wikipedia.org/wiki/R-S-T_system
+  SINPFEMO: Signal, Interference, Noise, Propagation, frequency of Fading, depth,
+    Modulation, and Overall https://en.wikipedia.org/wiki/SINPO_code#SINPEMFO_code
+  XSA: XML (Extensible Markup Language) Software Autoupdate
+  AHS: Autonomous Haulage System @automation
+  DDos: distributed denial of service @cyberattack
+  CNI: container network interface @containers @networking
 slang:
   MTG: Meeting @do-not-use
   AFAIK: As Far As I Know @do-not-use
