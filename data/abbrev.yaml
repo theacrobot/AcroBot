@@ -1,12 +1,12 @@
 ---
 verified:
   82576: Intel 82576 Gigabit Ethernet Controller
-  ABC: Appropriate Byte Counting
-  ABI: Application Binary Interface
+  ABC: appropriate byte counting
+  ABI: application binary interface
   ACPI: Advanced Configuration and Power Interface
-  ACS: Authenticated Configuration Scanner
+  ACS: authenticated configuration scanner
   AHD: American Heritage Dictionary
-  AIL: Active Item List
+  AIL: active item list
   ALSA: Advanced Linux Sound Architecture
   AMQP: Advanced Message Queuing Protocol @protocols
   AMTU: Abstract Machine Test Utility
@@ -201,7 +201,7 @@ verified:
   SFCB: Small Footprint CIM Broker
   SFTP: Secure File Transfer Protocol @no-expand @protocols
   SIMD: Single Instruction, Multiple Data
-  SLA: Service Level Agreement
+  SLA: service level agreement
   SLAAC: StateLess Address AutoConfiguration
   SMB: Server Message Block
   SMI-S: Storage Management Initiative Specification
