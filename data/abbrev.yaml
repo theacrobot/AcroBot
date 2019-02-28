@@ -255,7 +255,7 @@ verified:
   bash: Bourne-Again Shell @no-expand
   cgroups: Control groups
   ctime: Change time
-  cwnd: Ccongestion window
+  cwnd: Congestion Window See https://blog.stackpath.com/glossary/cwnd-and-rwnd/
   iBFT: iSCSI Boot Firmware Table
   ipr: IBM Power RAID
   kABI: kernel Application Binary Interface
@@ -674,7 +674,7 @@ consulting:
   SBT: Service Breach Time
   LSS: Language Support Specialist
   AD: Active Directory
-  MiTM: Man in the Middle @security
+  MITM: man-in-the-middle @security
   PTP: Precision Time Protocol @protocols
   ACL: Approved Components List (Base OS Engineering) @RH
   OSGi: Open Service Gateway initiative
