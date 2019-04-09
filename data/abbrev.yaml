@@ -1,12 +1,12 @@
 ---
 verified:
   82576: Intel 82576 Gigabit Ethernet Controller
-  ABC: Appropriate Byte Counting
-  ABI: Application Binary Interface
+  ABC: appropriate byte counting
+  ABI: application binary interface
   ACPI: Advanced Configuration and Power Interface
-  ACS: Authenticated Configuration Scanner
+  ACS: authenticated configuration scanner
   AHD: American Heritage Dictionary
-  AIL: Active Item List
+  AIL: active item list
   ALSA: Advanced Linux Sound Architecture
   AMQP: Advanced Message Queuing Protocol @protocols
   AMTU: Abstract Machine Test Utility
@@ -201,7 +201,7 @@ verified:
   SFCB: Small Footprint CIM Broker
   SFTP: Secure File Transfer Protocol @no-expand @protocols
   SIMD: Single Instruction, Multiple Data
-  SLA: Service Level Agreement
+  SLA: service level agreement
   SLAAC: StateLess Address AutoConfiguration
   SMB: Server Message Block
   SMI-S: Storage Management Initiative Specification
@@ -255,7 +255,7 @@ verified:
   bash: Bourne-Again Shell @no-expand
   cgroups: Control groups
   ctime: Change time
-  cwnd: Ccongestion window
+  cwnd: Congestion Window See https://blog.stackpath.com/glossary/cwnd-and-rwnd/
   iBFT: iSCSI Boot Firmware Table
   ipr: IBM Power RAID
   kABI: kernel Application Binary Interface
@@ -674,7 +674,7 @@ consulting:
   SBT: Service Breach Time
   LSS: Language Support Specialist
   AD: Active Directory
-  MiTM: Man in the Middle @security
+  MITM: man-in-the-middle @security
   PTP: Precision Time Protocol @protocols
   ACL: Approved Components List (Base OS Engineering) @RH
   OSGi: Open Service Gateway initiative
