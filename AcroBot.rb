@@ -107,7 +107,7 @@ bot = Cinch::Bot.new do
     m.reply("To expand an acronym, type (e.g.), !ftp")
     m.reply("To add a new acronym, type (e.g.), !FTP=File Transfer Protocol")
     m.reply("To associate a tag with an acronym, type (e.g.), !IP=Internet Protocol @networking")
-    m.reply("To list abbrevs associated with a tag, type eg. !@kernel")
+    m.reply("To list abbreviations associated with a tag, type eg. !@kernel")
     m.reply("To list all tags, type !@tags")
   end
 
