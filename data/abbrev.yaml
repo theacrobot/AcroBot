@@ -1638,6 +1638,8 @@ new:
   AHS: Autonomous Haulage System @automation
   DDos: distributed denial of service @cyberattack
   CNI: container network interface @containers @networking
+  UAC: User Account Control @MSWindows
+  MBR: master boot record
 slang:
   MTG: Meeting @do-not-use
   AFAIK: As Far As I Know @do-not-use
