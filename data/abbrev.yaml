@@ -13,7 +13,6 @@ verified:
   APC: Alternative PHP Cache
   API: Application Programming Interface @no-expand
   ARF: Asset Reporting Format
-  ARP: Address Resolution Protocol @protocols
   ATLAS: Automatically Tuned Linear Algebra Software
   ATR: Answer To Reset
   BCE: Basic Constraint Extension @ldap
@@ -51,7 +50,8 @@ verified:
   DMA: Direct Memory Access
   DMAR: DMA Remapping
   DMTF: Distributed Management Task Force
-  DNAT: Dynamic Network Address Translation
+  dNAT: Dynamic Network Address Translation @networking
+  DNAT: Destination Network Address Translation @networking
   DOI: Domain of Interpretation
   DRDB: Distributed Replicated Block Device
   DTR: Derived Test Requirement
@@ -127,7 +127,7 @@ verified:
   LVM: Logical Volume Manager
   LVQ: Last Value Queue @MRG
   LVS: Linux Virtual Server
-  MAC: Message Authentication Code @FIPS
+  MAC: Message Authentication Code @fips
   MCE: Machine Check Exception
   MD5: Message Digest algorithm @no-expand
   MDA: Model Driven Architecture
@@ -177,7 +177,7 @@ verified:
   QI: Questionnaire Interpreter
   QMF: QPID Modeling Framework @MRG
   RAID: Redundant Array Of Independent Discs
-  RARP: Reverse Address Resolution Protocol @protocols
+  RARP: Reverse Address Resolution Protocol @protocols @networking
   RCS: Revision Control System
   RDAC: Redundant Disk Array Controller
   RELRO: Relocation Read-Only
@@ -202,14 +202,14 @@ verified:
   SFTP: Secure File Transfer Protocol @no-expand @protocols
   SIMD: Single Instruction, Multiple Data
   SLA: Service Level Agreement
-  SLAAC: StateLess Address AutoConfiguration
+  SLAAC: Stateless Address Autoconfiguration @networking
   SMB: Server Message Block
   SMI-S: Storage Management Initiative Specification
   SMIME: Secure/Multipurpose Internet Mail Extensions (S/MIME)
   SNAT: Source Network Address Translation
   SNMP: Simple Network Management Protocol @protocols
   SOA: Service-Oriented Architecture @networking
-  SOAP: Simple Object Access Protocol @networking @protocols
+  SOAP: Simple Object Access Protocol @networking @protocols @no-expand
   SPARC: Scalable Processor Architecture
   SQL: Structured Query Language @no-expand
   SSE3: Streaming SIMD Extensions 3
@@ -269,9 +269,9 @@ verified:
   usbfs: USB file system
   xRandR: X Resize and Rotate Extension
 cryptography:
-  AES: Advanced Encryption Standard @crypt
-  PEM: Privacy Enhanced Mail @auth @crypt
-  ICA: IBM Crypto Accelerator @crypt
+  AES: Advanced Encryption Standard @cryptography
+  PEM: Privacy-enhanced Mail @auth @cryptography
+  ICA: IBM Crypto Accelerator @cryptography
 virtualization:
   ARI: Alternative Routing-ID Interpretation @PCIutils @virtualization
   ATS: Address Translation Service @PCIutils @virtualization
@@ -285,7 +285,7 @@ virtualization:
   SR-IOV: Single Root I/O Virtualization @virtualization
 networking:
   FQDN: Fully qualified domain name @networking
-  NIC: Network Interface Controller/Card @networking
+  NIC: Network Interface Card @networking
   SAN: Storage Area Network @networking
   IGMP: Internet Group Management Protocol @networking @protocols
   CEE: Converged Enhanced Ethernet @networking
@@ -307,7 +307,7 @@ networking:
   QoS: Quality of Service @networking
   CNAME: Canonical Name @networking @always-cap
   PPPoE: Point-to-point Protocol over Ethernet @networking @protocols
-  VNIC: virtual network interface card @networking
+  VNIC: Virtual Network Interface Card @networking
   PADT: PPPoE Active Discovery Terminate @networking
   DSL: Digital Subscriber Line @networking
 wifi:
@@ -424,7 +424,7 @@ cloud:
   IaaS: Infrastructure-as-a-Service @cloud http://stylepedia.net
   PaaS: Platform-as-a-Service @cloud http://stylepedia.net
   RBA: Role-based Administration @cloud
-  LBaaS: Load-Balancer-as-a-Service @cloud @rhos
+  LBaaS: Load Balancing-as-a-Service @cloud @rhos
   DBaaS: Database-as-a-Service @cloud http://www.scaledb.com/DBaaS-Database-as-a-Service.php
   AMI: Amazon Machine Image @cloud
   AWS: Amazon Web Services @cloud
@@ -463,7 +463,7 @@ java:
   EJB: Enterprise Java Beans @java
   JSF: JavaServer Faces @java
   JSP: JavaServer Pages @java
-  POJO: Plain Java Object @java
+  POJO: Plain Old Java Object @java
 mmgmt:
   TLB: Translation Lookaside Buffer @mmgmt @kernel
   ASCE: Address Space Control Element @mmgmt
@@ -627,7 +627,6 @@ consulting:
   SOEMP: Standard Operating Environment Management Platform
   LSB: Linux Standard Base
   LOM: LAN on Motherboard
-  JBDS: JBoss Developer Studio
   JHAT: Java Heap Analysis Tool
   BPM: Business Process Management
   IRC: Internet Relay Chat
@@ -716,7 +715,7 @@ consulting:
   CRM: Customer Relationship Management
   ERP: Enterprise Resource Planning
   EVP: Executive Vice President
-  FTE: Full-Time Employee
+  FTE: Full-Time Employee @do-not-use
   HFT: High-Frequency Trading
   MQ: message queue; commonly refers to WebSphere MQ by IBM
   U2L: Unix to Linux (migration)
@@ -834,7 +833,7 @@ consulting:
   SBS: Social Business Software - (Jive was formerly known as "Jive SBS")
   SCL: Software Collection
   SCVMM: System Center Virtual Machine Manager
-  SHA: Secure Hash Algorithm @crypt
+  SHA: Secure Hash Algorithm @cryptography
   SKU: Stock Keeping Unit - unique id for a product or service
   SLED: State Local & Education - refers to a set of accounts in the North American
     Public Sector team
@@ -883,9 +882,9 @@ consulting:
   HMAC: Hash-based Message Authentication Code @auth
   GPG: GNU Privacy Guard @auth
   IFS: Internal Field Separator
-  PKCS: Public-key Cryptography Standard @no-expand @crypt
+  PKCS: Public-key Cryptography Standard @no-expand @cryptography
   PPC: PowerPC platform
-  CCA: Common Cryptographic Architecture @crypt
+  CCA: Common Cryptographic Architecture @cryptography
   STP: Spanning Tree Protocol @networking @protocols
   ARP: Address Resolution Protocol @networking @protocols
   CIDR: Classless Inter-domain Routing @networking
@@ -1030,7 +1029,7 @@ redhat:
   GSSO: Global Solutions and Strategy Office, replaced by Services Solution Management
     in FY15 @RH
   GWS: Global Workplace Solutions @RH
-  JBDS: JBoss Developer Studio @RH
+  JBDS: JBoss Developer Studio @RH @jboss
   JBoss: "(Enterprise) JavaBeans Open Source Software @RH"
   jBPM: Java Business Process Management @RH
   JDF: JBoss Developer Framework @RH
@@ -1064,7 +1063,8 @@ redhat:
   RTGov: Run Time Governance (was BAM) - JBoss Community @RH
   SA: Solutions Architect @RH
   SAQ: Solutions Architect Questions @RH
-  SAR: Service Archive @RH
+  SAR: Service Archive @jboss
+  SAR: System Activity Report https://en.wikipedia.org/wiki/Pip_(package_manager
   SDM: Services Delivery Manager @RH
   SEAP: Subscription Education and Awareness Program @RH
   ET: Errata Tool @RH
@@ -1151,7 +1151,7 @@ hss:
   PPP: Point-to-Point Protocol @networking @protocols
   QSR: Quality of Service Satisfaction Rate @networking
   DKIM: DomainKeys Identified Mail @networking
-  DMARC: Domain-based Message Authentication, Reporting & Conformance @networking
+  DMARC: Domain-based Message Authentication, Reporting, & Conformance @auth
   MFC: Microsoft Foundation Classes
   PPPD: Point-to-Point Protocol daemon @networking
   SRTP: Secure Real-time Transport Protocol @networking @protocols
@@ -1198,7 +1198,7 @@ freshest:
   CUPS: Common Unix Printing System @no-expand
   HTM: Hardware Transactional Memory
   RDT: requires_doc_text @RH
-  ACL: Access Control Lists @cluster
+  ACL: Access Control List
   REPL: Read–eval–print loop
   vsftpd: Very Secure FTP Daemon
   CDL: Commmon Disk Layout
@@ -1213,7 +1213,7 @@ freshest:
   PEAP: Partner Early Access Program @RH
   CSS: Cascading Style Sheets
   DSE: DSA Service Entry
-  DSA: Digital Signature Algorithm @crypt @no-expand
+  DSA: Digital Signature Algorithm @cryptography @no-expand
   MLD: Multicast Listener Discovery @networking
   LMS: Learning Management System @RH
   RFP: Request for Proposal
@@ -1238,12 +1238,12 @@ freshest:
   DLV: DNSSEC Look-aside Validation @networking
   ISC: Internet Systems Consortium
   FS: File System
-  GCM: Galois/Counter Mode @crypt
+  GCM: Galois/Counter Mode @cryptography
   DTLS: Datagram Transport Layer Security @networking
   VG: Volume Group
   IPL: Initial Program Load
   GSCX: Get Started Customer Experience @RH
-  DRBG: Deterministic Random Bit Generator @crypt
+  DRBG: Deterministic Random Bit Generator @cryptography
   JFIF: JPEG File Interchange Format
   IPoIB: IP over InfiniBand @networking
   CKL: Compromised Key List @security
@@ -1298,11 +1298,11 @@ freshest:
   LV: Logical Volume
   MDS: Ceph Metadata Server @ceph
   CRUSH: Controlled Replication Under Scalable Hashing @ceph
-  PFS: Perfect Forward Secrecy @crypt
+  PFS: Perfect Forward Secrecy @cryptography
   FPL: Feature Priority List @RH
   XSS: cross-site scripting @security
   DDW: Dynamic DMA Windows
-  ICV: Integrity Check Value (AKA checksum) @crypt
+  ICV: Integrity Check Value (AKA checksum) @cryptography
   IPMB: Intelligent Platform Management Bus @kernel
   glibc: GNU C Library @no-expand
   KRA: Key Recovery Authority @auth
@@ -1314,7 +1314,7 @@ freshest:
   SDK: Software Development Kit
   XSD: XML Schema Definition @no-expand
   ITWOB: IT Without Boundaries @RH
-  DH: Diffie-Hellman (key exchange) @crypt
+  DH: Diffie-Hellman (key exchange) @cryptography
   RHUA: Red Hat Update Appliance @RH
   CDS: Content Delivery Server @RH
   RADOS: Reliable Autonomic Distributed Object Store @ceph
@@ -1333,7 +1333,7 @@ freshest:
   CSR: Certificate Signing Request @auth
   AP: Adjunct Processor @kernel
   PAC: Proxy Auto-configuration or Proxy Auto-config
-  ECDHE: Elliptic Curve Diffie-Hellman Ephemeral @crypt @no-expand
+  ECDHE: Elliptic Curve Diffie-Hellman Ephemeral @cryptography @no-expand
   FTP: File Transfer Protocol @no-expand @protocols
   PG: Placement Group @ceph
   IM: Input Method
@@ -1347,8 +1347,8 @@ freshest:
   DRC: Duplicate Request/Reply Cache @kernel
   GUID: Globally Unique Identifier @no-expand
   ADSL: Asymmetric Digital Subscriber Line @no-expand
-  RSA: Rivest-Shamir-Adleman @crypt @no-expand
-  ECDSA: Elliptic Curve Digital Signature Algorithm @crypt @no-expand
+  RSA: Rivest-Shamir-Adleman @cryptography @no-expand
+  ECDSA: Elliptic Curve Digital Signature Algorithm @cryptography @no-expand
   RADIUS: Remote Authentication Dial-In User Service @no-expand @networking
   NIP: Next Instruction Pointer @kernel
   DVR: Distributed Virtual Routing @cloud
@@ -1366,7 +1366,7 @@ freshest:
   DDNS: Dynamic DNS @networking
   NVT: Network Virtual Terminal
   CSP: Communications Service Provider
-  NFV: Network Function Virtualization @networking
+  NFV: Network Functions Virtualization @networking
   ISDN: Integrated Services Digital Network @networking
   RUV: Replica Update Vector
   RTSP: Real Time Streaming Protocol @protocols
@@ -1539,7 +1539,7 @@ new:
   EFK: Elasticsearch, Fluentd, and Kibana
   RHCC: Red Hat Container Catalog @containers @RH @do-not-use
   NPM: Node Package Manager @javascript
-  CMS: Cryptographic Message Syntax @crypt
+  CMS: Cryptographic Message Syntax @cryptography
   NFV: Network Functions Virtualization @communications @networking @virtualization
   SATA: Serial Advanced Technology Attachment @hardware
   CRS: Container-Ready Storage @openshift
@@ -1675,7 +1675,7 @@ new:
   MBA: Master of Business Administration @business @finance
   EUA: End User Agreement @legal
   UBI: Universal Base Image @containers @RH
-  SHA: Secure Hash Algorithm @crypt (Pronounced "shä")
+  SHA: Secure Hash Algorithm @cryptography (Pronounced "shä")
   KSM: Kernel Samepage Merging @kernel @virtualization
   CNCF: Cloud Native Computing Foundation @cloud @opensource https://www.cncf.io/
   EOL: end of line
@@ -1732,7 +1732,7 @@ tags:
   RH: internal acronym specific to Red Hat @tags
   auth: Abbreviations related to authentication @tags
   cloud: Abbreviations related to cloud @tags
-  crypt: Abbreviations related to cryptography @tags
+  cryptography: Abbreviations related to cryptography @tags
   docs: Abbreviations related to documentation @tags
   errata: Abbreviations related to errata @tags
   fips: Abbreviations related to FIPS mode @tags
