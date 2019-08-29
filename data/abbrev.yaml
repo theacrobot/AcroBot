@@ -272,17 +272,17 @@ cryptography:
   AES: Advanced Encryption Standard @crypt
   PEM: Privacy Enhanced Mail @auth @crypt
   ICA: IBM Crypto Accelerator @crypt
-virt:
-  ARI: Alternative Routing-ID Interpretation @PCIutils @virt
-  ATS: Address Translation Service @PCIutils @virt
-  BAR: Base Address Register @virt
-  BDS: Block Driver State @virt
-  DomU: unprivileged domain @virt @xen
-  FLR: Function Level Reset @virt
-  KVM: Kernel-based Virtual Machine @virt @no-expand
-  PF: Physical Function @virt
-  QEMU: Quick Emulator @virt
-  SR-IOV: Single Root I/O Virtualization @virt
+virtualization:
+  ARI: Alternative Routing-ID Interpretation @PCIutils @virtualization
+  ATS: Address Translation Service @PCIutils @virtualization
+  BAR: Base Address Register @virtualization
+  BDS: Block Driver State @virtualization
+  DomU: unprivileged domain @virtualization @xen
+  FLR: Function Level Reset @virtualization
+  KVM: Kernel-based Virtual Machine @virtualization @no-expand
+  PF: Physical Function @virtualization
+  QEMU: Quick Emulator @virtualization
+  SR-IOV: Single Root I/O Virtualization @virtualization
 networking:
   FQDN: Fully qualified domain name @networking
   NIC: Network Interface Controller/Card @networking
@@ -412,10 +412,10 @@ kernel:
   ioctl: Input/Output Control @kernel
   per-AG: per-Allocation Group @kernel
   rwsem: reader/writer semaphore @kernel
-  COW: Copy On Write @kernel @virt
-  LRO: Large Receive Offload @virt @kernel
-  VF: Virtual Function @kernel @virt
-  vCPU: virtual CPU @virt @kernel
+  COW: Copy On Write @kernel @virtualization
+  LRO: Large Receive Offload @virtualization @kernel
+  VF: Virtual Function @kernel @virtualization
+  vCPU: virtual CPU @virtualization @kernel
   IPI: inter-processor interrupt @kernel
   CFS: Completely Fair Scheduler @kernel
 cloud:
@@ -1220,7 +1220,7 @@ freshest:
   SRPM: Source RPM
   UDPU: UDP Unicast @networking
   RHAI: Red Hat Access Insights @Satellite
-  SR-IOV: Single Root I/O Virtualization @virt
+  SR-IOV: Single Root I/O Virtualization @virtualization
   PNG: Portable Network Graphics
   GIF: Graphics Interchange Format
   DSSSL: Document Style Semantics and Specification Language
@@ -1482,7 +1482,7 @@ new:
   STT: Stateless Transport Tunneling @networking
   DLQ: Dead Letter Queue @messaging
   VMS: Virtual Memory System
-  sVirt: Secure Virtualization Using SELinux @selinux @virt
+  sVirt: Secure Virtualization Using SELinux @selinux @virtualization
   VSAN: Virtual Storage Area Network @storage
   RFT: revisable form text @documentation
   TIFF: Tagged Image File Format @graphics
