@@ -34,8 +34,6 @@ $ oc rsync <podname>:/opt/acrobot/data /path/to/local/AcroBot/data
 
 The first `oc rsync` argument is the source directory. The second argument is the destination (in the example, the directory `/opt/acrobot/data` in the pod named `<podname>`).
 
-This command copies the contents of the current working directory into `/opt/acrobot/data` in the container (a persistent volume).
-
 Then you can commit them to git.
 
 
