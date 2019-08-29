@@ -27,3 +27,13 @@ Abbreviations are initially saved to `draft.yaml`. They are later reviewed and e
 
 AcroBot must have **RW** access to `draft.yaml` and **R** access to all other dictionary files when running.
 
+YAML verification
+=================
+
+To verify that the YAML files in the project are valid, a script is provided:
+
+```
+ruby verify_yaml.rb
+```
+
+The script will return a non-zero exit code in case of failures.

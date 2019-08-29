@@ -1429,7 +1429,7 @@ new:
   LSP: Localization Service Provider @translation
   MS: Microsoft
   JAX: Java API for XML @java
-  XPath: XML Path Language See: https://en.wikipedia.org/wiki/XPath
+  XPath: "XML Path Language See: https://en.wikipedia.org/wiki/XPath"
   IOPS: Input/Output Operations Per Second (pronounced eye-ops) @metrics https://en.wikipedia.org/wiki/IOPS
   DCO: Detailed Course Outline @training
   ISA: Instruction Set Architecture @cpu
@@ -1470,7 +1470,7 @@ new:
   JOTM: Java Open Transaction Manager @java
   2PC: Two-phase commit
   OCP: OpenShift Container Platform @openshift @do-not-use
-  PHP: PHP: Hypertext Preprocessor @no-expand
+  PHP: "PHP: Hypertext Preprocessor @no-expand"
   GbE: Gigabit Ethernet @networking
   AKI: Authority Key Identifier @auth
   MBO: Management By Objectives @mgmt
