@@ -1029,7 +1029,7 @@ redhat:
     in FY15 @RH
   GWS: Global Workplace Solutions @RH
   JBDS: JBoss Developer Studio @RH @jboss
-  JBoss: "(Enterprise) JavaBeans Open Source Software @RH"
+  JBoss: (Enterprise) JavaBeans Open Source Software @RH
   jBPM: Java Business Process Management @RH
   JDF: JBoss Developer Framework @RH
   JDG: JBoss Data Grid @RH
@@ -1050,7 +1050,7 @@ redhat:
   RHC: Red Hat Consulting @RH
   RHDS: Red Hat Directory Server @RH @always-expand
   RHEBS: Red Hat E-Business Suite @RH
-  RHEVM: Red Hat Enterprise Virtualization Manager @RH @always-expand
+  RHV-M: Red Hat Virtualization Manager @RH @always-expand
   RHJP: Red Hat JBoss Portal @RH
   RHN: Red Hat Network @RH @always-expand
   RHNS: Red Hat Network Satellite @RH
@@ -1062,8 +1062,7 @@ redhat:
   RTGov: Run Time Governance (was BAM) - JBoss Community @RH
   SA: Solutions Architect @RH
   SAQ: Solutions Architect Questions @RH
-  SAR: Service Archive @jboss
-  SAR: System Activity Report https://en.wikipedia.org/wiki/Pip_(package_manager
+  SAR: System Activity Report
   SDM: Services Delivery Manager @RH
   SEAP: Subscription Education and Awareness Program @RH
   ET: Errata Tool @RH
@@ -1430,7 +1429,7 @@ new:
   LSP: Localization Service Provider @translation
   MS: Microsoft
   JAX: Java API for XML @java
-  XPath: 'XML Path Language See: https://en.wikipedia.org/wiki/XPath'
+  XPath: XML Path Language See: https://en.wikipedia.org/wiki/XPath
   IOPS: Input/Output Operations Per Second (pronounced eye-ops) @metrics https://en.wikipedia.org/wiki/IOPS
   DCO: Detailed Course Outline @training
   ISA: Instruction Set Architecture @cpu
@@ -1442,8 +1441,8 @@ new:
   VR: virtual reality
   AR: augmented reality
   MAR: mobile augmented reality
-  ARML: augmented reality markup language
-  ARAF: augmented reality application format
+  ARML: Augmented Reality Markup Language
+  ARAF: Augmented Reality Application Format
   ARLEM: Augmented Reality Learning Experiences Model
   LAMP: Linux, Apache, MySQL, PHP/Python/Perl
   IB: InfiniBand @networking @standards See https://en.wikipedia.org/wiki/InfiniBand
@@ -1471,7 +1470,7 @@ new:
   JOTM: Java Open Transaction Manager @java
   2PC: Two-phase commit
   OCP: OpenShift Container Platform @openshift @do-not-use
-  PHP: 'PHP: Hypertext Preprocessor @no-expand'
+  PHP: PHP: Hypertext Preprocessor @no-expand
   GbE: Gigabit Ethernet @networking
   AKI: Authority Key Identifier @auth
   MBO: Management By Objectives @mgmt
@@ -1483,11 +1482,11 @@ new:
   VMS: Virtual Memory System
   sVirt: Secure Virtualization Using SELinux @selinux @virtualization
   VSAN: Virtual Storage Area Network @storage
-  RFT: revisable form text @documentation
+  RFT: Revisable Form Text @documentation
   TIFF: Tagged Image File Format @graphics
   PCIe: Peripheral Component Interconnect Express
   OpEx: Operating Expense
-  CAT: computer-aided translation @translation
+  CAT: Computer-aided Translation @translation
   EU: European Union
   RDF: Resource Description Framework
   RBMT: Rule-based machine translation @translation
