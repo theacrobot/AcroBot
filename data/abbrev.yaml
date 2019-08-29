@@ -649,7 +649,7 @@ consulting:
   EWS: Enterprise Web Server (renamed to WS) @RH
   SGML: Standardized Generalized Markup Language @no-expand
   XML: Extensible Markup Language @no-expand
-  IPC: inter-process communication
+  IPC: Interprocess Communication
   EPP: Enterprise Portal Platform
   EWP: Enterprise Web Platform
   TLS: Transport Layer Security
@@ -850,7 +850,7 @@ consulting:
   RIA: Rich Internet Application
   LHS: left-hand side
   RHS: right-hand side
-  A-MQ: Active MQ @messaging
+  AMQ: Active MQ @messaging
   HBAC: Host-Based Access Control @auth
   GPO: Group Policy Object @auth @win
   SEO: Search Engine Optimization
@@ -1050,7 +1050,6 @@ redhat:
   PQRM: Project Quality and Risk Management
   RDO: Red Hat's distribution of OpenStack @RH @no-expand
   RHC: Red Hat Consulting @RH
-  RHCC: Red Hat Consulting Collaboration
   RHDS: Red Hat Directory Server @RH @always-expand
   RHEBS: Red Hat E-Business Suite @RH
   RHEVM: Red Hat Enterprise Virtualization Manager @RH @always-expand
@@ -1540,7 +1539,7 @@ new:
   POX: Plain Old XML
   RMM: Richardson Maturity Model @API @REST
   EFK: Elasticsearch, Fluentd, and Kibana
-  RHCC: Red Hat Container Catalog @containers @RH
+  RHCC: Red Hat Container Catalog @containers @RH @do-not-use
   NPM: Node Package Manager @javascript
   CMS: Cryptographic Message Syntx @crypt
   NFV: Network Functions Virtualization @communications @networking @virtualization
@@ -1769,7 +1768,8 @@ tags:
   gnome: related to the gnome desktop environment @tags
   openmpi: related to the openmpi project @tags
   security: related to security @tags
-  cpu: specifically related to CPUs @tags
+  cpu: related to CPUs @tags
   hardware: related to hardware @tags
   translation: related to translation @tags
   protocols: related to protocols @tags
+  commerce: related to all types of commerce @tags
