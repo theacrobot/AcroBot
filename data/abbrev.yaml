@@ -1732,44 +1732,44 @@ tags:
   do-not-use: do not use the acronym in product docs @tags
   always-cap: always capitalize @tags
   RH: internal acronym specific to Red Hat @tags
-  auth: related to authentication @tags
-  cloud: related to cloud @tags
-  crypt: related to cryptography @tags
-  docs: related to documentation @tags
-  errata: related to errata @tags
-  fips: related to FIPS mode @tags
-  gss: related to Global Support Services @tags
-  hss: related to Hosted&Shared Services (RH) @tags
-  java: related to Java @tags
-  jboss: related to JBoss @tags
-  kernel: related to Linux kernel @tags
-  libreoffice: related to Libre Office suite @tags
-  metrics: related to measuring and performance @tags
-  mmgmt: related to memory management @tags
-  mrg: related to RH Enterprise MRG @tags
-  networking: related to networking @tags
-  openshift: related to OpenShift @tags
-  oracle: related to the Oracle business suite @tags
-  pcie: related to PCI Express @tags
-  pciutils: related to PCI Utils @tags
-  sfdc: related to Salesforce @tags
-  selinux: related to Security-Enhanced Linux @tags
-  standards: related to various industry standards @tags
-  virt: related to virtualization @tags
-  wifi: related to Wi-Fi @tags
-  win: related to Microsoft Windows @tags
-  xen: related to Xen virtualization platform @tags
-  maven: related to Apache Maven @tags
-  Satellite: related to Red Hat Satellite @tags
-  ruby: related to Ruby programming language @tags
-  arm: related to ARM instruction set architecture @tags
-  containers: related to Linux containers, Docker, Atomic @tags
-  ceph: related to the ceph storage platform @tags
-  gnome: related to the gnome desktop environment @tags
-  openmpi: related to the openmpi project @tags
-  security: related to security @tags
-  cpu: related to CPUs @tags
-  hardware: related to hardware @tags
-  translation: related to translation @tags
-  protocols: related to protocols @tags
-  commerce: related to all types of commerce @tags
+  auth: Abbreviations related to authentication @tags
+  cloud: Abbreviations related to cloud @tags
+  crypt: Abbreviations related to cryptography @tags
+  docs: Abbreviations related to documentation @tags
+  errata: Abbreviations related to errata @tags
+  fips: Abbreviations related to FIPS mode @tags
+  gss: Abbreviations related to Global Support Services @tags
+  hss: Abbreviations related to Hosted&Shared Services (RH) @tags
+  java: Abbreviations related to Java @tags
+  jboss: Abbreviations related to JBoss @tags
+  kernel: Abbreviations related to Linux kernel @tags
+  libreoffice: Abbreviations related to Libre Office suite @tags
+  metrics: Abbreviations related to measuring and performance @tags
+  mmgmt: Abbreviations related to memory management @tags
+  mrg: Abbreviations related to RH Enterprise MRG @tags
+  networking: Abbreviations related to networking @tags
+  openshift: Abbreviations related to OpenShift @tags
+  oracle: Abbreviations related to the Oracle business suite @tags
+  pcie: Abbreviations related to PCI Express @tags
+  pciutils: Abbreviations related to PCI Utils @tags
+  sfdc: Abbreviations related to Salesforce @tags
+  selinux: Abbreviations related to Security-Enhanced Linux @tags
+  standards: Abbreviations related to various industry standards @tags
+  virt: Abbreviations related to virtualization @tags
+  wifi: Abbreviations related to Wi-Fi @tags
+  win: Abbreviations related to Microsoft Windows @tags
+  xen: Abbreviations related to Xen virtualization platform @tags
+  maven: Abbreviations related to Apache Maven @tags
+  Satellite: Abbreviations related to Red Hat Satellite @tags
+  ruby: Abbreviations related to Ruby programming language @tags
+  arm: Abbreviations related to ARM instruction set architecture @tags
+  containers: Abbreviations related to Linux containers, Docker, Atomic @tags
+  ceph: Abbreviations related to the ceph storage platform @tags
+  gnome: Abbreviations related to the gnome desktop environment @tags
+  openmpi: Abbreviations related to the openmpi project @tags
+  security: Abbreviations related to security @tags
+  cpu: Abbreviations related to CPUs @tags
+  hardware: Abbreviations related to hardware @tags
+  translation: Abbreviations related to translation @tags
+  protocols: Abbreviations related to protocols @tags
+  commerce: Abbreviations related to all types of commerce @tags
