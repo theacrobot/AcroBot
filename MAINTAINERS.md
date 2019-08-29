@@ -1,21 +1,23 @@
-# Maintainers Notes
+# Maintainer's Notes
 
 The basic process for rebuilding and pushing a new image using the latest updates.
 
-## Log in so you can do stuff (Red Hat internal only)
+## Log in (Red Hat internal only)
+
+1. In the OpenShift Container Platform web UI, click your profile name and then click `Copy Login Command` to copy the entire log-in command, including your token, to the clipboard.
+1. Open a terminal and paste the log-in command:
 
 ```
-sudo docker login -p $(oc whoami -t) -e unused -u unused docker-registry.engineering.redhat.com
-sudo oc login --server=https://internal-registry.host.prod.eng.rdu2.redhat.com:8443
+$ oc login https://open.paas.redhat.com --token=BigLongStringOfCharactersHere
 ```
 
-## Make sure you are in the correct project.
+## Change to the Acrobot Project
 
 ```
 oc project acrobot
 ```
 
-## Sync the pod data with the git repo
+## Sync the Pod Data with the Git Repo
 
 Use `rsync` to sync the latest updates between the repo and the data directory in the pod. Make sure you get the current pod name and swap it for the example shown here.
 The first parameter is the source directory (in this example, it would be . - the current directory). The second parameter is the destination (in the example, the directory `/opt/acrobot/data` in the pod named `<podname>`).
@@ -33,20 +35,10 @@ oc rsync <podname>:/opt/acrobot/data /path/to/local/AcroBot/data
 Then you can commit them to git.
 
 
-## Build the new image
+## Build and Deploy the New Image
 
 ```
-sudo docker build -t docker-registry.engineering.redhat.com/acrobot/acrobot:latest .
+$ oc start-build acrobot-app
 ```
 
-## Tag and push the new image
-Use `sudo docker images` to get the image ID.
-
-```
-sudo docker tag 8bd157fff7a0 docker-registry.engineering.redhat.com/daobrien/acrobot:latest
-sudo docker push docker-registry.engineering.redhat.com/acrobot/acrobot
-```
-
-## Redeploy the image.
-Probably easiest to do this from the web UI.
 
