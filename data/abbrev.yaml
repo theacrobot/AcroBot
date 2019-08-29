@@ -1,12 +1,12 @@
 ---
 verified:
   82576: Intel 82576 Gigabit Ethernet Controller
-  ABC: appropriate byte counting
-  ABI: application binary interface
+  ABC: Appropriate Byte Counting
+  ABI: Application Binary Interface
   ACPI: Advanced Configuration and Power Interface
-  ACS: authenticated configuration scanner
+  ACS: Authenticated Configuration Scanner
   AHD: American Heritage Dictionary
-  AIL: active item list
+  AIL: Active Item List
   ALSA: Advanced Linux Sound Architecture
   AMQP: Advanced Message Queuing Protocol @protocols
   AMTU: Abstract Machine Test Utility
@@ -201,7 +201,7 @@ verified:
   SFCB: Small Footprint CIM Broker
   SFTP: Secure File Transfer Protocol @no-expand @protocols
   SIMD: Single Instruction, Multiple Data
-  SLA: service level agreement
+  SLA: Service Level Agreement
   SLAAC: StateLess Address AutoConfiguration
   SMB: Server Message Block
   SMI-S: Storage Management Initiative Specification
@@ -255,7 +255,7 @@ verified:
   bash: Bourne-Again Shell @no-expand
   cgroups: Control groups
   ctime: Change time
-  cwnd: Congestion Window See https://blog.stackpath.com/glossary/cwnd-and-rwnd/
+  cwnd: Ccongestion window
   iBFT: iSCSI Boot Firmware Table
   ipr: IBM Power RAID
   kABI: kernel Application Binary Interface
@@ -674,7 +674,7 @@ consulting:
   SBT: Service Breach Time
   LSS: Language Support Specialist
   AD: Active Directory
-  MITM: man-in-the-middle @security
+  MiTM: Man in the Middle @security
   PTP: Precision Time Protocol @protocols
   ACL: Approved Components List (Base OS Engineering) @RH
   OSGi: Open Service Gateway initiative
@@ -1556,7 +1556,7 @@ new:
   USB: Upper Sideband @radio
   CW: Carrier Wave @radio
   EPA: Enhanced Platform Awareness
-  ASD: Acute Stress Disorder @medicine
+  ASD: Acute Stress Disorder
   ADHD: Attention Deficit Hyperactivity Disorder @medicine
   ETSI: European Telecommunications Standards Institute @standards @communications
   PoP: Point of Presence
@@ -1640,6 +1640,48 @@ new:
   CNI: container network interface @containers @networking
   UAC: User Account Control @MSWindows
   MBR: master boot record
+  PE: physical extent @storage
+  DAM: digital asset management
+  VDO: Virtual Data Optimizer @storage
+  UDS: universal deduplication service @kernel
+  SWOT: Strengths, Weaknesses, Opportunities, and Threats
+  CSA: Common Sense Advisory @business @finance
+  COBOL: Common Business-oriented Language @programming
+  CRI: Container Runtime Interface @containers
+  CRD: Custom Resource Definition @Kubernetes @OpenShift @containers
+  RC: Replication Controller @OpenShift @containers
+  CAD: computer-aided design
+  SLAM: Simultaneous Localisation and Mapping @ar
+  GIS: Geographic Information System
+  IFU: Instruction for Use @training @education
+  GUDID: Globally Unique Device Identifier Database
+  NAPS: North American Public Sector
+  VPA: Volume Purchasing Agreement
+  VDC: Virtual Data Center @virtualization @storage
+  VVM: Visual Voice Mail @communications
+  FLOSS: Free Linux and Open Source Software
+  OSS: Open Source Software
+  SOC: Security Operations Centre @security
+  GCP: Google Cloud Platform @cloud
+  AMA: Ask Me Anything @RH
+  MLA: Modern Language Association
+  MBTI: Myers-Briggs Type Indicator @psychology
+  MIS: Management Information Systems
+  IOW: in other words @do-not-use
+  IPO: Initial Public Offering @business
+  WCAG: Web Content Accessibility Guidelines @accessibility
+  EDF: Earliest Deadline First @kernel
+  CBS: Constant Bandwidth Server @kernel
+  CES: Customer Effort Score @metrics
+  PIA: Privacy Impact Assessment @privacy @security
+  DPIA: Data Protection Impact Assessment @privacy @security
+  MBA: Master of Business Administration @business @finance
+  EUA: End User Agreement @legal
+  UBI: Universal Base Image @containers @RH
+  SHA: Secure Hash Algorithm @crypt (Pronounced "shä")
+  KSM: Kernel Samepage Merging @kernel @virtualization
+  CNCF: Cloud Native Computing Foundation @cloud @opensource https://www.cncf.io/
+  EOL: end of line
 slang:
   MTG: Meeting @do-not-use
   AFAIK: As Far As I Know @do-not-use
