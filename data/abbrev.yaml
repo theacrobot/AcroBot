@@ -674,7 +674,7 @@ consulting:
   SBT: Service Breach Time
   LSS: Language Support Specialist
   AD: Active Directory
-  MiTM: Man in the Middle @security
+  MITM: Man-in-the-Middle @security
   PTP: Precision Time Protocol @protocols
   ACL: Approved Components List (Base OS Engineering) @RH
   OSGi: Open Service Gateway initiative
