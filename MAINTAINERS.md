@@ -36,6 +36,9 @@ The first `oc rsync` argument is the source directory (in the example, the direc
 
 Then you can commit them to git.
 
+## Changes to the Source Code
+
+Acrobot uses a build config that pulls straight from the repo so if you make changes locally and push them to the repo you just need to build and deploy a new image. All the changes are picked up automatically.
 
 ## Build and Deploy the New Image
 
