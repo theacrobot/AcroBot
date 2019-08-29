@@ -32,7 +32,7 @@ acrobot-app-17-cfj85   1/1       Running     0          3m
 $ oc rsync <podname>:/opt/acrobot/data /path/to/local/AcroBot/data
 ```
 
-The first `oc rsync` argument is the source directory. The second argument is the destination (in the example, the directory `/opt/acrobot/data` in the pod named `<podname>`).
+The first `oc rsync` argument is the source directory (in the example, the directory `/opt/acrobot/data` in the pod named `<podname>`). The second argument is the destination.
 
 Then you can commit them to git.
 
