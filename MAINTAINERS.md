@@ -14,23 +14,27 @@ $ oc login https://open.paas.redhat.com --token=BigLongStringOfCharactersHere
 ## Change to the Acrobot Project
 
 ```
-oc project acrobot
+$ oc project acrobot
 ```
 
 ## Sync the Pod Data with the Git Repo
 
-Use `rsync` to sync the latest updates between the repo and the data directory in the pod. Make sure you get the current pod name and swap it for the example shown here.
-The first parameter is the source directory (in this example, it would be . - the current directory). The second parameter is the destination (in the example, the directory `/opt/acrobot/data` in the pod named `<podname>`).
+Use `oc rsync` to sync the latest updates between the repo and the data directory in the pod. Make sure you get the current pod name and swap it for the example shown here. You can use `oc get pods` to get the pod name.
+
+~~~
+$ oc get pods
+NAME                   READY     STATUS      RESTARTS   AGE
+acrobot-app-17-cfj85   1/1       Running     0          3m
+~~~
+
+
+```
+$ oc rsync <podname>:/opt/acrobot/data /path/to/local/AcroBot/data
+```
+
+The first `oc rsync` argument is the source directory. The second argument is the destination (in the example, the directory `/opt/acrobot/data` in the pod named `<podname>`).
 
 This command copies the contents of the current working directory into `/opt/acrobot/data` in the container (a persistent volume).
-
-You can get the pod names via `oc get pods` or just browsing the web ui.
-
-Use `oc rsync` to back up or restore the acrobot data files. Whenever you want to commit those data files to your git repo, use:
-
-```
-oc rsync <podname>:/opt/acrobot/data /path/to/local/AcroBot/data
-```
 
 Then you can commit them to git.
 
