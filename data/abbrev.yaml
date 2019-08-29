@@ -530,7 +530,7 @@ consulting:
   KT: Knowledge Transfer
   LB: Load Balancer
   LDIF: LDAP Data Interchange Format
-  LOB: Line Of Business
+  LOB: Line Of Business @commerce
   MAC: Media Access Control
   MBean: Managed Bean
   MDM: Master Data Management, Mobile Device Management
@@ -929,7 +929,7 @@ redhat:
   RHEV-H: Red Hat Enterprise Virtualization Hypervisor @always-expand @RH
   RHEV-M: Red Hat Enterprise Virtualization Manager @always-expand @RH
   RHSC: Red Hat Storage Console @RH
-  RHSCL: Red Hat Software Collections @always-expand @RH
+  RHSC: Red Hat Software Collections @always-expand @RH
   WARHW: We are Red Hat Week @RH
   RHDTS: Red Hat Developer Toolset @RH
   RHEA: Red Hat Enhancement Advisory @RH
@@ -1518,7 +1518,7 @@ new:
   BTRFS: B-tree file system @filesystems See https://en.wikipedia.org/wiki/Btrfs
   MRAD: Methods, Results, Analysis, Discussion @content-organization
   FQQN: Fully Qualified Queue Name @messaging See http://activemq.apache.org/
-  CNS: Container-native Storage @containers @openshift @storage
+  CNS: Container-native Storage @deprecated @do-not-use
   UNDP: United Nations Development Programme
   ASEAN: Association of Southeast Asian Nations
   APTIF: Asia-Pacific Translation & Interpretation Forum @translation
@@ -1773,3 +1773,4 @@ tags:
   translation: Abbreviations related to translation @tags
   protocols: Abbreviations related to protocols @tags
   commerce: Abbreviations related to all types of commerce @tags
+  deprecated: Abbreviations no longer in use @tags
