@@ -1241,7 +1241,6 @@ freshest:
   GCM: Galois/Counter Mode @crypt
   DTLS: Datagram Transport Layer Security @networking
   VG: Volume Group
-  PV: Physical Volume
   IPL: Initial Program Load
   GSCX: Get Started Customer Experience @RH
   DRBG: Deterministic Random Bit Generator @crypt
@@ -1364,7 +1363,6 @@ freshest:
   RGW: RADOS Gateway @ceph
   SSD: Solid-state Drive
   MS-KKDCP: Microsoft Kerberos KDC Proxy Protocol @protocols
-  XID: DHCP transaction ID @networking @no-expand
   DDNS: Dynamic DNS @networking
   NVT: Network Virtual Terminal
   CSP: Communications Service Provider
@@ -1541,7 +1539,7 @@ new:
   EFK: Elasticsearch, Fluentd, and Kibana
   RHCC: Red Hat Container Catalog @containers @RH @do-not-use
   NPM: Node Package Manager @javascript
-  CMS: Cryptographic Message Syntx @crypt
+  CMS: Cryptographic Message Syntax @crypt
   NFV: Network Functions Virtualization @communications @networking @virtualization
   SATA: Serial Advanced Technology Attachment @hardware
   CRS: Container-Ready Storage @openshift
