@@ -1364,7 +1364,6 @@ freshest:
   DDNS: Dynamic DNS @networking
   NVT: Network Virtual Terminal
   CSP: Communications Service Provider
-  NFV: Network Functions Virtualization @networking
   ISDN: Integrated Services Digital Network @networking
   RUV: Replica Update Vector
   RTSP: Real Time Streaming Protocol @protocols
