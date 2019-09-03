@@ -924,8 +924,8 @@ redhat:
   RHOS: Red Hat OpenStack (upstream - RDO) @always-expand @RH
   RHSS: Red Hat Storage Server @always-expand @RH
   DTS: Red Hat Developer Toolset @always-expand @RH
-  RHEV-H: Red Hat Enterprise Virtualization Hypervisor @always-expand @RH
-  RHEV-M: Red Hat Enterprise Virtualization Manager @always-expand @RH
+  RHEV-H: @do-not-use See RHV-H
+  RHEV-M: @do-not-use See RHV-M
   RHSC: Red Hat Storage Console @RH
   RHSC: Red Hat Software Collections @always-expand @RH
   WARHW: We are Red Hat Week @RH
@@ -1051,6 +1051,7 @@ redhat:
   RHDS: Red Hat Directory Server @RH @always-expand
   RHEBS: Red Hat E-Business Suite @RH
   RHV-M: Red Hat Virtualization Manager @RH @always-expand
+  RHV-H: Red Hat Virtualization Host @RH @always-expand
   RHJP: Red Hat JBoss Portal @RH
   RHN: Red Hat Network @RH @always-expand
   RHNS: Red Hat Network Satellite @RH
