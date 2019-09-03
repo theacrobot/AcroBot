@@ -924,8 +924,8 @@ redhat:
   RHOS: Red Hat OpenStack (upstream - RDO) @always-expand @RH
   RHSS: Red Hat Storage Server @always-expand @RH
   DTS: Red Hat Developer Toolset @always-expand @RH
-  RHEV-H: @do-not-use See RHV-H
-  RHEV-M: @do-not-use See RHV-M
+  RHEV-H: See RHV-H
+  RHEV-M: See RHV-M
   RHSC: Red Hat Storage Console @RH
   RHSC: Red Hat Software Collections @always-expand @RH
   WARHW: We are Red Hat Week @RH
