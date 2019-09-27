@@ -926,7 +926,6 @@ redhat:
   DTS: Red Hat Developer Toolset @always-expand @RH
   RHEV-H: See RHV-H
   RHEV-M: See RHV-M
-  RHSC: Red Hat Storage Console @RH
   RHSC: Red Hat Software Collections @always-expand @RH
   WARHW: We are Red Hat Week @RH
   RHDTS: Red Hat Developer Toolset @RH
@@ -1029,7 +1028,7 @@ redhat:
     in FY15 @RH
   GWS: Global Workplace Solutions @RH
   JBDS: JBoss Developer Studio @RH @jboss
-  JBoss: (Enterprise) JavaBeans Open Source Software @RH
+  JBoss: "(Enterprise) JavaBeans Open Source Software @RH"
   jBPM: Java Business Process Management @RH
   JDF: JBoss Developer Framework @RH
   JDG: JBoss Data Grid @RH
@@ -1429,7 +1428,7 @@ new:
   LSP: Localization Service Provider @translation
   MS: Microsoft
   JAX: Java API for XML @java
-  XPath: "XML Path Language See: https://en.wikipedia.org/wiki/XPath"
+  XPath: 'XML Path Language See: https://en.wikipedia.org/wiki/XPath'
   IOPS: Input/Output Operations Per Second (pronounced eye-ops) @metrics https://en.wikipedia.org/wiki/IOPS
   DCO: Detailed Course Outline @training
   ISA: Instruction Set Architecture @cpu
@@ -1470,7 +1469,7 @@ new:
   JOTM: Java Open Transaction Manager @java
   2PC: Two-phase commit
   OCP: OpenShift Container Platform @openshift @do-not-use
-  PHP: "PHP: Hypertext Preprocessor @no-expand"
+  PHP: 'PHP: Hypertext Preprocessor @no-expand'
   GbE: Gigabit Ethernet @networking
   AKI: Authority Key Identifier @auth
   MBO: Management By Objectives @mgmt
@@ -1677,6 +1676,12 @@ new:
   KSM: Kernel Samepage Merging @kernel @virtualization
   CNCF: Cloud Native Computing Foundation @cloud @opensource https://www.cncf.io/
   EOL: end of line
+  ITSM: Information Technology Service Management
+  TOC: Theory of Constraints @proj-management
+  IIS: Internet Information Services @Microsoft
+  CPM: critical path method @proj-man
+  CPA: critical path analysis @proj-man
+  PERT: program evaluation and review technique @proj-man
 slang:
   MTG: Meeting @do-not-use
   AFAIK: As Far As I Know @do-not-use
