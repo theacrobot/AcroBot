@@ -62,7 +62,7 @@ verified:
   E2E: End-to-End
   EAL: Evaluation Assurance Level (1-7)
   ECC: Elliptic Curve Cryptography @auth
-  EDID: Extended display identification data
+  EDID: Extended Display Identification Data
   EEPROM: Electrically Erasable Programmable Read-Only Memory
   EFI: Extensible Firmware Interface
   EHCI: Enhanced Host Controller Interface
@@ -77,7 +77,7 @@ verified:
   FIPS: Federal Information Processing Standard @no-expand
   FIRST: Forum of Incident Response and Security Teams
   FISMA: Federal Information Security Management Act
-  GC: Graphic context @xorg
+  GC: Graphic Context @xorg
   GCC: GNU Compiler Collection
   GDB: GNU Debugger
   GDM: Gnome Display Manager
@@ -139,7 +139,7 @@ verified:
   NISPOM: National Industrial Security Program Operating Manual
   NIST: National Institute of Standards and Technology @no-expand
   NMI: Nonmaskable Interrupt
-  NSCD: Name service cache daemon
+  NSCD: Name Service Cache Daemon
   NVD: National Vulnerability Database
   NVLAP: National Voluntary Laboratory Accreditation Program
   NVM: Nonvolatile Memory
@@ -159,10 +159,10 @@ verified:
   PAM: Pluggable Authentication Module @auth
   PAPI: Performance Application Programming Interface
   PAPR: Power Architecture Platform Requirements
-  PC: Personal computer @no-expand
+  PC: Personal Computer @no-expand
   PCM: Pulse Code Modulation
   PCP: Performance Co-Pilot
-  PDA: Personal digital assistant
+  PDA: Personal Digital Assistant
   PIB: Partner Inspection Build
   PID: Process Identifier @no-expand
   PITR: Point-In-Time Recovery
@@ -185,7 +185,7 @@ verified:
   RFC: Request for Comment @no-expand
   RG: Resource Group
   RPC: Remote Procedure Call
-  RSB: Resource block
+  RSB: Resource Block
   RPM: RPM Package Manager @no-expand
   RTS: Request to Send
   SACK: Selective Acknowledgement
@@ -208,7 +208,7 @@ verified:
   SMIME: Secure/Multipurpose Internet Mail Extensions (S/MIME)
   SNAT: Source Network Address Translation
   SNMP: Simple Network Management Protocol @protocols
-  SOA: Service-Oriented Architecture @networking
+  SOA: Service-oriented Architecture @networking
   SOAP: Simple Object Access Protocol @networking @protocols @no-expand
   SPARC: Scalable Processor Architecture
   SQL: Structured Query Language @no-expand
@@ -235,14 +235,14 @@ verified:
   UUID: Universally Unique Identifier
   VAR: Value-added reseller
   VDSM: Virtual Desktop Server Management @no-expand
-  VHDX: Hyper-V virtual hard disk
+  VHDX: Hyper-V Virtual Dard Disk
   VIF: Virtual Interface
   VIM: Vi Improved
-  VM: Virtual machine
+  VM: Virtual Machine
   VNC: Virtual Network Connection @networking
   VRRP: Virtual Router Redundancy Protocol @protocols
   WBEM: Web-based Enterprise Management
-  WCA: Web clipping application
+  WCA: Web Clipping Application
   WFN: Well-formed Name
   WSGI: Web Server Gateway Interface
   WWID: World Wide Identifier
@@ -250,18 +250,18 @@ verified:
   XCCDF: Extensible Configuration Checklist Document Format
   XDMCP: X Display Manager Control Protocol @protocols
   XDR: Cross-domain Request
-  atime: Access time
+  atime: Access Time
   auid: Audit ID
   bash: Bourne-Again Shell @no-expand
-  cgroups: Control groups
-  ctime: Change time
-  cwnd: Ccongestion window
+  cgroups: Control Groups
+  ctime: Change Time
+  cwnd: Congestion Window
   iBFT: iSCSI Boot Firmware Table
   ipr: IBM Power RAID
   kABI: kernel Application Binary Interface
   knfsd: kernel NFS daemon
-  lra: Local register allocator
-  mtime: Modify time
+  lra: Local Register Allocator
+  mtime: Modify Time
   ovs: Open vSwitch
   pNFS: parallel NFS
   pci-dss: Payment Card Industry -- Data Security Standard
@@ -284,7 +284,7 @@ virtualization:
   QEMU: Quick Emulator @virtualization
   SR-IOV: Single Root I/O Virtualization @virtualization
 networking:
-  FQDN: Fully qualified domain name @networking
+  FQDN: Fully Qualified Domain Name @networking
   NIC: Network Interface Card @networking
   SAN: Storage Area Network @networking
   IGMP: Internet Group Management Protocol @networking @protocols
@@ -292,7 +292,7 @@ networking:
   MTA: Multimedia Terminal Adapter @networking
   ASIC: Application-specific integrated circuit @networking
   CGI: Common Gateway Interface @networking
-  DHCP: Dynamic host configuration protocol @networking @no-expand @protocols
+  DHCP: Dynamic Host Configuration Protocol @networking @no-expand @protocols
   DNS: Domain Name System @networking @no-expand
   MIME: Multipurpose Internet Mail Extension @networking
   NCP: Network Control Protocol @networking @protocols
@@ -373,7 +373,7 @@ kernel:
   LAPIC: Local APIC @kernel
   LKA: Link Keep Alive @kernel
   LUN: Logical Unit Number @kernel
-  MCC: multi-core communication @kernel
+  MCC: Multi-core Communication @kernel
   MFN: Machine Frame Number @xen @kernel
   MII: Media Independent Interface @network @kernel
   MPT: Message Passing Technology @kernel
@@ -391,10 +391,10 @@ kernel:
   PDE: Page Directory Entry @kernel
   PFN: Physical Frame Number @xen @kernel
   PIT: Programmable Interval Timer @kernel
-  PMD: Page Mid-Level Directory @kernel
+  PMD: Page Mid-level Directory @kernel
   POPF: Pop Flags @kernel
   QAS: Quest Authentication Services @kernel
-  RSS: Receive-Side Scaling @kernel
+  RSS: Receive-side Scaling @kernel
   RoCE: RDMA Over Converged Ethernet @kernel
   SAS: Serial Attached SCSI @kernel
   SKB: Socket Buffer @kernel
@@ -416,13 +416,13 @@ kernel:
   LRO: Large Receive Offload @virtualization @kernel
   VF: Virtual Function @kernel @virtualization
   vCPU: virtual CPU @virtualization @kernel
-  IPI: inter-processor interrupt @kernel
+  IPI: Inter-processor Interrupt @kernel
   CFS: Completely Fair Scheduler @kernel
 cloud:
   CFSE: CloudForms System Engine @cloud
   CDS: Content Distribution Server @cloud
-  IaaS: Infrastructure-as-a-Service @cloud http://stylepedia.net
-  PaaS: Platform-as-a-Service @cloud http://stylepedia.net
+  IaaS: Infrastructure-as-a-Service @cloud http://stylepedia.net/style
+  PaaS: Platform-as-a-Service @cloud http://stylepedia.net/style
   RBA: Role-based Administration @cloud
   LBaaS: Load Balancing-as-a-Service @cloud @rhos
   DBaaS: Database-as-a-Service @cloud http://www.scaledb.com/DBaaS-Database-as-a-Service.php
@@ -477,11 +477,11 @@ consulting:
   ABAC: Attribute-based Access Control
   ANZ: Australia and New Zealand
   B2B: Business-to-Business
-  BDD: Behavior-Driven Development
+  BDD: Behavior-driven Development
   BOM: Bill of Materials @maven
   BPEL: Business Process Execution Language
   BPMN: Business Process Model and Notation
-  CBR: Content-Based Routing
+  CBR: Content-based Routing
   CDI: Contexts and Dependency Injection
   CEC: Common Engineering Criteria
   CEP: Complex Event Processing
@@ -547,7 +547,7 @@ consulting:
   ODE: Orchestration Director Engine
   ODM: Operational Decision Management
   OEM: Oracle Enterprise Manager @oracle
-  OOTB: Out Of The Box
+  OOTB: Out Of The Box @do-not-use
   OPA: Oracle Policy Automation @oracle
   OU: Organizational Unit
   OVA: Open Virtual Appliance
@@ -556,13 +556,13 @@ consulting:
   POM: Project Object Model @maven
   RMI: Remote Method Invocation
   S-RAMP: SOA Repository Artifact Model and Protocol @protocols
-  SaaS: Software as a Service
+  SaaS: Software-as-a-Service
   SAML: Security Assertion Markup Language
   SASL: Simple Authentication and Security Layer
   SCA: Service Component Architecture
   SCDL: Service Component Definition Language
-  SCM: source code management
-  SEDA: Staged Event-Driven Architecture
+  SCM: Source Code Management
+  SEDA: Staged Event-driven Architecture
   SIT: System Integration Testing
   SMB: Small or Medium Business
   SME: Subject Matter Expert
@@ -596,18 +596,18 @@ consulting:
   NOC: Network Operations Center
   ESB: Enterprise Service Bus
   MDP: Managed Design Program
-  MOF: Meta-Object Facility
+  MOF: Meta-object Facility
   OMG: Object Management Group
   UML: Unified Modeling Language
   OpenLMI: Open Linux Management Infrastructure
   POC: Proof of Concept
-  ENC: External node classifier @Satellite
+  ENC: External Node Classifier @Satellite
   HIPAA: Health Insurance Portability and Accountability Act
-  HIPPA: Incorrect spelling of HIPAA
-  EHR: electronic health records
+  HIPPA: See HIPAA
+  EHR: Electronic Health Records
   CHAP: Challenge Handshake Authentication Protocol @security @protocols
-  JPEG: joint photographic experts group @graphics
-  MPEG: motion picture experts group @graphics
+  JPEG: Joint Photographic Experts Group @graphics
+  MPEG: Motion Picture Experts Group @graphics
   PAP: Password Authentication Protocol @security @protocols
   COP: Community of Practice
   COE: Center of Excellence
@@ -638,13 +638,13 @@ consulting:
   ER: Engineering Release
   CR: Candidate Release
   SCE: Strategic Customer Engagement
-  CSV: comma-separated values
-  CCW: channel command word bus @System z
+  CSV: Comma-separated Values
+  CCW: Channel Command Word Bus @System z
   RTGov: Run Time Governance
   EIS: Enterprise Information Services
-  APR: annual percentage rate
+  APR: Annual Percentage Rate
   BAM: Business Activity Monitoring
-  KPI: key performance indicators
+  KPI: key Performance Indicator
   EWS: Enterprise Web Server (renamed to WS) @RH
   SGML: Standardized Generalized Markup Language @no-expand
   XML: Extensible Markup Language @no-expand
@@ -658,10 +658,10 @@ consulting:
   CCFR: Cause Consequence Fix Result @errata
   JDF: Job Definition Format
   CII: Core Infrastructure Initiative
-  CSRF: Cross-site request forgery
-  CORS: Cross-origin resource sharing
+  CSRF: Cross-site Request Forgery
+  CORS: Cross-origin Resource Sharing
   XHR: XMLHttpRequest
-  DIMM: dual in-line memory module
+  DIMM: Dual In-line Memory Module
   IdM: Identity Management @auth @RH
   VCS: Version Control System
   EDS: Easy Digital Signage
@@ -944,7 +944,7 @@ redhat:
   RHW: Red Hat Week @RH
   NHO: New Hire Orientation @RH
   LnL: Lunch and Learn @RH
-  SLP: Subscription Life Cycle Plan @RH
+  SLP: Subscription Life-cycle Plan @RH
   SPM: Support Product Management @RH
   PM: Product Management @RH
   GBD: Global Business Development @RH
@@ -1675,13 +1675,13 @@ new:
   SHA: Secure Hash Algorithm @cryptography (Pronounced "shä")
   KSM: Kernel Samepage Merging @kernel @virtualization
   CNCF: Cloud Native Computing Foundation @cloud @opensource https://www.cncf.io/
-  EOL: end of line
+  EOL: End of Life
   ITSM: Information Technology Service Management
   TOC: Theory of Constraints @proj-management
   IIS: Internet Information Services @Microsoft
-  CPM: critical path method @proj-man
-  CPA: critical path analysis @proj-man
-  PERT: program evaluation and review technique @proj-man
+  CPM: Critical Path Method @proj-man
+  CPA: Critical Path Analysis @proj-man
+  PERT: Program Evaluation and Review Technique @proj-man
 slang:
   MTG: Meeting @do-not-use
   AFAIK: As Far As I Know @do-not-use
@@ -1775,3 +1775,4 @@ tags:
   protocols: Abbreviations related to protocols @tags
   commerce: Abbreviations related to all types of commerce @tags
   deprecated: Abbreviations no longer in use @tags
+  proj-man: Abbreviations related to project management @tags
