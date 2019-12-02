@@ -1379,6 +1379,8 @@ freshest:
   MTL: Matching Transport Layer @openmpi
   RHCS: Red Hat Ceph Storage @ceph @always-expand
   IDP: Individual Development Plan @RH
+  MAC: Multiple Architecture Computer
+  MAC: Multiply and Accumulate @CPU
 new:
   x86_64: AMD64 and Intel 64 systems @do-not-use
   ppc64: 64-bit IBM Power Systems servers @do-not-use
@@ -1790,7 +1792,7 @@ tags:
   Arm: Abbreviations related to ARM instruction set architecture @tags
   containers: Abbreviations related to Linux containers, Docker, Atomic @tags
   ceph: Abbreviations related to the ceph storage platform @tags
-  gnome: Abbreviations related to the gnome desktop environment @tags
+  gnome: Abbreviations related to GNOME @tags
   openmpi: Abbreviations related to the openmpi project @tags
   security: Abbreviations related to security @tags
   cpu: Abbreviations related to CPUs @tags
@@ -1800,7 +1802,6 @@ tags:
   commerce: Abbreviations related to all types of commerce @tags
   deprecated: Abbreviations no longer in use @tags
   proj-man: Abbreviations related to project management @tags
-  gnome: Abbreviations related to GNOME @tags
   Microsoft: Abbreviations related MicroSoft Corp @tags
   telecommunications: Abbreviations related to telecommunications @tags
   Windows: Abbreviations related to Microsoft Windows @tags
@@ -1810,4 +1811,3 @@ tags:
   programming: Abbreviations related to computer programming @tags
   ldap: Abbreviations related to LDAP @tags
   snmp: Abbreviations related to SNMP @tags
-
