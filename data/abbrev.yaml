@@ -38,7 +38,7 @@ verified:
   CRL: Certificate Revocation List
   CTS: Clear to Send
   CVE: Common Vulnerabilities and Exposures
-  CVFS: CentraVision File System @SNMP
+  CVFS: CentraVision File System @snmp
   CVSS: Common Vulnerability Scoring System
   DCBX: Data Center Bridging Exchange @protocols
   DCSP: Differentiated Services Code Point
@@ -737,6 +737,7 @@ consulting:
   RPL: Release Priority List
   RT: Real time
   TCMS: Test Case Management System
+  TCM: Target Core Mod @kernel
   YAWL: Yet Another Workflow Language
   FESCo: Fedora Engineering Steering Committee
   GES: Global Engineering Services (i.e. Professional Services)
@@ -1274,6 +1275,7 @@ freshest:
   RPZ: Response Policy Zone @networking
   LMB: Logical Memory Block
   DDR: Double Data Rate
+  DDR4: Double Data Rate 4th Generation Synchronous Dynamic RAM @hardware
   GVFS: GNOME virtual file system
   GFS: Global File System @cluster
   LPD: Line Printer Daemon
@@ -1298,7 +1300,7 @@ freshest:
   CRUSH: Controlled Replication Under Scalable Hashing @ceph
   PFS: Perfect Forward Secrecy @cryptography
   FPL: Feature Priority List @RH
-  XSS: cross-site scripting @security
+  XSS: Cross-site Scripting @security
   DDW: Dynamic DMA Windows
   ICV: Integrity Check Value (AKA checksum) @cryptography
   IPMB: Intelligent Platform Management Bus @kernel
@@ -1308,7 +1310,7 @@ freshest:
   MBaaS: Mobile Backend-as-a-Service @cloud
   SSL: Secure Sockets Layer @no-expand
   TLS: Transport Layer Security @no-expand
-  DIMM: dual in-line memory module
+  DIMM: Dual In-line Memory Module
   SDK: Software Development Kit
   XSD: XML Schema Definition @no-expand
   ITWOB: IT Without Boundaries @RH
@@ -1677,11 +1679,33 @@ new:
   CNCF: Cloud Native Computing Foundation @cloud @opensource https://www.cncf.io/
   EOL: End of Life
   ITSM: Information Technology Service Management
-  TOC: Theory of Constraints @proj-management
+  TOC: Theory of Constraints @proj-man
   IIS: Internet Information Services @Microsoft
   CPM: Critical Path Method @proj-man
   CPA: Critical Path Analysis @proj-man
   PERT: Program Evaluation and Review Technique @proj-man
+  DOH: DNS Over HTTPS @protocols
+  MaaS: Mobility-as-a-Service
+  VPC: Virtual Private Cloud @cloud @virtualization
+  PSRP: PowerShell Remoting Protocol @protocols @Windows
+  CredSSP: Credential Security Support Provider @auth
+  PBR: Policy-based Routing
+  CJIS: Criminal Justice Information Services @law
+  LASER: Light Amplification by Stimulated Emission of Radiation
+  WSL: Windows Subsystem for Linux
+  ADT: Abstract Data Type @standards @programming
+  PSA: Platform Security Architecture @Arm
+  vRAN: virtual Radio Access Network @telecommunications
+  MNO: Mobile Network Operator @telecommunications
+  BBU: Baseband Unit @telecommunications
+  LTE: Long Term Evolution @telecommunications
+  FPGA: Field-programmable Gate Arrays @telecommunications
+  DU: Distributed Unit @telecommunications
+  CU: Central Unit @telecommunications
+  RTS: Real-time Strategy
+  RIR: Regional Internet Registry
+  NIR: National Internet Registry
+  LIR: Local Internet Registry
 slang:
   MTG: Meeting @do-not-use
   AFAIK: As Far As I Know @do-not-use
@@ -1763,7 +1787,7 @@ tags:
   maven: Abbreviations related to Apache Maven @tags
   Satellite: Abbreviations related to Red Hat Satellite @tags
   ruby: Abbreviations related to Ruby programming language @tags
-  arm: Abbreviations related to ARM instruction set architecture @tags
+  Arm: Abbreviations related to ARM instruction set architecture @tags
   containers: Abbreviations related to Linux containers, Docker, Atomic @tags
   ceph: Abbreviations related to the ceph storage platform @tags
   gnome: Abbreviations related to the gnome desktop environment @tags
@@ -1776,3 +1800,14 @@ tags:
   commerce: Abbreviations related to all types of commerce @tags
   deprecated: Abbreviations no longer in use @tags
   proj-man: Abbreviations related to project management @tags
+  gnome: Abbreviations related to GNOME @tags
+  Microsoft: Abbreviations related MicroSoft Corp @tags
+  telecommunications: Abbreviations related to telecommunications @tags
+  Windows: Abbreviations related to Microsoft Windows @tags
+  law: Abbreviations related to the justice system @tags
+  finance: Abbreviations related to finance @tags
+  business: Abbreviations related to business @tags
+  programming: Abbreviations related to computer programming @tags
+  ldap: Abbreviations related to LDAP @tags
+  snmp: Abbreviations related to SNMP @tags
+
