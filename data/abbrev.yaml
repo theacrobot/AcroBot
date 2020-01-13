@@ -31,7 +31,7 @@ verified:
   CIM: Common Information Model
   CIMOM: CIM Object Manager
   CIPSO: Common Internet Protocol Security Option
-  CLI: Command-Line Interface
+  CLI: Command-line Interface
   CMPI: Common Manageability Programming Interface
   CMW: Compartmented Mode Workstation
   CPU: Central Processing Unit @no-expand
@@ -42,7 +42,7 @@ verified:
   CVSS: Common Vulnerability Scoring System
   DCBX: Data Center Bridging Exchange @protocols
   DCSP: Differentiated Services Code Point
-  DES: Data Encryption Standard
+  DES: Data Encryption Standard @encryption (pron. dĕs)
   DFS: Distributed File System
   DI: Definition Interpreter
   DLL: Dynamic Link Library
@@ -61,14 +61,14 @@ verified:
   DoS: denial of service
   E2E: End-to-End
   EAL: Evaluation Assurance Level (1-7)
-  ECC: Elliptic Curve Cryptography @auth
+  ECC: Elliptic Curve Cryptography @cryptography
   EDID: Extended Display Identification Data
   EEPROM: Electrically Erasable Programmable Read-Only Memory
   EFI: Extensible Firmware Interface
   EHCI: Enhanced Host Controller Interface
   EIO: Enhanced Input/Output
   ELS: Extended Link Service
-  ENOSPC: No space left on device @errorcode
+  ENOSPC: No space left on device @errorcodes
   EOF: End of File @no-expand
   ETU: Elementary Time Unit
   FCAPS: Fault, Configuration, Accounting, Performance, Security
@@ -1620,7 +1620,7 @@ new:
   FSAL: File System Abstraction Layer
   ZFS: Zettabyte File System
   EFS: Amazon Elastic File System @filesystems
-  RHV: Red Hat Virtualization @RH @virtualization
+  RHV: Red Hat Virtualization @RH @virtualization (pron. rĕv)
   GPTE: Global Partner and Technical Enablement @RH
   Dom0: Domain 0 (privileged domain) @xen
   JAWS: Job Access With Speech @accessibility
@@ -1809,3 +1809,4 @@ tags:
   programming: Abbreviations related to computer programming @tags
   ldap: Abbreviations related to LDAP @tags
   snmp: Abbreviations related to SNMP @tags
+  errorcodes: Abbreviations related to error codes @tags
