@@ -1380,9 +1380,9 @@ freshest:
 new:
   x86_64: AMD64 and Intel 64 systems @do-not-use
   ppc64: 64-bit IBM Power Systems servers @do-not-use
-  s390x: IBM System z @unchecked
-  i686: Intel P6 @unchecked
-  IDL: ID List @389 Directory Server @unchecked
+  s390x: IBM System z
+  i686: Intel P6
+  IDL: ID List @389 Directory Server
   DoD: Department of Defense
   ISS: Inter-Satellite Synchronization @Satellite
   CV: Content View @Satellite6
