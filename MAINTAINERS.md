@@ -34,7 +34,25 @@ $ oc rsync <podname>:/opt/acrobot/data /path/to/local/AcroBot/
 
 The first `oc rsync` argument is the source directory (in the example, the directory `/opt/acrobot/data` in the pod named `<podname>`). The second argument is the destination.
 
-Then you can commit them to git.
+Repeat this for the internal version.
+
+Then you can commit and push them to git.
+
+## Sync the Databases
+
+To make sure the two instances are using the same data, sync the repo with the pods.
+
+~~~
+[user@host AcroBot] (master) $ oc rsync data/ <external-podname>:/opt/acrobot/data
+sending incremental file list
+abbrev.yaml
+...output omitted...
+
+[user@host AcroBot] (master) $ oc rsync data/ <internal-podname>:/opt/acrobot/data
+sending incremental file list
+abbrev.yaml
+...output omitted...
+~~~
 
 ## Changes to the Source Code
 
