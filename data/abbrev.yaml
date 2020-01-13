@@ -1708,10 +1708,7 @@ new:
   NIR: National Internet Registry
   LIR: Local Internet Registry
   MAC: Multiple Architecture Computer
-  RHSS: Red Hat Storage Server @always-expand @RH @deprecated
-  DEK: Data Encryption Key @security @encryption
-  iPXE: Open Source PXE See https://ipxe.org/
-  RNDC: Remote Name Daemon Control @networking
+  HBA: Host Bus Adaptor @hardware
 slang:
   MTG: Meeting @do-not-use
   AFAIK: As Far As I Know @do-not-use
