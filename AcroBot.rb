@@ -95,7 +95,7 @@ bot = Cinch::Bot.new do
    c.sasl.password = ENV['SASL_PASSWORD'] unless ENV['SASL_PASSWORD'].nil?
   end
 
-  on :message, /^!([\w\-\_]+)\=(.+)/ do |m, abbrev, desc|
+  on :message, /^!([\w\-\_\+\&]+)\=(.+)/ do |m, abbrev, desc|
     nick = m.channel? ? m.user.nick+": " : ""
     save_abbrev(abbrev, desc)
    nick = m.channel? ? m.user.nick+"":""
@@ -111,7 +111,7 @@ bot = Cinch::Bot.new do
     m.reply("To list all tags, type !@tags")
   end
 
-  on :message, /^!@([\w\-\_]+)$/ do |m, tag|
+  on :message, /^!@([\w\-\_\+\&]+)$/ do |m, tag|
     tag = tag.strip
     match_abbrevs = find_values(tag)
     nick = m.channel? ? m.user.nick+": " : ""
@@ -122,7 +122,7 @@ bot = Cinch::Bot.new do
     end
   end
 
-  on :message, /^!([\w\-\_]+)$/ do |m, abbrev|
+  on :message, /^!([\w\-\_\+\&]+)$/ do |m, abbrev|
     abbrev = abbrev.strip
     unless abbrev =~ /^help$/i
       nick_str = m.channel? ? "#{m.user.nick}:" : ""
