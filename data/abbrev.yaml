@@ -305,7 +305,7 @@ networking:
   GRE: Generic Routing Encapsulation @networking
   BPF: Berkeley Packet Filter @networking
   QoS: Quality of Service @networking
-  CNAME: Canonical Name @networking @always-cap
+  CNAME: Canonical Name @networking
   PPPoE: Point-to-point Protocol over Ethernet @networking @protocols
   VNIC: Virtual Network Interface Card @networking
   PADT: PPPoE Active Discovery Terminate @networking
@@ -668,7 +668,6 @@ consulting:
   AJP: Apache JServ Protocol @protocols
   PCI: Peripheral Component Interconnect @no-expand
   PReP: PowerPC Reference Platform
-  GDTY: Good Day To You @always-expand
   TSE: Technical Support Engineer (now - Frontline)
   SBT: Service Breach Time
   LSS: Language Support Specialist
@@ -889,8 +888,8 @@ consulting:
   ARP: Address Resolution Protocol @networking @protocols
   CIDR: Classless Inter-domain Routing @networking
   SMTP: Simple Mail Transfer Protocol @protocols
-  HOTP: HMAC-Based One-Time Password @auth
-  TOTP: Time-Based One-Time Password @auth
+  HOTP: HMAC-based One-time Password @auth
+  TOTP: Time-based One-time Password @auth
   IPMI: Intelligent Platform Management Interface @kernel
   OCF: Open Clustering Framework
   MDD: Metrics-driven development
@@ -923,7 +922,6 @@ redhat:
   RHSM: Red Hat Subscription Management @RH
   RHEL-OSP: Red Hat Enterprise Linux OpenStack Platform @always-expand @RH
   RHOS: Red Hat OpenStack (upstream - RDO) @always-expand @RH
-  RHSS: Red Hat Storage Server @always-expand @RH
   DTS: Red Hat Developer Toolset @always-expand @RH
   RHEV-H: See RHV-H
   RHEV-M: See RHV-M
@@ -1042,7 +1040,6 @@ redhat:
   MRG-M: Messaging / Realtime / Grid - Messaging @RH
   MSC: Modular Service Container @RH
   OPEN: Online Partner Enablement Network @RH
-  OSE: OpenShift Enterprise
   PHREAK: Prototype Hybrid Reasoning Engine for Advanced Knowledge Blog @RH
   PMO: Project Management Office
   PQRM: Project Quality and Risk Management
@@ -1224,7 +1221,7 @@ freshest:
   GIF: Graphics Interchange Format
   DSSSL: Document Style Semantics and Specification Language
   RTF: Rich Text Format
-  STIG: Security Technical Implementation Guide @security
+  STIG: Secure Technical Implementation Guidelines @security
   FPU: floating-point unit
   APSD: Automatic Power Save Delivery @wireless
   VIP: Virtual IP @networking
