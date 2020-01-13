@@ -1379,7 +1379,6 @@ freshest:
   MTL: Matching Transport Layer @openmpi
   RHCS: Red Hat Ceph Storage @ceph @always-expand
   IDP: Individual Development Plan @RH
-  MAC: Multiple Architecture Computer
   MAC: Multiply and Accumulate @CPU
 new:
   x86_64: AMD64 and Intel 64 systems @do-not-use
@@ -1708,6 +1707,11 @@ new:
   RIR: Regional Internet Registry
   NIR: National Internet Registry
   LIR: Local Internet Registry
+  MAC: Multiple Architecture Computer
+  RHSS: Red Hat Storage Server @always-expand @RH @deprecated
+  DEK: Data Encryption Key @security @encryption
+  iPXE: Open Source PXE See https://ipxe.org/
+  RNDC: Remote Name Daemon Control @networking
 slang:
   MTG: Meeting @do-not-use
   AFAIK: As Far As I Know @do-not-use
