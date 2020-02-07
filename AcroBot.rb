@@ -110,6 +110,8 @@ bot = Cinch::Bot.new do
     m.reply("To list abbreviations associated with a tag, type eg. !@kernel")
     m.reply("To list all tags, type !@tags")
     m.reply("AcroBot uses initcaps for expansions by default. Your own style guides may vary.")
+    m.reply("Contribute to AcroBot at https://github.com/theacrobot/AcroBot")
+    m.reply("Follow Acrobot on Twitter: @_acrobot")
   end
 
   on :message, /^!@([\w\-\_\+\&\/]+)$/ do |m, tag|
