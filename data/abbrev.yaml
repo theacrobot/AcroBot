@@ -1706,6 +1706,13 @@ new:
   LIR: Local Internet Registry
   MAC: Multiple Architecture Computer
   HBA: Host Bus Adaptor @hardware
+  D&I: Diversity & Inclusion
+  RPN: Reverse Polish Notation @mathematics https://en.wikipedia.org/wiki/Reverse_Polish_notation
+  CI/CD: Continuous Integration/Continuous Delivery @development
+  NTLM: NT LAN Manager @Microsoft @protocols @expand-first (Do not expand NT and LAN
+    in this context)
+  RHMI: Red Hat Managed Integration @cloud @OpenShift @middleware
+  CS+D: Creative Strategy and Design @marketing @RH
 slang:
   MTG: Meeting @do-not-use
   AFAIK: As Far As I Know @do-not-use
