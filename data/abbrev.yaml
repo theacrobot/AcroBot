@@ -1188,7 +1188,6 @@ freshest:
   CIB: Cluster Information Base @cluster
   WebDAV: Web Distributed Authoring and Versioning @networking
   ATA: Advanced Technology Attachment @hardware
-  HAHA: Highly Acclaimed High Availability
   SDR: Sensor Data Record
   AHAH: Asynchronous HTML and HTTP @networking
   CUPS: Common Unix Printing System @no-expand
@@ -1391,7 +1390,7 @@ new:
   CaaS: Containers-as-a-Service @cloud
   SIEM: Security Information and Event Management @security
   IDS: Intrusion Detection System @security
-  MTA: mail transfer agent
+  MTA: Mail Transfer Agent
   MOM: Message-Oriented Middleware @messaging
   DMS: Data Movement Service @Gluster
   DSU: Destination Storage Unit @Gluster
