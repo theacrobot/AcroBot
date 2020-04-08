@@ -14,16 +14,16 @@ verified:
   API: Application Programming Interface @no-expand
   ARF: Asset Reporting Format
   ATLAS: Automatically Tuned Linear Algebra Software
-  ATR: Answer To Reset
+  ATR: Answer To Reset @communications
   BCE: Basic Constraint Extension @ldap
   BIND: Berkeley Internet Name Domain
   BLAS: Basic Linear Algebra Subprograms
-  BKL: Big Kernel Lock
+  BKL: Big Kernel Lock @kernel
   BSI: Best Security Industries
   CA: Certificate Authority @auth
   CAC: Common Access Card
   CAPP: Controlled Access Protection Profile
-  CC: Creative Commons
+  CC: Creative Commons @law @licensing
   CCE: Common Configuration Enumeration
   CCSS: Common Configuration Scoring System
   CIFS: Common Internet File System
@@ -36,7 +36,7 @@ verified:
   CMW: Compartmented Mode Workstation
   CPU: Central Processing Unit @no-expand
   CRL: Certificate Revocation List
-  CTS: Clear to Send
+  CTS: Clear to Send @communications
   CVE: Common Vulnerabilities and Exposures
   CVFS: CentraVision File System @snmp
   CVSS: Common Vulnerability Scoring System
@@ -55,10 +55,10 @@ verified:
   DOI: Domain of Interpretation
   DRDB: Distributed Replicated Block Device
   DTR: Derived Test Requirement
-  DTX: Distributed Transaction @MRG
+  DTX: Distributed Transaction @mrg
   DUD: Driver Update Disk
   DUP: Driver Update Program
-  DoS: denial of service
+  DoS: Denial of Service
   E2E: End-to-End
   EAL: Evaluation Assurance Level (1-7)
   ECC: Elliptic Curve Cryptography @cryptography
@@ -83,7 +83,7 @@ verified:
   GDM: Gnome Display Manager
   GID: Group Identifier @no-expand
   GNU: GNU's Not Unix!
-  GPL: General Public License @no-expand
+  GPL: General Public License @no-expand @law @licensing
   GRUB: Grand Unified Bootloader
   GSO: Generic Segmentation Offload
   GSSAPI: Generic Security Services API
@@ -125,7 +125,7 @@ verified:
   LUKS: Linux Unified Key Setup
   LVDS: Low-voltage Differential Signaling
   LVM: Logical Volume Manager
-  LVQ: Last Value Queue @MRG
+  LVQ: Last Value Queue @mrg
   LVS: Linux Virtual Server
   MAC: Message Authentication Code @fips
   MCE: Machine Check Exception
@@ -175,7 +175,7 @@ verified:
   PV: Physical Volume
   PXE: Pre-Boot Execution Environment
   QI: Questionnaire Interpreter
-  QMF: QPID Modeling Framework @MRG
+  QMF: QPID Modeling Framework @mrg
   RAID: Redundant Array Of Independent Discs
   RARP: Reverse Address Resolution Protocol @protocols @networking
   RCS: Revision Control System
@@ -1005,8 +1005,8 @@ redhat:
   BxMS: BPMS and/or BRMS @RH
   BZ: Bugzilla
   C&U: Capacity and Utilization @RH
-  CCP: Certified Cloud Provider, deprecated, see CCSP @RH @do-not-use
-  CCSP: Certified Cloud and Service Provider, previously CCP @RH
+  CCP: Certified Cloud Provider @RH @do-not-use Deprecated. See CCSP.
+  CCSP: Certified Cloud and Service Provider @RH Previously CCP.
   CDN: Content Delivery Network @RH
   CP: Cumulative Patch @RH
   DMR: Dynamic Model Representation @RH
@@ -1014,13 +1014,13 @@ redhat:
   DTGov: Design Time Governance @jboss @RH
   DV: Data Virtualization @RH
   EAP: Enterprise Application Platform @RH
-  EDS: Enterprise Data Services replaced by Red Hat JBoss Data Virtualization 6 @RH
+  EDS: Enterprise Data Services @RH Replaced by Red Hat JBoss Data Virtualization 6
   ELS: Extended Life Cycle Support @RH
   EVM: Enterprise Virtualization Manager @RH
   FDE: Forward Deployed Engineer @RH
   FSW: Fuse Service Works (Red Hat JBoss Fuse Service Works) @RH
   GLC: Global Learning Council @RH
-  GLS: Global Learning Services (renamed to Red Hat Training) @do-not-use @RH
+  GLS: Global Learning Services @do-not-use @RH Use RHT+C (Red Hat Training + Certification)
   GPS: Global Professional Services @RH
   GSS: Global Support Services @RH
   GSSO: Global Solutions and Strategy Office, replaced by Services Solution Management
@@ -1055,7 +1055,7 @@ redhat:
   RHS: Red Hat Storage (upstream - Gluster) @RH @always-expand
   RHT: Red Hat Technology, Red Hat Tower, Red Hat Training @RH
   RHUI: Red Hat Update Infrastructure @RH @always-expand
-  ROLE: Ret Hat Online Learning Environment @RH
+  ROLE: Red Hat Online Learning Environment @RH
   RSM: Regional Services Manager @RH
   RTGov: Run Time Governance (was BAM) - JBoss Community @RH
   SA: Solutions Architect @RH
@@ -1692,13 +1692,13 @@ new:
   WSL: Windows Subsystem for Linux
   ADT: Abstract Data Type @standards @programming
   PSA: Platform Security Architecture @Arm
-  vRAN: virtual Radio Access Network @telecommunications
-  MNO: Mobile Network Operator @telecommunications
-  BBU: Baseband Unit @telecommunications
-  LTE: Long Term Evolution @telecommunications
-  FPGA: Field-programmable Gate Arrays @telecommunications
-  DU: Distributed Unit @telecommunications
-  CU: Central Unit @telecommunications
+  vRAN: virtual Radio Access Network @communications
+  MNO: Mobile Network Operator @communications
+  BBU: Baseband Unit @communications
+  LTE: Long Term Evolution @communications
+  FPGA: Field-programmable Gate Arrays @communications
+  DU: Distributed Unit @communications
+  CU: Central Unit @communications
   RTS: Real-time Strategy
   RIR: Regional Internet Registry
   NIR: National Internet Registry
@@ -1712,6 +1712,17 @@ new:
     in this context)
   RHMI: Red Hat Managed Integration @cloud @OpenShift @middleware
   CS+D: Creative Strategy and Design @marketing @RH
+  SKO: Sales Kickoff
+  CLM: Career Limiting Move @RH
+  RTT: Round-trip Time @networking
+  CNF: Cloud Native Network Functions @networking @cloud
+  WHO: World Health Organization @medicine
+  UNICEF: United Nations Children's Fund
+  UN: United Nations
+  TOT: Taste of Training @RH @RHTraining
+  Cu: Customer @gss, @RH
+  NNO: Needs New Owner @gss, @RH
+  PEBKAC: Problem Exists Between Keyboard And Chair @do-not-use
 slang:
   MTG: Meeting @do-not-use
   AFAIK: As Far As I Know @do-not-use
@@ -1807,7 +1818,7 @@ tags:
   deprecated: Abbreviations no longer in use @tags
   proj-man: Abbreviations related to project management @tags
   Microsoft: Abbreviations related MicroSoft Corp @tags
-  telecommunications: Abbreviations related to telecommunications @tags
+  communications: Abbreviations related to communications @tags
   Windows: Abbreviations related to Microsoft Windows @tags
   law: Abbreviations related to the justice system @tags
   finance: Abbreviations related to finance @tags
