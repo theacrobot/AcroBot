@@ -37,7 +37,7 @@ verified:
   CPU: Central Processing Unit @no-expand
   CRL: Certificate Revocation List
   CTS: Clear to Send @communications
-  CVE: Common Vulnerabilities and Exposures
+  CVE: Common Vulnerabilities and Exposures @security
   CVFS: CentraVision File System @snmp
   CVSS: Common Vulnerability Scoring System
   DCBX: Data Center Bridging Exchange @protocols
@@ -71,7 +71,7 @@ verified:
   ENOSPC: No space left on device @errorcodes
   EOF: End of File @no-expand
   ETU: Elementary Time Unit
-  FCAPS: Fault, Configuration, Accounting, Performance, Security
+  FCAPS: Fault, Configuration, Accounting, Performane, Security
   FD: File Descriptor
   FDCC: Federal Desktop Core Configuration
   FIPS: Federal Information Processing Standard @no-expand
@@ -102,7 +102,7 @@ verified:
   IMAP: Internet Message Access Protocol @no-expand @protocols
   IMSM: Intel Matrix Storage Manager
   IOMMU: Input/Output Memory Management Unit
-  IP: Internet Protocol @protocols
+  IP: Intellectual Property
   IPA: Identity, Policy, Audit
   IPVS: IP Virtual Server
   IPsec: Internet Protocol Security
@@ -117,7 +117,7 @@ verified:
   JRE: Java Runtime Environment
   JSON: Javascript Object Notation
   LAPACK: Linear Algebra Package
-  LDAP: Lightweight Directory Access Protocol @protocols
+  LDAP: Lightweight Directory Access Protocol @protocols @no-expand
   LLDPDU: Link Layer Discovery Protocol Data Unit
   LPAR: Logical Partitioning
   LPT: Line Print Terminal
@@ -570,7 +570,7 @@ consulting:
   SOW: Statement of Work
   SP: Service Pack
   SPI: Service Provider Interface
-  SSO: Single Sign-On
+  SSO: Single Sign-on
   STOMP: Streaming Text Oriented Messaging Protocol @protocols
   STS: Security Token Service
   TDD: Test Driven Development
@@ -818,7 +818,6 @@ consulting:
   LGL: Legal
   MKT: Marketing and Strategy
   OM: Office Manager
-  OP: EX Operating Expenses
   OPS: Operations
   OSDC: Open Source dot com
   POE: Post Occupancy Evaluation
@@ -827,7 +826,6 @@ consulting:
   RACI: Responsible, Accountable, Consulted, Informed
   REDS: Real Estate Development & Sustainability
   RI: Reference Information
-  RITM: Requested item (see https://redhat.service-now.com/kb_view.do?sysparm_article=KB0002683)
   RPO: Recovery Point Objective
   RTO: Recovery Time Objective
   SBS: Social Business Software - (Jive was formerly known as "Jive SBS")
@@ -837,10 +835,8 @@ consulting:
   SKU: Stock Keeping Unit - unique id for a product or service
   SLED: State Local & Education - refers to a set of accounts in the North American
     Public Sector team
-  Snow: Service Now
   SOP: Standard Operating Procedures
   SoW: Statement of Work
-  STR: Stuttgart office (airport code)
   SVC: Training and Consultation Services
   TLA: Three Letter Acronym
   TRAC: Technical Reference Architecture Change
@@ -1014,7 +1010,8 @@ redhat:
   DTGov: Design Time Governance @jboss @RH
   DV: Data Virtualization @RH
   EAP: Enterprise Application Platform @RH
-  EDS: Enterprise Data Services @RH Replaced by Red Hat JBoss Data Virtualization 6
+  EDS: Enterprise Data Services @RH Replaced by Red Hat JBoss Data Virtualization
+    6
   ELS: Extended Life Cycle Support @RH
   EVM: Enterprise Virtualization Manager @RH
   FDE: Forward Deployed Engineer @RH
@@ -1184,6 +1181,7 @@ hss:
   MAC: Mandatory Access Control @selinux
   KVNO: Key Version Number @auth
   ILT: Initiative Leadership Team @RH
+  SMT: Statistical Machine Translation @translation
 freshest:
   CIB: Cluster Information Base @cluster
   WebDAV: Web Distributed Authoring and Versioning @networking
@@ -1283,11 +1281,11 @@ freshest:
   SPNEGO: Simple and Protected GSSAPI Negotiation Mechanism @auth
   SA: Serviceability Agent @java
   HPROF: Heap/CPU Profiling Tool @java
-  MaaS: Metal-as-a-Service
-  OSD: On-screen Display @gnome
+  MaaS: Mobility-as-a-Service
+  OSD: Object Storage Device @Ceph
   ISBU: Integrated Solutions Business Unit @RH
   RFI: Request for Information
-  OSS: Operations Support Systems
+  OSS: Open Source Software
   BSS: Business Support Systems
   CSN: Change State Number @auth
   ERD: Entity-relationship Diagram
@@ -1375,8 +1373,7 @@ freshest:
   MTL: Matching Transport Layer @openmpi
   RHCS: Red Hat Ceph Storage @ceph @always-expand
   IDP: Individual Development Plan @RH
-  MAC: Multiply and Accumulate @CPU
-new:
+  MAC: Multiple Architecture Computer
   x86_64: AMD64 and Intel 64 systems @do-not-use
   ppc64: 64-bit IBM Power Systems servers @do-not-use
   s390x: IBM System z
@@ -1444,7 +1441,6 @@ new:
   ARLEM: Augmented Reality Learning Experiences Model
   LAMP: Linux, Apache, MySQL, PHP/Python/Perl
   IB: InfiniBand @networking @standards See https://en.wikipedia.org/wiki/InfiniBand
-  OSD: Object Storage Device @Ceph
   LTS: Long Term Stable @product-releases
   TED: Technology, Entertainment, Design @community
   OTP: Open Translation Project @community @translation
@@ -1653,7 +1649,6 @@ new:
   VDC: Virtual Data Center @virtualization @storage
   VVM: Visual Voice Mail @communications
   FLOSS: Free Linux and Open Source Software
-  OSS: Open Source Software
   SOC: Security Operations Centre @security
   GCP: Google Cloud Platform @cloud
   AMA: Ask Me Anything @RH
@@ -1682,7 +1677,6 @@ new:
   CPA: Critical Path Analysis @proj-man
   PERT: Program Evaluation and Review Technique @proj-man
   DOH: DNS Over HTTPS @protocols
-  MaaS: Mobility-as-a-Service
   VPC: Virtual Private Cloud @cloud @virtualization
   PSRP: PowerShell Remoting Protocol @protocols @Windows
   CredSSP: Credential Security Support Provider @auth
@@ -1703,7 +1697,6 @@ new:
   RIR: Regional Internet Registry
   NIR: National Internet Registry
   LIR: Local Internet Registry
-  MAC: Multiple Architecture Computer
   HBA: Host Bus Adaptor @hardware
   D&I: Diversity & Inclusion
   RPN: Reverse Polish Notation @mathematics https://en.wikipedia.org/wiki/Reverse_Polish_notation
@@ -1723,6 +1716,26 @@ new:
   Cu: Customer @gss, @RH
   NNO: Needs New Owner @gss, @RH
   PEBKAC: Problem Exists Between Keyboard And Chair @do-not-use
+  OSSM: OpenShift Service Mesh @OpenShift
+  RHTE: Red Hat Tech Exchange @RH
+  IRT: Initial Response Time @gss
+  ORT: Ongoing Response Time @gss
+  FT: First Touch @gss
+  CCV: Composite Content View @Satellite6
+  LOCE: ListenOnCandlepinEvents @Satellite
+  AK: Activation Key @Satellite6
+  OOBH: Out of Business Hours @gss
+  DCN: Distributed Compute Node @OpenStack
+  NDP: Neighbor Discovery Protocol @protocols
+  DUID: DHCP Unique Identifier
+  RDNSS: Recursive DNS Server @networking
+  DNSSL: DNS Search List @networking
+  ASCII: American Standard Code for Information Interchange
+  FDDI: Fiber Distributed Data Interface
+  DLC: Data Link Control @protocols
+  SMT: Simultaneous Multithreading
+new:
+
 slang:
   MTG: Meeting @do-not-use
   AFAIK: As Far As I Know @do-not-use
