@@ -1,0 +1,8 @@
+title: Acrobot
+description: The new public version of the original acrobot
+google_analytics: UA-64736709-1
+show_downloads: true
+theme: jekyll-theme-dinky
+
+gems:
+  - jekyll-mentions
