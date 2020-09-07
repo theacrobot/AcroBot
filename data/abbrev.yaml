@@ -1417,7 +1417,7 @@ freshest:
   MT: Machine Translation @translation
   QA: Quality Assurance
   ROI: Return on Investment @economics
-  SMT: Statistical Machine Translation @translation
+  SMT: Simultaneous Multithreading
   TMS: Translation Management System @translation
   TM: Translation Memory @translation
   XLIFF: XML Localization Interchange File Format @translation @xml
@@ -1733,9 +1733,40 @@ freshest:
   ASCII: American Standard Code for Information Interchange
   FDDI: Fiber Distributed Data Interface
   DLC: Data Link Control @protocols
-  SMT: Simultaneous Multithreading
 new:
-
+  VCL: Varnish Configuration Language @web
+  VPS: Virtual Private Server @virtualization
+  IMEI: International Mobile Equipment Identity @telecomms
+  DDE: Dynamic Data Exchange @protocols
+  CORBA: Common Object Request Broker Architecture
+  SRV: Service (record) @DNS
+  MX: Mail Exchanger @networking @DNS
+  EDNS: Extension Mechanism for DNS @DNS
+  gTLD: Generic Top-level Domain @DNS
+  ccTLD: Country Code Top-level Domain @DNS
+  SLI: Service Level Indicator
+  SSHD: Secure Shell Daemon @no-expand
+  RR: Resource Record @DNS
+  STE: Simplified Technical English
+  TTC: Time To Closure @gss
+  MSA: Message Submission Agent @email
+  RDBMS: Relational Database Management System @databases
+  HMT: Hierarchical Multitenancy @OpenStack
+  RDM: Regional Delivery Manager @RH
+  RADVD: Router Advertisement Daemon @networking
+  HF: HotFix
+  IMC: Internet Mail Consortium
+  OC: Openshift Conainers @RH
+  SE: Support Exception @GSS
+  OSPF: Open Shortest Path First
+  MACD: Move, Add, Change, Delete
+  NTE: Network Termination Equipment @networking
+  EBGP: External Border Gateway Protocol @protocols
+  CDR: Call Data Records @telco
+  SRR: Same-Region Replication
+  CRR: Cross-Region Replication
+  S3: Simple Storage Service (Amazon service)
+  PLOOP: Parallel Loop @storage @containers
 slang:
   MTG: Meeting @do-not-use
   AFAIK: As Far As I Know @do-not-use
