@@ -64,4 +64,8 @@ Acrobot uses a build config that pulls straight from the repo so if you make cha
 $ oc start-build acrobot-app
 ```
 
-
+You can monitor the new deployment if you're into that sort of thing:
+```
+$ oc get pods -w
+```
+It should only take a few minutes to deploy.
