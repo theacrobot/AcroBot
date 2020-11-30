@@ -1273,7 +1273,7 @@ freshest:
   GVFS: GNOME virtual file system
   GFS: Global File System @cluster
   LPD: Line Printer Daemon
-  MX: Mail Exchanger @networking
+  MX: Mail Exchanger @networking, @dns
   FPC: Full Packet Capture @networking
   AXFR: Asynchronous Full Transfer Zone (or Asynchronous Xfer Full Range) @networking
   TSIG: Transaction Signature @auth
@@ -1740,7 +1740,6 @@ new:
   DDE: Dynamic Data Exchange @protocols
   CORBA: Common Object Request Broker Architecture
   SRV: Service (record) @DNS
-  MX: Mail Exchanger @networking @DNS
   EDNS: Extension Mechanism for DNS @DNS
   gTLD: Generic Top-level Domain @DNS
   ccTLD: Country Code Top-level Domain @DNS
