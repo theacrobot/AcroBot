@@ -2,6 +2,7 @@ FROM ruby:latest
 
 RUN apt-get -qq update && \
     apt-get -qq -y install rsync && \
+    apt-get -qq -y install vim-enhanced && \
     apt-get -qq clean
 
 ENV ACROBOT_HOME=/opt/acrobot
