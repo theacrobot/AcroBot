@@ -82,6 +82,8 @@ include AbbrevBot
 bot = Cinch::Bot.new do
 
   settings = load_settings
+  # evaluate the string regex into a regex object (use of eval), then extract the regex value
+  prefix_str = eval(settings['prefix']).source    # default: ^!
 
   configure do |c|
    c.nick = settings['nick']         # "acrobot"
@@ -95,37 +97,37 @@ bot = Cinch::Bot.new do
    c.sasl.password = ENV['SASL_PASSWORD'] unless ENV['SASL_PASSWORD'].nil?
   end
 
-  on :message, /^!([\w\-\_\+\&\/]+)\=(.+)/ do |m, abbrev, desc|
+  on :message, /#{prefix_str}([\w\-\_\+\&\/]+)\=(.+)/ do |m, abbrev, desc|
     nick = m.channel? ? m.user.nick+": " : ""
     save_abbrev(abbrev, desc)
    nick = m.channel? ? m.user.nick+"":""
     m.reply("#{nick} Thanks! [#{abbrev}=#{desc}]")
   end
 
-  on :message, /^!help/i do |m|
+  on :message, /#{prefix_str}help/i do |m|
     nick = m.channel? ? m.user.nick+": " : ""
-    m.reply("To expand an acronym, type (e.g.), !ftp")
-    m.reply("To add a new acronym, type (e.g.), !FTP=File Transfer Protocol")
-    m.reply("To associate a tag with an acronym, type (e.g.), !IP=Internet Protocol @networking")
-    m.reply("To list abbreviations associated with a tag, type eg. !@kernel")
-    m.reply("To list all tags, type !@tags")
+    m.reply("To expand an acronym, type (e.g.), #{prefix_str}ftp")
+    m.reply("To add a new acronym, type (e.g.), #{prefix_str}FTP=File Transfer Protocol")
+    m.reply("To associate a tag with an acronym, type (e.g.), #{prefix_str}IP=Internet Protocol @networking")
+    m.reply("To list abbreviations associated with a tag, type eg. #{prefix_str}@kernel")
+    m.reply("To list all tags, type #{prefix_str}@tags")
     m.reply("AcroBot uses initcaps for expansions by default. Your own style guides may vary.")
     m.reply("Contribute to AcroBot at https://github.com/theacrobot/AcroBot")
     m.reply("Follow Acrobot on Twitter: @_acrobot")
   end
 
-  on :message, /^!@([\w\-\_\+\&\/]+)$/ do |m, tag|
+  on :message, /#{prefix_str}@([\w\-\_\+\&\/]+)$/ do |m, tag|
     tag = tag.strip
     match_abbrevs = find_values(tag)
     nick = m.channel? ? m.user.nick+": " : ""
     if match_abbrevs.empty?
-      m.reply("#{nick} Sorry, no such tag. To list all tags, type !@tags")
+      m.reply("#{nick} Sorry, no such tag. To list all tags, type #{prefix_str}@tags")
     else
         m.reply("#{nick}#{match_abbrevs.join(', ')}")
     end
   end
 
-  on :message, /^!([\w\-\_\+\&\/]+)$/ do |m, abbrev|
+  on :message, /#{prefix_str}([\w\-\_\+\&\/]+)$/ do |m, abbrev|
     abbrev = abbrev.strip
     unless abbrev =~ /^help$/i
       nick_str = m.channel? ? "#{m.user.nick}:" : ""
