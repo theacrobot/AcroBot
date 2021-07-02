@@ -1771,6 +1771,75 @@ new:
   ACES: American Copy Editors Society @editing
   PII: Personally Identifiable Information @infosec @security
   FIP: Fair Information Practices @infosec
+  RoT: Root of Trust @hardware @infosec
+  GALA: Globalization and Localization Association @l10n @translation
+  MURS: Multi-Use Radio Service @radio https://www.fcc.gov/node/25318
+  ATU: Antenna Tuning Unit @radio
+  BBS: Bulletin Board System
+  PFA: Please Find Attached @do-not-use
+  ACE: Active Customer Escalation @gss
+  MON: The Ceph Monitor process/service @Ceph
+  RHCVA: Red Hat Certified Virtualization Administrator @RH @virtualization @certification
+  DLL: Data Link Layer @networking
+  ESP: Encapsulating Security Payload @IPsec
+  GTD: Getting Things Done @productivity
+  RAN: Radio Access Network @telecommunications
+  IMA: Integrity Measurement Architecture
+  EVM: Extended Verification Module
+  UABI: Userspace Application Binary Interface
+  SSP: Solutions Sales Specialist @\RH
+  PSI: PnT Shared Infrastructure @RH
+  TCTI: TPM Command Transmission Interface
+  ACM: Advanced Cluster Manager
+  PCR: Platform Configuration Register
+  VDI: VirtualBox Disk Image @virtualization
+  ARI: Amazon Ramdisk Image @virtualization
+  QCOW2: QEMU Copy-On-Write v2 @virtualization
+  AKI: Amazon Kernel Image @virtualization
+  WAL: Write-ahead Logging @database
+  FLAR: Flash Archive
+  STF: Service Telemetry Framework @OpenStack
+  OSD: Object Storage Daemon @Ceph
+  DMN: Decision Model Notation
+  PME: Portfolio Management Enablement
+  ODF: Open Decision Framework
+  CSR: Corporate Social Responsibility @HR
+  BTF: BPF Type Format
+  ARN: Amazon Resource Name @AWS @cloud
+  LRU: Least Recently Used @kernel
+  SGX: Software Guard Extensions @kernel
+  PGP: Pretty Good Privacy @cryptography
+  NVMe: Nonvolatile Memory Express @mmgmt
+  MCS: Managed Cloud Services @cloud
+  OEM: Original Equipment Manufacturer
+  BGRT: Boot Graphics Resource Table
+  MMU: Memory Management Unit
+  PM: Power Management
+  PV: Para-virtualization
+  CRMd: Cluster Resource Management daemon @cluster
+  LRMd: Local Resource Management daemon @cluster
+  PEngine: Policy Engine @cluster (aka PE)
+  PE: Policy Engine @cluster (aka PEngine)
+  BLEU: Bilingual Evaluation Understudy @translation @MT
+  ILO: Integrated Lights-out
+  BCC: BPF Compiler Collection
+  KSC: Kernel Module Source Checker
+  BSP: Bulk Synchronous Parallel @programming
+  STONITH: Shoot the Other Node in the Head @cluster
+  PDU: Power Distribution Unit @hardware
+  RMS: Root Mean Square @mathematics
+  PDT: Personal Development Time
+  AAP: Ansible Automation Platform @Ansible @automation
+  RAM: Random Access Memory (răm) @hardware @memory
+  ROM: Read-only Memory (rŏm) @hardware @memory
+  RHOCP: Red Hat OpenShift Container Platform @OpenShift @containers
+  NEO: Near Earth Object @astronomy
+  NGO: Non-Governmental Organization
+  PIV: Peak Inverse Voltage @electronics
+  BJT: Bipolar Junction Transistor @electronics
+  MOSFET: Metal-oxide Semiconductor Field-effect Transistor @electronics
+  PWM: Pulse Width Modulation @radio @electronics
+  SMPS: Switch Mode Power Supply @electronics
 slang:
   MTG: Meeting @do-not-use
   AFAIK: As Far As I Know @do-not-use
