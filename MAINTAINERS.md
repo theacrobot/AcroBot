@@ -69,3 +69,13 @@ You can monitor the new deployment if you're into that sort of thing:
 $ oc get pods -w
 ```
 It should only take a few minutes to deploy.
+
+## Editing the ConfigMap for the Internal Bot
+
+If you need to change the channels where the bot lives or make other minor changes, use the `oc login` command and manually edit the ConfigMap:
+
+- Use the `oc edit configmaps acrobot-internal` command to open the ConfigMap in an editor.
+- Make the required changes and then save and close the file.
+- Use the `oc rollout latest acrobot-internal-app` command to deploy the new version.
+
+That should be all you need.
