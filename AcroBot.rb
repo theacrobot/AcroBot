@@ -84,6 +84,8 @@ bot = Cinch::Bot.new do
   settings = load_settings
   # evaluate the string regex into a regex object (use of eval), then extract the regex value
   prefix_str = eval(settings['prefix']).source    # default: ^!
+  # same as prefix_str, but removing the caret character for when showing examples on which command to use
+  prefix_str_command = prefix_str.gsub('^', '')
 
   configure do |c|
    c.nick = settings['nick']         # "acrobot"
@@ -106,11 +108,11 @@ bot = Cinch::Bot.new do
 
   on :message, /#{prefix_str}help/i do |m|
     nick = m.channel? ? m.user.nick+": " : ""
-    m.reply("To expand an acronym, type (e.g.), #{prefix_str}ftp")
-    m.reply("To add a new acronym, type (e.g.), #{prefix_str}FTP=File Transfer Protocol")
-    m.reply("To associate a tag with an acronym, type (e.g.), #{prefix_str}IP=Internet Protocol @networking")
-    m.reply("To list abbreviations associated with a tag, type eg. #{prefix_str}@kernel")
-    m.reply("To list all tags, type #{prefix_str}@tags")
+    m.reply("To expand an acronym, type (e.g.), #{prefix_str_command}ftp")
+    m.reply("To add a new acronym, type (e.g.), #{prefix_str_command}FTP=File Transfer Protocol")
+    m.reply("To associate a tag with an acronym, type (e.g.), #{prefix_str_command}IP=Internet Protocol @networking")
+    m.reply("To list abbreviations associated with a tag, type eg. #{prefix_str_command}@kernel")
+    m.reply("To list all tags, type #{prefix_str_command}@tags")
     m.reply("AcroBot uses initcaps for expansions by default. Your own style guides may vary.")
     m.reply("Contribute to AcroBot at https://github.com/theacrobot/AcroBot")
     m.reply("Follow Acrobot on Twitter: @_acrobot")
@@ -121,7 +123,7 @@ bot = Cinch::Bot.new do
     match_abbrevs = find_values(tag)
     nick = m.channel? ? m.user.nick+": " : ""
     if match_abbrevs.empty?
-      m.reply("#{nick} Sorry, no such tag. To list all tags, type #{prefix_str}@tags")
+      m.reply("#{nick} Sorry, no such tag. To list all tags, type #{prefix_str_command}@tags")
     else
         m.reply("#{nick}#{match_abbrevs.join(', ')}")
     end
