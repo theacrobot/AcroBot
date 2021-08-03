@@ -1840,6 +1840,13 @@ new:
   MOSFET: Metal-oxide Semiconductor Field-effect Transistor @electronics
   PWM: Pulse Width Modulation @radio @electronics
   SMPS: Switch Mode Power Supply @electronics
+  P2P: Peer-to-Peer @networking
+  FQCN: Fully Qualified Collection Name @Ansible
+  RHLC: Red Hat Learning Community @community @learning https://learn.redhat.com
+  TTAL: Timed Text Author Lineage @localization
+  ITPC: IT Private Cloud
+  QAT: QuickAssist Technology @Intel
+  RSI: Repetitive Strain Injury @pathology
 slang:
   MTG: Meeting @do-not-use
   AFAIK: As Far As I Know @do-not-use
