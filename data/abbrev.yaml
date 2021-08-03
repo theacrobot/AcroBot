@@ -93,6 +93,7 @@ verified:
   HCI: Human-Computer Interface
   HID: Human Interface Device
   HPC: High Performance Computing
+  HPE: Hewlett Packard Enterprise
   HPSA: Hewlett Packard Smart Array
   HVM: Hardware Virtual Machine
   IANA: Internet Assigned Numbers Authority
@@ -144,7 +145,7 @@ verified:
   NVLAP: National Voluntary Laboratory Accreditation Program
   NVM: Nonvolatile Memory
   NVMe: Nonvolatile Memory Express
-  OA: Onboard Administrator @HPI
+  OA: Onboard Administrator @HPE
   OCIL: Open Checklist Interactive Language
   OCSP: Online Certificate Status Protocol @auth @protocols
   ODBC: Open Database Connectivity
@@ -232,8 +233,8 @@ verified:
   URN: Uniform Resource Name @no-expand
   USGCB: United States Government Configuration Baseline
   UTC: Coordinated Universal Time
-  UUID: Universally Unique Identifier
-  VAR: Value-added reseller
+  UUID: Universally Unique Identifier @no-expand
+  VAR: Value-added Reseller
   VDSM: Virtual Desktop Server Management @no-expand
   VHDX: Hyper-V Virtual Dard Disk
   VIF: Virtual Interface
@@ -252,7 +253,7 @@ verified:
   XDR: Cross-domain Request
   atime: Access Time
   auid: Audit ID
-  bash: Bourne-Again Shell @no-expand
+  Bash: Bourne-Again Shell @no-expand
   cgroups: Control Groups
   ctime: Change Time
   cwnd: Congestion Window
@@ -620,7 +621,7 @@ consulting:
   BI: Business Intelligence http://en.wikipedia.org/wiki/Business_intelligence
   CAS: Core Analysis System https://optimus.gsslab.rdu2.redhat.com/manager
   FY: Fiscal Year or Financial Year
-  ILT: Instructor-led Training
+  ILT: Instructor-led Training @training
   NA: North America region
   RCM: Release Configuration Management
   SOE: Standard Operating Environment
@@ -705,8 +706,8 @@ consulting:
   SDLC: Software (system) Development Life Cycle
   DEE: Dedicated Enterprise Engineer
   GPE: Global Partner Enablement
-  TSANet: Technical Support Alliance Network, "multivendor support alliance in the
-    high technology industry"
+  TSANet: Technical Support Alliance Network (Multivendor support alliance in the
+    high technology industry)
   BDE: Board of directors
   UXD: User Experience and Design
   AEU: Australia, Europe, United States of America region
