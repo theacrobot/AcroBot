@@ -150,7 +150,7 @@ bot = Cinch::Bot.new do
     end
   end
 
-  on :message, /#{settings['nick']}.*[thanks|thank you].*$/ do |m|
+  on :message, /#{settings['nick']}.*(thanks|thank you)+.*$/ do |m|
     nick_str = m.channel? ? "#{m.user.nick}:" : ""
     m.reply("#{nick_str} You're welcome!")
   end
