@@ -1627,7 +1627,7 @@ freshest:
   XSA: XML (Extensible Markup Language) Software Autoupdate
   AHS: Autonomous Haulage System @automation
   DDos: distributed denial of service @cyberattack
-  CNI: container network interface @containers @networking
+  CNI: Container Network Interface @containers @networking
   UAC: User Account Control @MSWindows
   MBR: master boot record
   PE: physical extent @storage
@@ -1848,6 +1848,12 @@ new:
   ITPC: IT Private Cloud
   QAT: QuickAssist Technology @Intel
   RSI: Repetitive Strain Injury @pathology
+  HPA: Horizontal Pod Autoscaler @OpenShift
+  DEI: Diversity, Equity, and Inclusion
+  LKCF: Linux Kernel Cryptographic Framework @kernel
+  CRIU: Checkpoint/Restore In Userspace
+  SoC: System on a Chip
+  TSS: Task State Segment
 slang:
   MTG: Meeting @do-not-use
   AFAIK: As Far As I Know @do-not-use
