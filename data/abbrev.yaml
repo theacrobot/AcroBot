@@ -1854,6 +1854,27 @@ new:
   CRIU: Checkpoint/Restore In Userspace
   SoC: System on a Chip
   TSS: Task State Segment
+  RHACS: Red Hat Advanced Cluster Security for Kubernetes @Kubernetes
+  DAA: Distributed Access Architecture
+  DOCSIS: Data Over Cable Service Interface Specifications @standards
+  CCAP: Converged Cable Access Platform
+  vCCAP: Virtual Converged Cable Access Platform
+  DC: Direct Current @electronics
+  PDC: Pulsating Direct Current @electronics
+  AC: Alternating Current @electronics
+  CRUD: Create, Read, Update, Delete @programming
+  MTV: Migration Toolkit for Virtualization @Cloud
+  LSO: Local Storage Operator @Ceph @storage
+  OBC: Object Bucket Claim @storage @OpenShift
+  IRDMA: Intel Ethernet Protocol Driver for RDMA
+  iWARP: Internet Wide-area RDMA Protocol
+  NIC: Network Interface Controller @networking
+  PAT: Personal Access Token @Satellite
+  IDP: IDentity Provider
+  ICIC: IBM Cloud Infrastructure Center
+  SSML: Secure Software Management Lifecycle
+  IPA: International Phonetic Alphabet
+  SPR: Symbolic Phonetic Representation (IBM®)
 slang:
   MTG: Meeting @do-not-use
   AFAIK: As Far As I Know @do-not-use
