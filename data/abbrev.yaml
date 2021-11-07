@@ -223,7 +223,7 @@ verified:
   TLV: Type-Length-Value
   TMSAD: Trust Model for Security Automation Data
   TPH: Transaction Processing Hints @pciutils
-  TUI: Text Paste/Terminal User Interface
+  TUI: Text-based User Interface @expand-first
   UDP: User Datagram Protocol @networking @no-expand @protocols
   UE: Unbalanced Error
   UID: User Identifier @no-expand
@@ -855,7 +855,7 @@ consulting:
   SSSD: System Security Services Daemon
   DNSSEC: DNS Security Extensions @networking
   HSM: hardware security module
-  AQS: advanced query syntax
+  AQS: Advanced Query Syntax @Microsoft See https://en.wikipedia.org/wiki/Windows_Search#AQS
   NTLM: NT LAN Manager @auth
   TGT: Ticket-Granting Ticket @auth
   ACI: Application Centric Infrastructure
@@ -909,7 +909,7 @@ consulting:
   JNI: Java Native Interface @java
   USB: Universal Serial Bus @do not expand
   UTP: Unshielded Twisted Pair @networking
-  TLD: Top-level Domain
+  TLD: Top-level Domain @Internet
   SPICE: Simple Protocol for Independent Computing Environments @protocols
   RISC: Reduced instruction set computing @cpu
   CISC: Complex instruction set computing @cpu
@@ -1173,7 +1173,7 @@ hss:
   ACE: Access Control Entry @auth
   SNI: Server Name Indication @networking
   OSP: OpenStack Platform
-  PTR: Pointer Record @auth
+  PTR: Pointer Record @DNS @Internet
   HWE: Hardware Enablement @kernel
   DPM: Documentation Program Manager @RH
   ECC: Error-correcting Code
@@ -1192,7 +1192,7 @@ freshest:
   CUPS: Common Unix Printing System @no-expand
   HTM: Hardware Transactional Memory
   RDT: requires_doc_text @RH
-  ACL: Access Control List
+  ACL: Access Control List @security
   REPL: Read–eval–print loop
   vsftpd: Very Secure FTP Daemon
   CDL: Commmon Disk Layout
@@ -1519,7 +1519,6 @@ freshest:
   LUA: Local Unicast Address @networking
   LLUA: Link-local Unicast Address @networking
   RA: Router Advertisement @networking
-  PDU: power distribution unit @hardware
   SDU: Service Data Unit @networking
   OSI: Open Systems Interconnection @communications See https://en.wikipedia.org/wiki/OSI_model
   SMS: Short Message Service @communication
@@ -1598,7 +1597,7 @@ freshest:
   LKM: loadable kernel module @kernel
   OOT: OpenStack Orchestration Template @OpenStack
   DNS: Domain Name Service @networking @no-expand
-  HCI: '"Hyper-converged infrastructure" @virtualization https://en.wikipedia.org/wiki/Hyper-converged_infrastructure'
+  HCI: '"Hyper-converged Infrastructure" @virtualization https://en.wikipedia.org/wiki/Hyper-converged_infrastructure'
   GNMT: Google Neural Machine Translation @translation
   KAITER: Knowledge-Assisted Interactive Translation Editing and Revision @translation
   SOAR: Security Orchestration, Automation and Response @security
@@ -1626,21 +1625,21 @@ freshest:
     Modulation, and Overall https://en.wikipedia.org/wiki/SINPO_code#SINPEMFO_code
   XSA: XML (Extensible Markup Language) Software Autoupdate
   AHS: Autonomous Haulage System @automation
-  DDos: distributed denial of service @cyberattack
+  DDos: Distributed Denial of Service @cyberattack
   CNI: Container Network Interface @containers @networking
   UAC: User Account Control @MSWindows
-  MBR: master boot record
-  PE: physical extent @storage
-  DAM: digital asset management
+  MBR: Master Boot Record
+  PE: Physical Extent @storage
+  DAM: Digital Asset Management
   VDO: Virtual Data Optimizer @storage
-  UDS: universal deduplication service @kernel
+  UDS: Universal Deduplication Service @kernel
   SWOT: Strengths, Weaknesses, Opportunities, and Threats
   CSA: Common Sense Advisory @business @finance
   COBOL: Common Business-oriented Language @programming
   CRI: Container Runtime Interface @containers
   CRD: Custom Resource Definition @Kubernetes @OpenShift @containers
   RC: Replication Controller @OpenShift @containers
-  CAD: computer-aided design
+  CAD: Computer-aided Design
   SLAM: Simultaneous Localisation and Mapping @ar
   GIS: Geographic Information System
   IFU: Instruction for Use @training @education
@@ -1830,7 +1829,7 @@ new:
   PDU: Power Distribution Unit @hardware
   RMS: Root Mean Square @mathematics
   PDT: Personal Development Time
-  AAP: Ansible Automation Platform @Ansible @automation
+  AAP: Ansible Automation Platform @Ansible @automation @do-not-use
   RAM: Random Access Memory (răm) @hardware @memory
   ROM: Read-only Memory (rŏm) @hardware @memory
   RHOCP: Red Hat OpenShift Container Platform @OpenShift @containers
@@ -1875,6 +1874,7 @@ new:
   SSML: Secure Software Management Lifecycle
   IPA: International Phonetic Alphabet
   SPR: Symbolic Phonetic Representation (IBM®)
+  DVCS: Distributed Version Control System
 slang:
   MTG: Meeting @do-not-use
   AFAIK: As Far As I Know @do-not-use
@@ -1979,3 +1979,7 @@ tags:
   ldap: Abbreviations related to LDAP @tags
   snmp: Abbreviations related to SNMP @tags
   errorcodes: Abbreviations related to error codes @tags
+  DNS: Abbreviations related to DNS @tags
+  internet: Abbreviations related to the internet @tags
+  kubernetes: Abbreviations related to Kubernetes @tags
+  kernel: Abbreviations related to the kernel @tags
