@@ -1165,7 +1165,7 @@ hss:
   XUL: XML User Interface Language
   PCRE: Perl Compatible Regular Expressions
   JSTL: JavaServer Pages Standard Tag Library @java
-  bpp: bits per pixel
+  BPP: Bits Per Pixel @graphics
   JBIG: Joint Bi-level Image Experts Group
   OKR: Objective and Key Result @RH
   MD: Multiple Devices @kernel
@@ -1875,6 +1875,13 @@ new:
   IPA: International Phonetic Alphabet
   SPR: Symbolic Phonetic Representation (IBM®)
   DVCS: Distributed Version Control System
+  PSA: Public Service Announcement @irc
+  IOVA: input-output virtual address
+  FET: Field Effect Transistor @electronics
+  SCR: Silicon-controlled Rectifier @electronics
+  LED: Light Emitting Diode @electronics
+  BFO: Beat Frequency Oscillator @electronics @radio
+  RIT: Receiver Incremental Tune @radio
 slang:
   MTG: Meeting @do-not-use
   AFAIK: As Far As I Know @do-not-use
@@ -1936,7 +1943,7 @@ tags:
   hss: Abbreviations related to Hosted&Shared Services (RH) @tags
   java: Abbreviations related to Java @tags
   jboss: Abbreviations related to JBoss @tags
-  kernel: Abbreviations related to Linux kernel @tags
+  kernel: Abbreviations related to the kernel @tags
   libreoffice: Abbreviations related to Libre Office suite @tags
   metrics: Abbreviations related to measuring and performance @tags
   mmgmt: Abbreviations related to memory management @tags
@@ -1982,4 +1989,4 @@ tags:
   DNS: Abbreviations related to DNS @tags
   internet: Abbreviations related to the internet @tags
   kubernetes: Abbreviations related to Kubernetes @tags
-  kernel: Abbreviations related to the kernel @tags
+  graphics: Abbreviations related to graphics @tags
