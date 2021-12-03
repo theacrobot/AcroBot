@@ -701,9 +701,9 @@ consulting:
   SLP: Service Location Protocol @protocols
   GPFS: General Parallel File System (IBM)
   RAC: Real Application Clusters @oracle
-  PLC: Product Lifecycle
+  PLC: Product Life-cycle
   RTT: Release Test Team
-  SDLC: Software (system) Development Lifecycle
+  SDLC: Software (system) Development Life Cycle
   DEE: Dedicated Enterprise Engineer
   GPE: Global Partner Enablement
   TSANet: Technical Support Alliance Network (Multivendor support alliance in the
@@ -1882,6 +1882,7 @@ new:
   LED: Light Emitting Diode @electronics
   BFO: Beat Frequency Oscillator @electronics @radio
   RIT: Receiver Incremental Tune @radio
+  VIM: Virtualized Infrastructure Manager @virtualization @networking
 slang:
   MTG: Meeting @do-not-use
   AFAIK: As Far As I Know @do-not-use
