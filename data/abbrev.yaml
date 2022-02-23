@@ -1882,6 +1882,28 @@ new:
   BFO: Beat Frequency Oscillator @electronics @radio
   RIT: Receiver Incremental Tune @radio
   VIM: Virtualized Infrastructure Manager @virtualization @networking
+  o11m: observatorium
+  CoE: Center of Expertise
+  coc: Center of Competency @IBM
+  HFT: High-frequency Trading @finance https://en.wikipedia.org/wiki/High-frequency_trading
+  EOM: End of Message @do-not-use
+  ABA: Applied Behavioral Analysis @Psychology
+  HSP: Highly Sensitive Person @Psychology
+  CRT: Cognitive Research Theory @Psychology
+  ADSA: Attention Deficit Scale for Adults @Psychology
+  AFSP: American Foundation for Suicide Prevention @Psychology
+  BMOD: Behavior Modification @Psychology
+  BMT: Behavior Modification Technology @Psychology
+  CCHt: Certified Clinical Hypnotherapist @Psychology
+  CTA: Cognitive Task Analysis @Psychology
+  DID: Dissociative Identity Disorder @Psychology
+  DQ: Development Quotient @Psychology
+  DR: Defensive Response @Psychology
+  EI: Emotional Intelligence @Psychology
+  IQ: Intelligence Quotient @Psychology
+  IPU: in-place upgrade
+  pes: package evolution service
+  RHACM: Red Hat Advanced Cluster Management @clusters
 slang:
   MTG: Meeting @do-not-use
   AFAIK: As Far As I Know @do-not-use
