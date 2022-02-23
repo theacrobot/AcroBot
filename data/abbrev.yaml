@@ -1732,7 +1732,6 @@ freshest:
   ASCII: American Standard Code for Information Interchange
   FDDI: Fiber Distributed Data Interface
   DLC: Data Link Control @protocols
-new:
   VCL: Varnish Configuration Language @web
   VPS: Virtual Private Server @virtualization
   IMEI: International Mobile Equipment Identity @telecomms
@@ -1901,8 +1900,9 @@ new:
   DR: Defensive Response @Psychology
   EI: Emotional Intelligence @Psychology
   IQ: Intelligence Quotient @Psychology
-  IPU: in-place upgrade
-  pes: package evolution service
+  IPU: In-place Upgrade
+  PES: Package Evolution Service
+new:
   RHACM: Red Hat Advanced Cluster Management @clusters
 slang:
   MTG: Meeting @do-not-use
@@ -1949,66 +1949,68 @@ slang:
   TPTB: the powers that be @do-not-use
   PEBCAK: Problem Exists Between Chair And Keyboard @do-not-use
 tags:
-  expand-first: expand on first use @tags
-  no-expand: do not expand this abbreviation @tags
-  always-expand: always expand this abbreviation @tags
-  do-not-use: do not use the acronym in product docs @tags
-  always-cap: always capitalize @tags
+  Ansible: Abbreviations related to Ansible @tags
+  Arm: Abbreviations related to ARM instruction set architecture @tags
+  DNS: Abbreviations related to DNS @tags
+  Microsoft: Abbreviations related MicroSoft Corp @tags
+  Psychology: Abbreviations related to psychology @tags
   RH: internal acronym specific to Red Hat @tags
+  Satellite: Abbreviations related to Red Hat Satellite @tags
+  Windows: Abbreviations related to Microsoft Windows @tags
+  always-cap: always capitalize @tags
+  always-expand: always expand this abbreviation @tags
   auth: Abbreviations related to authentication @tags
+  business: Abbreviations related to business @tags
+  ceph: Abbreviations related to the Ceph storage platform @tags
   cloud: Abbreviations related to cloud @tags
+  commerce: Abbreviations related to all types of commerce @tags
+  communications: Abbreviations related to communications @tags
+  containers: Abbreviations related to Linux containers, Docker, Atomic @tags
+  cpu: Abbreviations related to CPUs @tags
   cryptography: Abbreviations related to cryptography @tags
+  deprecated: Abbreviations no longer in use @tags
+  do-not-use: do not use the acronym in product docs @tags
   docs: Abbreviations related to documentation @tags
   errata: Abbreviations related to errata @tags
+  errorcodes: Abbreviations related to error codes @tags
+  expand-first: expand on first use @tags
+  finance: Abbreviations related to finance @tags
   fips: Abbreviations related to FIPS mode @tags
+  gnome: Abbreviations related to GNOME @tags
+  graphics: Abbreviations related to graphics @tags
   gss: Abbreviations related to Global Support Services @tags
+  hardware: Abbreviations related to hardware @tags
   hss: Abbreviations related to Hosted&Shared Services (RH) @tags
+  internet: Abbreviations related to the internet @tags
   java: Abbreviations related to Java @tags
   jboss: Abbreviations related to JBoss @tags
   kernel: Abbreviations related to the kernel @tags
+  kubernetes: Abbreviations related to Kubernetes @tags
+  law: Abbreviations related to the justice system @tags
+  ldap: Abbreviations related to LDAP @tags
   libreoffice: Abbreviations related to Libre Office suite @tags
+  maven: Abbreviations related to Apache Maven @tags
   metrics: Abbreviations related to measuring and performance @tags
   mmgmt: Abbreviations related to memory management @tags
   mrg: Abbreviations related to RH Enterprise MRG @tags
   networking: Abbreviations related to networking @tags
+  no-expand: do not expand this abbreviation @tags
+  openmpi: Abbreviations related to the openmpi project @tags
   openshift: Abbreviations related to OpenShift @tags
   oracle: Abbreviations related to the Oracle business suite @tags
   pcie: Abbreviations related to PCI Express @tags
   pciutils: Abbreviations related to PCI Utils @tags
-  sfdc: Abbreviations related to Salesforce @tags
+  programming: Abbreviations related to computer programming @tags
+  proj-man: Abbreviations related to project management @tags
+  protocols: Abbreviations related to protocols @tags
+  ruby: Abbreviations related to Ruby programming language @tags
+  security: Abbreviations related to security @tags
   selinux: Abbreviations related to Security-Enhanced Linux @tags
+  sfdc: Abbreviations related to Salesforce @tags
+  snmp: Abbreviations related to SNMP @tags
   standards: Abbreviations related to various industry standards @tags
+  translation: Abbreviations related to translation @tags
   virt: Abbreviations related to virtualization @tags
   wifi: Abbreviations related to Wi-Fi @tags
   win: Abbreviations related to Microsoft Windows @tags
   xen: Abbreviations related to Xen virtualization platform @tags
-  maven: Abbreviations related to Apache Maven @tags
-  Satellite: Abbreviations related to Red Hat Satellite @tags
-  ruby: Abbreviations related to Ruby programming language @tags
-  Arm: Abbreviations related to ARM instruction set architecture @tags
-  containers: Abbreviations related to Linux containers, Docker, Atomic @tags
-  ceph: Abbreviations related to the Ceph storage platform @tags
-  gnome: Abbreviations related to GNOME @tags
-  openmpi: Abbreviations related to the openmpi project @tags
-  security: Abbreviations related to security @tags
-  cpu: Abbreviations related to CPUs @tags
-  hardware: Abbreviations related to hardware @tags
-  translation: Abbreviations related to translation @tags
-  protocols: Abbreviations related to protocols @tags
-  commerce: Abbreviations related to all types of commerce @tags
-  deprecated: Abbreviations no longer in use @tags
-  proj-man: Abbreviations related to project management @tags
-  Microsoft: Abbreviations related MicroSoft Corp @tags
-  communications: Abbreviations related to communications @tags
-  Windows: Abbreviations related to Microsoft Windows @tags
-  law: Abbreviations related to the justice system @tags
-  finance: Abbreviations related to finance @tags
-  business: Abbreviations related to business @tags
-  programming: Abbreviations related to computer programming @tags
-  ldap: Abbreviations related to LDAP @tags
-  snmp: Abbreviations related to SNMP @tags
-  errorcodes: Abbreviations related to error codes @tags
-  DNS: Abbreviations related to DNS @tags
-  internet: Abbreviations related to the internet @tags
-  kubernetes: Abbreviations related to Kubernetes @tags
-  graphics: Abbreviations related to graphics @tags
