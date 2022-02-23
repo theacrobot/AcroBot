@@ -1949,14 +1949,14 @@ slang:
   TPTB: the powers that be @do-not-use
   PEBCAK: Problem Exists Between Chair And Keyboard @do-not-use
 tags:
-  Ansible: Abbreviations related to Ansible @tags
-  Arm: Abbreviations related to ARM instruction set architecture @tags
-  DNS: Abbreviations related to DNS @tags
-  Microsoft: Abbreviations related MicroSoft Corp @tags
-  Psychology: Abbreviations related to psychology @tags
-  RH: internal acronym specific to Red Hat @tags
-  Satellite: Abbreviations related to Red Hat Satellite @tags
-  Windows: Abbreviations related to Microsoft Windows @tags
+  ansible: Abbreviations related to Ansible @tags
+  arm: Abbreviations related to ARM instruction set architecture @tags
+  dns: Abbreviations related to DNS @tags
+  microsoft: Abbreviations related MicroSoft Corp @tags
+  psychology: Abbreviations related to psychology @tags
+  rh: internal acronym specific to Red Hat @tags
+  satellite: Abbreviations related to Red Hat Satellite @tags
+  windows: Abbreviations related to Microsoft Windows @tags
   always-cap: always capitalize @tags
   always-expand: always expand this abbreviation @tags
   auth: Abbreviations related to authentication @tags
