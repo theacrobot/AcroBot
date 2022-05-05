@@ -1282,7 +1282,7 @@ freshest:
   SA: Serviceability Agent @java
   HPROF: Heap/CPU Profiling Tool @java
   MaaS: Mobility-as-a-Service
-  OSD: Object Storage Device @Ceph
+  OSD: Object Storage Daemon @Ceph
   ISBU: Integrated Solutions Business Unit @RH
   RFI: Request for Information
   OSS: Open Source Software
@@ -1324,7 +1324,7 @@ freshest:
   DIP: Dual In-line Package
   CRC: Cyclic Redundancy Check
   OF: Open Firmware
-  CSR: Certificate Signing Request @auth
+  CSR: Corporate Social Responsibility @HR
   AP: Adjunct Processor @kernel
   PAC: Proxy Auto-configuration or Proxy Auto-config
   ECDHE: Elliptic Curve Diffie-Hellman Ephemeral @cryptography @no-expand
@@ -1372,7 +1372,7 @@ freshest:
   MCA: Modular Component Architecture @openmpi
   MTL: Matching Transport Layer @openmpi
   RHCS: Red Hat Ceph Storage @ceph @always-expand
-  IDP: Individual Development Plan @RH
+  IDP: IDentity Provider
   MAC: Multiple Architecture Computer
   x86_64: AMD64 and Intel 64 systems @do-not-use
   ppc64: 64-bit IBM Power Systems servers @do-not-use
@@ -1397,7 +1397,7 @@ freshest:
   IaC: Infrastructure as Code https://en.wikipedia.org/wiki/Infrastructure_as_Code
   FUSE: File System in User Space
   NACK: Negative Acknowledge, no
-  ESP: EFI system partition @grub2
+  ESP: Encapsulating Security Payload @IPsec
   AKA: Also Known As @do-not-use
   KCU: Kubernetes Compute Unit @containers https://en.wikipedia.org/wiki/Kubernetes
   S2I: Source-to-Image @openshift
@@ -1466,7 +1466,7 @@ freshest:
   OCP: OpenShift Container Platform @openshift @do-not-use
   PHP: 'PHP: Hypertext Preprocessor @no-expand'
   GbE: Gigabit Ethernet @networking
-  AKI: Authority Key Identifier @auth
+  AKI: Amazon Kernel Image @virtualization
   MBO: Management By Objectives @mgmt
   TWB: Translators Without Borders @translation
   SCORM: Shareable Content Object Reference Model @standards
@@ -1501,7 +1501,7 @@ freshest:
   UPG: User Private Group
   UPS: Uninterruptible Power Supply
   PVC: Persistent Volume Claim @OpenShift
-  PV: Persistent Volume @OpenShift @storage
+  PV: Para-virtualization
   OBP: Operational Best Practices
   CSRF: Cross-site Request Forgery @security
   DAST: Dynamic Application Security Testing @security
@@ -1558,7 +1558,7 @@ freshest:
   EPP: Extensible Provisioning Protocol @protocols
   JKS: Java Keystore @Java
   NMT: Neural Machine Translation @translation
-  ACE: Automatic Content Enrichment @translation
+  ACE: Active Customer Escalation @gss
   COR: Copy-On-Read @kernel
   GDPR: General Data Protection Regulation
   DRBD: Distributed Replicated Block Device @ceph
@@ -1628,7 +1628,7 @@ freshest:
   CNI: Container Network Interface @containers @networking
   UAC: User Account Control @MSWindows
   MBR: Master Boot Record
-  PE: Physical Extent @storage
+  PE: Policy Engine @cluster (aka PEngine)
   DAM: Digital Asset Management
   VDO: Virtual Data Optimizer @storage
   UDS: Universal Deduplication Service @kernel
@@ -1684,7 +1684,7 @@ freshest:
   LASER: Light Amplification by Stimulated Emission of Radiation
   WSL: Windows Subsystem for Linux
   ADT: Abstract Data Type @standards @programming
-  PSA: Platform Security Architecture @Arm
+  PSA: Public Service Announcement @irc
   vRAN: virtual Radio Access Network @communications
   MNO: Mobile Network Operator @communications
   BBU: Baseband Unit @communications
@@ -1775,11 +1775,9 @@ freshest:
   ATU: Antenna Tuning Unit @radio
   BBS: Bulletin Board System
   PFA: Please Find Attached @do-not-use
-  ACE: Active Customer Escalation @gss
   MON: The Ceph Monitor process/service @Ceph
   RHCVA: Red Hat Certified Virtualization Administrator @RH @virtualization @certification
   DLL: Data Link Layer @networking
-  ESP: Encapsulating Security Payload @IPsec
   GTD: Getting Things Done @productivity
   RAN: Radio Access Network @telecommunications
   IMA: Integrity Measurement Architecture
@@ -1793,15 +1791,12 @@ freshest:
   VDI: VirtualBox Disk Image @virtualization
   ARI: Amazon Ramdisk Image @virtualization
   QCOW2: QEMU Copy-On-Write v2 @virtualization
-  AKI: Amazon Kernel Image @virtualization
   WAL: Write-ahead Logging @database
   FLAR: Flash Archive
   STF: Service Telemetry Framework @OpenStack
-  OSD: Object Storage Daemon @Ceph
   DMN: Decision Model Notation
   PME: Portfolio Management Enablement
   ODF: Open Decision Framework
-  CSR: Corporate Social Responsibility @HR
   BTF: BPF Type Format
   ARN: Amazon Resource Name @AWS @cloud
   LRU: Least Recently Used @kernel
@@ -1813,11 +1808,9 @@ freshest:
   BGRT: Boot Graphics Resource Table
   MMU: Memory Management Unit
   PM: Power Management
-  PV: Para-virtualization
   CRMd: Cluster Resource Management daemon @cluster
   LRMd: Local Resource Management daemon @cluster
   PEngine: Policy Engine @cluster (aka PE)
-  PE: Policy Engine @cluster (aka PEngine)
   BLEU: Bilingual Evaluation Understudy @translation @MT
   ILO: Integrated Lights-out
   BCC: BPF Compiler Collection
@@ -1867,13 +1860,11 @@ freshest:
   iWARP: Internet Wide-area RDMA Protocol
   NIC: Network Interface Controller @networking
   PAT: Personal Access Token @Satellite
-  IDP: IDentity Provider
   ICIC: IBM Cloud Infrastructure Center
   SSML: Secure Software Management Lifecycle
   IPA: International Phonetic Alphabet
   SPR: Symbolic Phonetic Representation (IBM®)
   DVCS: Distributed Version Control System
-  PSA: Public Service Announcement @irc
   IOVA: input-output virtual address
   FET: Field Effect Transistor @electronics
   SCR: Silicon-controlled Rectifier @electronics
@@ -1904,6 +1895,24 @@ freshest:
   PES: Package Evolution Service
 new:
   RHACM: Red Hat Advanced Cluster Management @clusters
+  BLS: Boot Loader Specification
+  OPA: Open Policy Agent
+  IRL: In Real Life
+  itm: Internal Target Milestone
+  dtd: DevTestDoc
+  ATM: Asynchronous Transfer Mode @networking
+  RHCI: Red Hat Cloud Infrastructure @cloud @RH @always-expand @deprecated
+  FASP: Fast, Adaptive, Secure Protocol @protocols
+  SCM: Source Control Management @vcs
+  SST: Sub System Team
+  SONAR: Sound Navigation & Ranging
+  ASAP: As Soon As Possible @no-expand
+  NATO: North Atlantic Treaty Organization @geopolitics
+  NASA: National Aeronautics and Space Administration @no-expand
+  FOMO: Fear of Missing Out @do-not-use
+  RADAR: Radio Detecting and Ranging @no-expand
+  CAPTCHA: Completely Automatic Public Turing test to tell Computers and Humans Apart
+  SIM: Subscriber Identity Module @telecommunications
 slang:
   MTG: Meeting @do-not-use
   AFAIK: As Far As I Know @do-not-use
