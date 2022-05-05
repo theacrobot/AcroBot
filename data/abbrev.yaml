@@ -273,8 +273,8 @@ cryptography:
   PEM: Privacy-enhanced Mail @auth @cryptography
   ICA: IBM Crypto Accelerator @cryptography
 virtualization:
-  ARI: Alternative Routing-ID Interpretation @PCIutils @virtualization
-  ATS: Address Translation Service @PCIutils @virtualization
+  ARI: Alternative Routing-ID Interpretation @pciutils @virtualization
+  ATS: Address Translation Service @pciutils @virtualization
   BAR: Base Address Register @virtualization
   BDS: Block Driver State @virtualization
   DomU: unprivileged domain @virtualization @xen
@@ -338,9 +338,9 @@ kernel:
   AMS: Active Memory Sharing @kernel
   APEI: ACPI Platform Error Interface @kernel
   APIC: Advanced Programmable Interrupt Controller @kernel
-  ASPM: Active State Power Management @kernel @PCIe
+  ASPM: Active State Power Management @kernel @pcie
   BMC: Baseboard Management Controller @kernel
-  CDB: Command Descriptor Block @SCSI @kernel
+  CDB: Command Descriptor Block @scsi @kernel
   CIE: Common Information Entry @kernel
   CMO: Cooperative Memory Overcommit @kernel
   CPB: Core Performance Boost @kernel
@@ -436,8 +436,8 @@ standards:
   ANSI: American National Standards Institute @standards
   ISO: International Standards Organization @standards
 pciutils:
-  LTR: Latency Tolerance Reporting @PCIutils
-  IUCV: Inter User Communication Vehicle @PCIutils
+  LTR: Latency Tolerance Reporting @pciutils
+  IUCV: Inter User Communication Vehicle @pciutils
 java:
   J2EE: Java 2 Enterprise Edition @java
   JAAS: Java Authentication and Authorization Service @java
@@ -459,7 +459,7 @@ java:
   JTA: Java Transaction API @java
   JUL: java.util.logging@java
   JVM: Java Virtual Machine @java
-  JVMTI: Java Virtual Machine Tools Interface@java
+  JVMTI: Java Virtual Machine Tools Interface @java
   EJB: Enterprise Java Beans @java
   JSF: JavaServer Faces @java
   JSP: JavaServer Pages @java
@@ -601,7 +601,7 @@ consulting:
   UML: Unified Modeling Language
   OpenLMI: Open Linux Management Infrastructure
   POC: Proof of Concept
-  ENC: External Node Classifier @Satellite
+  ENC: External Node Classifier @satellite
   HIPAA: Health Insurance Portability and Accountability Act
   HIPPA: See HIPAA
   EHR: Electronic Health Records
@@ -836,7 +836,6 @@ consulting:
   SLED: State Local & Education - refers to a set of accounts in the North American
     Public Sector team
   SOP: Standard Operating Procedures
-  SoW: Statement of Work
   SVC: Training and Consultation Services
   TLA: Three Letter Acronym
   TRAC: Technical Reference Architecture Change
@@ -1107,7 +1106,7 @@ hss:
   TN: Technical Notes @RH
   RN: Release Notes @RH
   RHELSA: Red Hat Enterprise Linux Server for ARM @RH @always-expand
-  SSM: System Set Manager @cloud @Satellite @RH
+  SSM: System Set Manager @cloud @satellite @RH
   DLPAR: Dynamic Logical Partitioning
   DCB: Data Center Bridging @networking
   cTAM: Customer Technical Account Manager @RH
@@ -1212,7 +1211,7 @@ freshest:
   RFP: Request for Proposal
   SRPM: Source RPM
   UDPU: UDP Unicast @networking
-  RHAI: Red Hat Access Insights @Satellite
+  RHAI: Red Hat Access Insights @satellite
   SR-IOV: Single Root I/O Virtualization @virtualization
   PNG: Portable Network Graphics
   GIF: Graphics Interchange Format
@@ -1380,8 +1379,8 @@ freshest:
   i686: Intel P6
   IDL: ID List @389 Directory Server
   DoD: Department of Defense
-  ISS: Inter-Satellite Synchronization @Satellite
-  CV: Content View @Satellite6
+  ISS: Inter-Satellite Synchronization @satellite
+  CV: Content View @satellite6
   OWASP: Open Web Application Security Project @security https://www.owasp.org/
   MVP: Minimum Viable Product @testing
   CaaS: Containers-as-a-Service @cloud
@@ -1720,9 +1719,9 @@ freshest:
   IRT: Initial Response Time @gss
   ORT: Ongoing Response Time @gss
   FT: First Touch @gss
-  CCV: Composite Content View @Satellite6
-  LOCE: ListenOnCandlepinEvents @Satellite
-  AK: Activation Key @Satellite6
+  CCV: Composite Content View @satellite6
+  LOCE: ListenOnCandlepinEvents @satellite
+  AK: Activation Key @satellite6
   OOBH: Out of Business Hours @gss
   DCN: Distributed Compute Node @OpenStack
   NDP: Neighbor Discovery Protocol @protocols
@@ -1786,7 +1785,7 @@ freshest:
   SSP: Solutions Sales Specialist @\RH
   PSI: PnT Shared Infrastructure @RH
   TCTI: TPM Command Transmission Interface
-  ACM: Advanced Cluster Manager
+  ACM: Advanced Cluster Management @cluster
   PCR: Platform Configuration Register
   VDI: VirtualBox Disk Image @virtualization
   ARI: Amazon Ramdisk Image @virtualization
@@ -1859,7 +1858,7 @@ freshest:
   IRDMA: Intel Ethernet Protocol Driver for RDMA
   iWARP: Internet Wide-area RDMA Protocol
   NIC: Network Interface Controller @networking
-  PAT: Personal Access Token @Satellite
+  PAT: Personal Access Token @satellite
   ICIC: IBM Cloud Infrastructure Center
   SSML: Secure Software Management Lifecycle
   IPA: International Phonetic Alphabet
@@ -1877,20 +1876,20 @@ freshest:
   coc: Center of Competency @IBM
   HFT: High-frequency Trading @finance https://en.wikipedia.org/wiki/High-frequency_trading
   EOM: End of Message @do-not-use
-  ABA: Applied Behavioral Analysis @Psychology
-  HSP: Highly Sensitive Person @Psychology
-  CRT: Cognitive Research Theory @Psychology
-  ADSA: Attention Deficit Scale for Adults @Psychology
-  AFSP: American Foundation for Suicide Prevention @Psychology
-  BMOD: Behavior Modification @Psychology
-  BMT: Behavior Modification Technology @Psychology
-  CCHt: Certified Clinical Hypnotherapist @Psychology
-  CTA: Cognitive Task Analysis @Psychology
-  DID: Dissociative Identity Disorder @Psychology
-  DQ: Development Quotient @Psychology
-  DR: Defensive Response @Psychology
-  EI: Emotional Intelligence @Psychology
-  IQ: Intelligence Quotient @Psychology
+  ABA: Applied Behavioral Analysis @psychology
+  HSP: Highly Sensitive Person @psychology
+  CRT: Cognitive Research Theory @psychology
+  ADSA: Attention Deficit Scale for Adults @psychology
+  AFSP: American Foundation for Suicide Prevention @psychology
+  BMOD: Behavior Modification @psychology
+  BMT: Behavior Modification Technology @psychology
+  CCHt: Certified Clinical Hypnotherapist @psychology
+  CTA: Cognitive Task Analysis @psychology
+  DID: Dissociative Identity Disorder @psychology
+  DQ: Development Quotient @psychology
+  DR: Defensive Response @psychology
+  EI: Emotional Intelligence @psychology
+  IQ: Intelligence Quotient @psychology
   IPU: In-place Upgrade
   PES: Package Evolution Service
 new:
@@ -1977,7 +1976,7 @@ tags:
   containers: Abbreviations related to Linux containers, Docker, Atomic @tags
   cpu: Abbreviations related to CPUs @tags
   cryptography: Abbreviations related to cryptography @tags
-  deprecated: Abbreviations no longer in use @tags
+  deprecated: Abbreviations, tools, or products no longer in use @tags
   do-not-use: do not use the acronym in product docs @tags
   docs: Abbreviations related to documentation @tags
   errata: Abbreviations related to errata @tags
