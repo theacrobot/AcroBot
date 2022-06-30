@@ -384,8 +384,8 @@ kernel:
   MTU: Maximum Transmission Unit
   NAPI: New API  @kernel
   NPIV: N_Port ID Virtualization @kernel
-  NPV: N_port virtualization @kernel
-  NUMA: Non-Uniform Memory Access @kernel
+  NPV: N_port Virtualization @kernel
+  NUMA: Non-uniform Memory Access @kernel
   OAL: Outbound Address List @kernel
   PCH: Platform Controller Hub @kernel
   PDE: Page Directory Entry @kernel
@@ -745,7 +745,6 @@ consulting:
   ARB: Architecture Review Board
   PAB: Project Advisory Board
   PTY: Unlimited Proprietary company (see PTYLTD)
-  PTYLTD: Proprietary Limited company
   VC: Venture capital
   EUCE: End User Computing Experience
   ALM: Application Lifecycle Management
@@ -798,7 +797,7 @@ consulting:
   VTT: Virtual Training Team
   aarch64: The 64-bit ARMv8 cpu architecture. See http://fedoraproject.org/wiki/Architectures/ARM/AArch64
   AP: Accounts Payable
-  arm64: See 'aarch64', 'arm64' is the name Debian uses for the same arch.
+  arm64: See 'aarch64'. 'arm64' is the name Debian uses for the same arch.
   BCM: Business Continuity Management
   C360: Customer 360 (e.g., C360 SFDC Integration)
   CAFM: Computer Aided Facilities Management - see also IWMS
@@ -1247,7 +1246,7 @@ freshest:
   PAV: Parallel Access Volumes
   FTBFS: Fails To Build From Source
   CPAN: Comprehensive Perl Archive Network
-  LZW: Lempel–Ziv–Welch
+  LZW: Lempel–Ziv–Welch @data-compression
   LZMA: Lempel–Ziv–Markov chain algorithm
   OOO: Out Of Office
   PTO: Paid Time Off
@@ -1912,6 +1911,16 @@ new:
   RADAR: Radio Detecting and Ranging @no-expand
   CAPTCHA: Completely Automatic Public Turing test to tell Computers and Humans Apart
   SIM: Subscriber Identity Module @telecommunications
+  NLTK: Natural Language Toolkit @lexicology
+  GPE: General Purpose Event
+  IBRS: Indirect Branch Restricted Speculation @kernel
+  RTAS: Run Time Abstraction Services
+  AMP: Aspiring Managers Program
+  CWE: Common Weakness Enumeration @security https://cwe.mitre.org/
+  FLOPS: Floating-point Operations per Second
+  SYB: Single Year Bookings @sales
+  DCO: Developer Certificate of Origin @copyright https://developercertificate.org
+  EMF: Electromotive Force @electronics
 slang:
   MTG: Meeting @do-not-use
   AFAIK: As Far As I Know @do-not-use
@@ -1976,6 +1985,7 @@ tags:
   containers: Abbreviations related to Linux containers, Docker, Atomic @tags
   cpu: Abbreviations related to CPUs @tags
   cryptography: Abbreviations related to cryptography @tags
+  data-compression: Abbreviations related to data compression @tags
   deprecated: Abbreviations, tools, or products no longer in use @tags
   do-not-use: do not use the acronym in product docs @tags
   docs: Abbreviations related to documentation @tags
