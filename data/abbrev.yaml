@@ -937,13 +937,12 @@ redhat:
   RHW: Red Hat Week @RH
   NHO: New Hire Orientation @RH
   LnL: Lunch and Learn @RH
-  SLP: Subscription Life-cycle Plan @RH
+  SLP: Subscription Lifecycle Plan @RH
   SPM: Support Product Management @RH
   PM: Product Management @RH
   GBD: Global Business Development @RH
   GCM: Global Change Management @RH
-  NDA: Non-Disclosure Agreement. A legal contract between Red Hat and a customer or
-    partner @RH
+  NDA: Non-Disclosure Agreement
   RHEM: Red Hat Enterprise Management @RH
   RHTS: Red Hat Test Suite @RH
   APP: Associate Productivity Program @RH
@@ -951,7 +950,7 @@ redhat:
   ESM: Enterprise Service Monitoring
   PST: Product Security Team @RH
   SOC: Systems Operations Center @RH
-  RHCT: Red Hat Certified Technician @RH
+  RHCT: Red Hat Certified Technician @deprecated See RHCSA. @RH
   RHCA: Red Hat Certified Architect @RH
   RHCSS: Red Hat Certified Security Specialist @RH
   RHCX: Red Hat Certified Examiner @RH
@@ -961,11 +960,11 @@ redhat:
   RHL: Red Hat Linux (renamed to RHEL) @RH @do-not-use
   RHEL-RS: Red Hat Enterprise Linux Resilient Storage @RH @always-expand
   RHLP: Red Hat Linux Project (renamed to RHL and then RHEL) @RH @do-not-use
-  RHOSP: Red Hat OpenStack Platform @RH @always-expand
+  RHOSP: Red Hat OpenStack Platform @RH @expand-first
   RCUE: Red Hat Common User Experience @RH
   LP: Layered Product @RH
   LPC: Layered Product Common @RH
-  RSU: Restricted Stock Unit @RH
+  RSU: Restricted Stock Unit @RH @finance
   CLT: Corporate Leadership Team @RH
   OSAS: Open Source and Standards @RH
   ALDP: Accelerated Leadership Development Program @RH
@@ -1010,7 +1009,7 @@ redhat:
   EAP: Enterprise Application Platform @RH
   EDS: Enterprise Data Services @RH Replaced by Red Hat JBoss Data Virtualization
     6
-  ELS: Extended Life Cycle Support @RH
+  ELS: Extended Lifecycle Support @RH
   EVM: Enterprise Virtualization Manager @RH
   FDE: Forward Deployed Engineer @RH
   FSW: Fuse Service Works (Red Hat JBoss Fuse Service Works) @RH
@@ -1038,7 +1037,7 @@ redhat:
   PHREAK: Prototype Hybrid Reasoning Engine for Advanced Knowledge Blog @RH
   PMO: Project Management Office
   PQRM: Project Quality and Risk Management
-  RDO: Red Hat's distribution of OpenStack @RH @no-expand
+  RDO: Red Hat distribution of OpenStack @RH @no-expand
   RHC: Red Hat Consulting @RH
   RHDS: Red Hat Directory Server @RH @always-expand
   RHEBS: Red Hat E-Business Suite @RH
