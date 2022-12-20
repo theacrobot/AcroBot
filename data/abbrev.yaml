@@ -1921,6 +1921,44 @@ new:
   SYB: Single Year Bookings @sales
   DCO: Developer Certificate of Origin @copyright https://developercertificate.org
   EMF: Electromotive Force @electronics
+  BCD: Binary Coded Decimal
+  PLL: Phase-locked Loop @electronics
+  VCO: Voltage-controlled Oscillator @electronics @radio
+  DDS: Direct Digital Synthesis @electronics
+  DAC: Digital to Analogue Conversion @electronics
+  RFC: Radio Frequency Choke @radio @electronics
+  ESMTP: Extended Simple Mail Transfer Protocol @protocols
+  SSB: Single Sideband @radio
+  DSB: Double Sideband @radio
+  VSB: Vestigial Sideband @radio
+  CB: Citizen's Band @radio
+  AFSK: Audio Frequency Shift Keying @radio
+  TRF: Tuned Radio Frequency @radio
+  HSAM: Highly Superior Autobiographical Memory @medicine shorturl.at/hitHM
+  ToPA: Table of Physical Addresses
+  VFO: Variable Frequency Oscillator @radio @electronics
+  AGC: Automatic Gain Control @radio @electronics
+  ALC: Automatic Level Control @radio @electronics
+  IF: Intermediate Frequency @radio @electronics
+  RFI: Radio Frequency Interference @radio, @electronics
+  PLI: Powerline Interference @electronics
+  TVI: Television Interference @electronics
+  DTV: Digital TV @electronics
+  NFLOG: NetFilter-log @networking
+  MSS: maximum segment size @networking
+  DMZ: demilitarized zone @networking
+  MPTCP: Multipath TCP @networking
+  ODF: OpenShift Data Foundation
+  BPSK: Binary Phase Shift Keying @radio
+  QPSK: Quadrature Phase Shift Keying @radio
+  FEC: Forward Error Checking @communications
+  ARQ: Automatic Repeat Request @communications
+  FDM: Frequency Division Multiplex @communications
+  OCS: OpenShift Container Storage
+  MOTD: Message of the Day
+  PPM: Product Portfolio Marketing @RH
+  PFE: Portfolio Field Enablement @RH
+  GOE: Government Owned Enterprise
 slang:
   MTG: Meeting @do-not-use
   AFAIK: As Far As I Know @do-not-use
