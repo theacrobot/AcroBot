@@ -4,6 +4,15 @@ The basic process for rebuilding and pushing a new image using the latest update
 
 ## Log in (Red Hat internal only)
 
+As best as I can tell, this is the latest URL to use to connect to this
+platform:
+
+https://console-openshift-console.apps.mpp-e1-preprod.syvu.p1.openshiftapps.com/
+
+Notice the *preprod* in the URL. This differentiates this instance from the
+*prod* instance; I'm still working out the differences between these two as they
+relate to Acrobot.
+
 1. In the OpenShift Container Platform web UI, click your profile name and then click `Copy Login Command` to copy the entire log-in command, including your token, to the clipboard.
 1. Open a terminal and paste the log-in command:
 
@@ -14,7 +23,13 @@ $ oc login https://open.paas.redhat.com --token=BigLongStringOfCharactersHere
 ## Change to the Acrobot Project
 
 ```
-$ oc project acrobot
+$ oc projects | grep acrobot
+acrobot--config
+acrobot--pipeline
+acrobot--runtime-int
+
+$ oc project acrobot--runtime-int
+Now using project "acrobot--runtime-int" on server "https://api.mpp-e1-preprod.syvu.p1.openshiftapps.com:6443".
 ```
 
 ## Sync the Pod Data with the Git Repo
@@ -29,14 +44,35 @@ acrobot-app-17-cfj85   1/1       Running     0          3m
 
 
 ```
-$ oc rsync <podname>:/opt/acrobot/data /path/to/local/AcroBot/
+[user@host AcroBot] (master) $ oc rsync <podname>:/opt/acrobot/data .
+receiving incremental file list
+data/abbrev.yaml
+
+sent 766 bytes  received 1,440 bytes  259.53 bytes/sec
+total size is 84,036  speedup is 38.09
 ```
 
 The first `oc rsync` argument is the source directory (in the example, the directory `/opt/acrobot/data` in the pod named `<podname>`). The second argument is the destination.
 
 Repeat this for the internal version.
 
-Then you can commit and push them to git.
+## Clean Up the Databases
+
+If you want or need to review the databases, do any cleanup, whatever, now is
+the time. Review the `data/abbrev.yaml` file and make whatever changes are
+required.
+
+Run `verify_yaml.rb` over the database file to make sure it's valid, and then commit and push your changes to Git.
+
+~~~
+$ ruby verify_yaml.rb
+YAML file './acrobot.yaml' valid!
+YAML file './data/abbrev.yaml' valid!
+YAML file './data/draft.yaml' valid!
+
+$ git commit data/abbrev.yaml
+ 1 file changed, 7 insertions(+), 8 deletions(-)
+~~~
 
 ## Sync the Databases
 
