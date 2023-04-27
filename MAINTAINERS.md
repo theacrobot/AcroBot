@@ -5,16 +5,17 @@ The basic process for rebuilding and pushing a new image using the latest update
 ## Log in (Red Hat internal only)
 
 1. In the OpenShift Container Platform web UI, click your profile name and then click `Copy Login Command` to copy the entire log-in command, including your token, to the clipboard.
+We use the pre-prod cluster at https://console-openshift-console.apps.mpp-e1-preprod.syvu.p1.openshiftapps.com
 1. Open a terminal and paste the log-in command:
 
 ```
-$ oc login https://open.paas.redhat.com --token=BigLongStringOfCharactersHere
+$ oc login <URL> --token=BigLongStringOfCharactersHere
 ```
 
 ## Change to the Acrobot Project
 
 ```
-$ oc project acrobot
+$ oc project acrobot--runtime-int
 ```
 
 ## Sync the Pod Data with the Git Repo
