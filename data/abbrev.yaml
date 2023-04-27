@@ -322,7 +322,6 @@ selinux:
   LSPP: Labeled Security Protection Profile @selinux
   MCS: Multi-Category Security @selinux
   MLS: Multi-Level Security @selinux
-  RBAC: Role-Based Access Control @selinux
   SELinux: Security-Enhanced Linux @no-expand @selinux
   SID: Security Identifier @selinux
   SL: Security Level @selinux
@@ -1902,13 +1901,13 @@ new:
   FASP: Fast, Adaptive, Secure Protocol @protocols
   SCM: Source Control Management @vcs
   SST: Sub System Team
-  SONAR: Sound Navigation & Ranging
+  SONAR: Sound Navigation & Ranging @no-expand
   ASAP: As Soon As Possible @no-expand
   NATO: North Atlantic Treaty Organization @geopolitics
   NASA: National Aeronautics and Space Administration @no-expand
   FOMO: Fear of Missing Out @do-not-use
   RADAR: Radio Detecting and Ranging @no-expand
-  CAPTCHA: Completely Automatic Public Turing test to tell Computers and Humans Apart
+  CAPTCHA: Completely Automatic Public Turing Test to Tell Computers and Humans Apart
   SIM: Subscriber Identity Module @telecommunications
   NLTK: Natural Language Toolkit @lexicology
   GPE: General Purpose Event
@@ -1944,7 +1943,7 @@ new:
   TVI: Television Interference @electronics
   DTV: Digital TV @electronics
   NFLOG: NetFilter-log @networking
-  MSS: maximum segment size @networking
+  MSS: Maximum Segment Size @networking
   DMZ: demilitarized zone @networking
   MPTCP: Multipath TCP @networking
   ODF: OpenShift Data Foundation
@@ -1958,6 +1957,10 @@ new:
   PPM: Product Portfolio Marketing @RH
   PFE: Portfolio Field Enablement @RH
   GOE: Government-owned Enterprise
+  TGS: Ticket Granting Service @kerberos @auth
+  TCO: Total Cost of Ownership
+  ELE: Extinction-level Event
+  RBAC: Role-based Access Control @selinux @auth
 slang:
   MTG: Meeting @do-not-use
   AFAIK: As Far As I Know @do-not-use
@@ -2005,6 +2008,7 @@ slang:
 tags:
   ansible: Abbreviations related to Ansible @tags
   arm: Abbreviations related to ARM instruction set architecture @tags
+  auth: Abbreviations related to authentication @tags
   dns: Abbreviations related to DNS @tags
   microsoft: Abbreviations related MicroSoft Corp @tags
   psychology: Abbreviations related to psychology @tags
