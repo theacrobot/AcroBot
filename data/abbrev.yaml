@@ -1591,7 +1591,6 @@ freshest:
   XSSO: X/Open Single Sign-on @authentication
   LKM: loadable kernel module @kernel
   OOT: OpenStack Orchestration Template @openstack
-  DNS: Domain Name Service @networking @no-expand
   HCI: '"Hyper-converged Infrastructure" @virtualization https://en.wikipedia.org/wiki/Hyper-converged_infrastructure'
   GNMT: Google Neural Machine Translation @translation
   KAITER: Knowledge-Assisted Interactive Translation Editing and Revision @translation
