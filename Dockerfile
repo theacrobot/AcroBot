@@ -7,13 +7,14 @@ RUN apt-get -qq update && \
 
 ENV ACROBOT_HOME=/opt/acrobot
 
+RUN mkdir -p ${ACROBOT_HOME}
+COPY . ${ACROBOT_HOME}
+
 RUN gem install -q cinch && \
-    mkdir -p ${ACROBOT_HOME} && \
-    chmod 777 ${ACROBOT_HOME}
+    chmod -R 777 ${ACROBOT_HOME} && \
+    chown -R nobody:root ${ACROBOT_HOME}
 
 USER nobody
 WORKDIR ${ACROBOT_HOME}
-
-COPY . ${ACROBOT_HOME}
 
 CMD ["ruby", "./AcroBot.rb"]
